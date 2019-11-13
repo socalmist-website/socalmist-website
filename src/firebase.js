@@ -9,16 +9,7 @@ const config = {
   storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
   messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
 };
-class Firebase {
-  constructor() {
-    app.initializeApp(config);
 
-    this.auth = app.auth();
-  }
+const fbapp = app.initializeApp(config);
 
-  doSignInWithEmailAndPassword = (email, password) =>
-    this.auth.signInWithEmailAndPassword(email, password);
-
-  doSignOut = () => this.auth.signOut();
-}
-export default Firebase;
+export default fbapp;
