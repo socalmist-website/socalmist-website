@@ -24,7 +24,6 @@ class SignInForm extends React.Component {
   };
 
   handleSubmit(event) {
-    //alert("Test: " + this.state.username + " " + this.state.password);
     fbapp.auth().signInWithEmailAndPassword(this.state.username, this.state.password)
       .then(p => {
         this.props.updateParent();
@@ -49,7 +48,7 @@ class SignInForm extends React.Component {
         />
         <label>Password:</label>
         <input
-          type="text"
+          type="password"
           value={this.state.password}
           onChange={this.handlePasswordChange}
         />

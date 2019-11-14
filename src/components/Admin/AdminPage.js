@@ -1,4 +1,5 @@
 import React from 'react';
+import { Header } from '../Header/Navbar';
 import { SignInForm } from './SignInForm';
 import { AdminPanel } from './AdminPanel';
 import fbapp from '../../firebase';
@@ -17,6 +18,7 @@ class AdminPage extends React.Component {
   render() {
     return (
       <div>
+        <Header />
         {fbapp.auth().currentUser == null 
         ? <SignInForm updateParent={this.updateThis} />
         : <AdminPanel updateParent={this.updateThis} />}
