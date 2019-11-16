@@ -1,18 +1,16 @@
 import React from 'react';
 import { Header } from '../Header/Navbar';
-import Banner from './Banner';
 
-class HomePage extends React.Component {
+class ProgramPage extends React.Component {
 
   render() {
     return (
       <div>
         <Header />
-        <h1>Hello World</h1>
-        <Banner />
+        <h1>Hello World Program</h1>
       </div>
     );
   }
 }
 
-export { HomePage };
+export { ProgramPage };
