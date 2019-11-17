@@ -1,0 +1,31 @@
+.navbar {
+  background-color: black;
+}
+
+.nav-link {
+  color: white;
+  border: 1px solid black;
+}
+
+.nav-link:hover {
+  color: white;
+  border: 1px solid white;
+}
+
+.dropdown .dropdown-menu {
+  background-color: black;
+}
+
+.dropdown .dropdown-menu .dropdown-item {
+  color: white;
+  border: 1px solid black;
+}
+
+.dropdown .dropdown-menu .dropdown-item:hover {
+  background-color: black;
+  border: 1px solid white;
+}
+
+.dropdown .dropdown-menu .dropdown-toggle {
+  padding-left: 24px;
+}

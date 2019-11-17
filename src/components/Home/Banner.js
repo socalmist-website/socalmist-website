@@ -5,7 +5,9 @@ class Banner extends Component {
   render() { 
     return (
       <div class="backgroundPicture">
-        <h1>Testasdfas</h1>
+        <div class="bannerInfoHolder">
+          <h1 class="bannerText">SoCal MIST 2020</h1>
+        </div>    
       </div>
     );
   }

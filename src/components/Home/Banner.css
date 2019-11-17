@@ -1,5 +1,16 @@
 .backgroundPicture {
   background-image: url("../../public/background.jpg");
-  height: 500px;
+  height: 700px;
   background-size: 100% 100%;
+}
+
+.bannerInfoHolder {
+  padding-top: 5em;
+  text-align: center;
+}
+
+.bannerText {
+  color: white;
+  font-weight: bold;
+  font-size: 3.7em;
 }

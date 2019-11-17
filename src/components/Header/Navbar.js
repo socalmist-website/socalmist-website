@@ -1,11 +1,13 @@
 import React from 'react';
 import { Navbar, Nav, NavDropdown, NavItem } from 'react-bootstrap';
+import './Navbar.css';
 
 class Header extends React.Component {
+
   render() {
     return (
-      <Navbar bg="light">
-        <Nav.Link href="/">Home</Nav.Link>
+      <Navbar sticky='top'>
+        <Nav.Link id="selectedPage" href="/">Home</Nav.Link>
         <NavDropdown title="About">
           <NavDropdown.Item href="/about">
             New to MIST?
@@ -16,7 +18,7 @@ class Header extends React.Component {
         </NavDropdown>
         <Nav.Link href="/program">Program</Nav.Link>
         <Nav.Link href="/register">Register</Nav.Link>
-        <NavDropdown title="Get Involved" id="getInvolved">
+        <NavDropdown title="Get Involved">
           <NavDropdown.Item href="/">
             Judge
           </NavDropdown.Item>
