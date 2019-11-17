@@ -5,9 +5,11 @@ import './Navbar.css';
 class Header extends React.Component {
 
   render() {
+    const image = require('../../public/socal-mist-logo.png');
     return (
-      <Navbar sticky='top'>
-        <Nav.Link id="selectedPage" href="/">Home</Nav.Link>
+      <Navbar sticky='top' brand>
+        <Navbar.Brand href="/"><img src={image} height="50px" alt="logo"></img></Navbar.Brand>
+        <Nav.Link href="/">Home</Nav.Link>
         <NavDropdown title="About">
           <NavDropdown.Item href="/about">
             New to MIST?

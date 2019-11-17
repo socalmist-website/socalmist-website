@@ -29,3 +29,7 @@
 .dropdown .dropdown-menu .dropdown-toggle {
   padding-left: 24px;
 }
+
+.navbar-brand {
+  color: white;
+}

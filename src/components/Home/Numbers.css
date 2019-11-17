@@ -1,0 +1,18 @@
+.centerAlign {
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.numberText {
+  font-size: 4em;
+}
+
+.numbersTitle {
+  padding-bottom: 0.7em;
+  font-size: 3em;
+}
+
+.numbersBackground {
+  background-color: #d9c216 !important;
+}
