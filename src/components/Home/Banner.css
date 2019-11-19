@@ -1,7 +1,10 @@
 .backgroundPicture {
-  background-image: url("../../public/background.jpg");
+  background: url("../../public/background.jpg") no-repeat center center fixed;
   height: 700px;
-  background-size: 100% 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .bannerInfoHolder {
