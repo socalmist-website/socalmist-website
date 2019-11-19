@@ -6,9 +6,12 @@ class Header extends React.Component {
 
   render() {
     const image = require('../../public/socal-mist-logo.png');
+
     return (
-      <Navbar sticky='top' brand>
+      <Navbar sticky='top' expand="lg">
         <Navbar.Brand href="/"><img src={image} height="50px" alt="logo"></img></Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
         <Nav.Link href="/">Home</Nav.Link>
         <NavDropdown title="About">
           <NavDropdown.Item href="/about">
@@ -47,6 +50,7 @@ class Header extends React.Component {
           </NavItem>
         </NavDropdown>
         <Nav.Link href="/contact">Contact</Nav.Link>
+        </Navbar.Collapse>
       </Navbar>
     );
   }

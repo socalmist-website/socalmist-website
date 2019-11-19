@@ -33,3 +33,7 @@
 .navbar-brand {
   color: white;
 }
+
+.navbar-toggler {
+  background-color: white !important; 
+}
