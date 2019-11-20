@@ -26,7 +26,7 @@ class Numbers extends Component {
 
       const scrolled = winScroll / height
       
-      if (scrolled >= 0.6) {
+      if (scrolled >= 0.4) {
         this.started = true;
         self.interval = setInterval(() => {
           self.setState({ time: Date.now(), count: this.state.count + 1 });
