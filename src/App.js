@@ -3,9 +3,15 @@ import { AdminPage } from './components/Admin/AdminPage';
 import { HomePage } from './components/Home/HomePage';
 import { ContactPage } from './components/Contact/ContactPage';
 import { AboutPage } from './components/About/AboutPage';
-import { ProgramPage } from './components/Program/ProgramPage';
+import { SchedulePage } from './components/Schedule/SchedulePage';
+import { ThemePage } from './components/Theme/ThemePage';
 import { RegisterPage } from './components/Register/RegisterPage';
 import { CompetitionPage } from './components/Competition/CompetitionPage';
+import { SponsorDonatePage } from './components/SponsorDonate/SponsorDonatePage';
+import { BoardPage } from './components/Board/BoardPage';
+import { AmbassadorsPage } from './components/Ambassadors/AmbassadorsPage';
+import { JudgePage } from './components/Judge/JudgePage';
+import { VolunteerPage } from './components/Volunteer/VolunteerPage';
 import { Route, Switch, Redirect } from 'react-router-dom';
 
 const App = () => (
@@ -13,10 +19,17 @@ const App = () => (
     <Route exact path="/" component={ HomePage } />
     <Route path="/admin" component={ AdminPage } />
     <Route path="/about" component={ AboutPage } />
-    <Route path="/program" component={ ProgramPage } />
+    <Route path="/board" component={ BoardPage } />
+    <Route path="/theme" component={ ThemePage } />
+    <Route path="/schedule" component={ SchedulePage } />
+    <Route path="/judge" component={ JudgePage } />
+    <Route path="/volunteer" component={ VolunteerPage } />
+    <Route path="/ambassadors" component={ AmbassadorsPage } />
     <Route path="/contact" component={ ContactPage } />
     <Route path="/register" component={ RegisterPage } />
     <Route path="/competition" component={ CompetitionPage } />
+    <Route path="/donate" component={ SponsorDonatePage } />
+
     <Redirect to="/" />
   </Switch>
 );
