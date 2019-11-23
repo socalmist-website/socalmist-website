@@ -1,4 +1,6 @@
-#videoHolder {
-  background-color: white;
+
+
+.videoHolder {
+  text-align: center;
   padding-bottom: 5em;
 }

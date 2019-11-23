@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import Youtube from 'react-youtube';
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
 import './YoutubeHolder.css';
 import { isMobile } from 'react-device-detect';
 
@@ -23,14 +21,11 @@ class YoutubeHolder extends Component {
       };
     }
 
+
     return (
-      <div id="videoHolder">
-        <Row className="justify-content-sm-center">
-          <Col sm={6} className="centerAlign">
-            <h1 className="numbersTitle">MIST 2019 Highlights</h1>
-            <Youtube videoId="CnjbiC76ltY" opts={opts} />
-          </Col>
-        </Row>
+      <div className="videoHolder">
+        <h1 className="numbersTitle">MIST 2019 Highlights</h1>
+        <Youtube videoId="CnjbiC76ltY" opts={opts} />
       </div>
     );
   }

@@ -7,7 +7,7 @@ import './Numbers.css';
 class Numbers extends Component {
   students = 183;
   schools = 30;
-  prizes = 105;
+  prizes = 6;
 
   started = false;
 
@@ -75,8 +75,7 @@ class Numbers extends Component {
           <Col lg={2} md={3} className="centerAlign">
             <div>
               <h1 className="numberText">{( Math.round((this.state.count / 100) * this.prizes)) }</h1>
-              <h4>PRIZES</h4>
-              <h4>AWARDED</h4>
+              <h4>SPONSORS</h4>
             </div>
           </Col>
         </Row>
