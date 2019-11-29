@@ -28,7 +28,7 @@ class Header extends React.Component {
           </NavDropdown.Item>
           <NavItem>
             <NavDropdown title="Knowledge & Qur'an" drop="right" >
-              <NavDropdown.Item href="/competition">
+              <NavDropdown.Item href="/competition?competitionName=knowledgeTests">
                 Knowledge Tests
               </NavDropdown.Item>
               <NavDropdown.Item href="/competition">

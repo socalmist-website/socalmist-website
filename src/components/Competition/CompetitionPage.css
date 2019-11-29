@@ -1,0 +1,30 @@
+#tabContainer {
+    margin-top: 50px;
+}
+
+.competitionTitle {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.tabContent {
+    margin-top: 1em;
+}
+
+#tab-tab-overview {
+    color: black;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+#tab-tab-rules {
+    color: black;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+#tab-tab-resources {
+    color: black;
+    padding-left: 3em;
+    padding-right: 3em;
+}
