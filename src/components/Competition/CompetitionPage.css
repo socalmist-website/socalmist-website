@@ -11,19 +11,7 @@
     margin-top: 1em;
 }
 
-#tab-tab-overview {
-    color: black;
-    padding-left: 3em;
-    padding-right: 3em;
-}
-
-#tab-tab-rules {
-    color: black;
-    padding-left: 3em;
-    padding-right: 3em;
-}
-
-#tab-tab-resources {
+#tab-tab-overview, #tab-tab-rules, #tab-tab-books {
     color: black;
     padding-left: 3em;
     padding-right: 3em;
