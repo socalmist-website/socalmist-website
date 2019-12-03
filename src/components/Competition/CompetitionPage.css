@@ -1,7 +1,3 @@
-#tabContainer {
-    margin-top: 50px;
-}
-
 .competitionTitle {
     text-align: center;
     margin-bottom: 25px;
@@ -15,4 +11,15 @@
     color: black;
     padding-left: 3em;
     padding-right: 3em;
+    border: black solid 1px;
+}
+
+#tabHolderDiv {
+    background-color: #f2f2f2;
+    height: 750px;
+}
+
+#tabContainer {
+    background-color: #f2f2f2;
+    height: 500px;
 }

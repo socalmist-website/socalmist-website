@@ -1,5 +1,6 @@
 import React from 'react';
 import { Header } from '../Header/Navbar';
+import { PageTitle } from '../Header/PageTitle';
 import {Container, Row, Col, Image} from 'react-bootstrap';
 import "./AmbassadorsPage.css";
 
@@ -10,13 +11,8 @@ class AmbassadorsPage extends React.Component {
     return (
       <div>
         <Header />
-        <Container>
-          <Row className="justify-content-sm-center">
-            <Col sm={7} className="titleHolder">
-              <h1>MIST Ambassadors</h1>
-              <hr></hr>
-            </Col>
-          </Row>
+        <PageTitle pageTitle="MIST Ambassadors" />
+        <Container id="ambassadorsContainer">
           <Row className="justify-content-sm-center">
             <Col sm={7}>
               <Image fluid={true} src={image} />

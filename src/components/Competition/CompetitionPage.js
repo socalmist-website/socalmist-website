@@ -1,7 +1,8 @@
 import React from 'react';
 import { Header } from '../Header/Navbar';
+import { PageTitle } from '../Header/PageTitle';
 import queryString from 'query-string';
-import {Container, Row, Col} from 'react-bootstrap';
+import {Row, Col, Jumbotron} from 'react-bootstrap';
 import './CompetitionPage.css';
 import {competitions} from './CompetitionTextConstants';
 
@@ -23,14 +24,14 @@ class CompetitionPage extends React.Component {
     return (
       <div>
         <Header />
-        <Container fluid={true} id="tabContainer">
+        <PageTitle pageTitle={competitionInfo.title} />
+        <Jumbotron id="tabContainer">
           <Row className="justify-content-sm-center">
-            <Col sm={6} className="competitionTitle"><h1>{competitionInfo.title}</h1></Col>
             <Col sm={8} id="tabsHolder">
               {competitionInfo.tabs}
             </Col>
           </Row>
-        </Container>
+        </Jumbotron>
       </div>
     );
   }
