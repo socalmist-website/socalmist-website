@@ -21,6 +21,8 @@ class CompetitionPage extends React.Component {
       )
     }
 
+    document.body.style = 'background: #f2f2f2;';
+
     return (
       <div>
         <Header />

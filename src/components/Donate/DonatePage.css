@@ -1,0 +1,15 @@
+.donationBanner {
+  text-align: center;
+  margin-top: 2em;
+}
+
+.donateButton {
+  padding: 1em !important;
+  font-size: 1.2em !important;
+  background-color: #d9c216 !important;
+  border: #d9c216 1px solid !important;
+}
+
+.donateButton:hover {
+  background-color: #baa613 !important;
+}

@@ -7,7 +7,8 @@ import { SchedulePage } from './components/Schedule/SchedulePage';
 import { ThemePage } from './components/Theme/ThemePage';
 import { RegisterPage } from './components/Register/RegisterPage';
 import { CompetitionPage } from './components/Competition/CompetitionPage';
-import { SponsorDonatePage } from './components/SponsorDonate/SponsorDonatePage';
+import { SponsorPage } from './components/Sponsor/SponsorPage';
+import { DonatePage } from './components/Donate/DonatePage';
 import { BoardPage } from './components/Board/BoardPage';
 import { AmbassadorsPage } from './components/Ambassadors/AmbassadorsPage';
 import { JudgePage } from './components/Judge/JudgePage';
@@ -28,7 +29,8 @@ const App = () => (
     <Route path="/contact" component={ ContactPage } />
     <Route path="/register" component={ RegisterPage } />
     <Route path="/competition" component={ CompetitionPage } />
-    <Route path="/donate" component={ SponsorDonatePage } />
+    <Route path="/sponsor" component={ SponsorPage } />
+    <Route path="/donate" component={ DonatePage } />
 
     <Redirect to="/" />
   </Switch>

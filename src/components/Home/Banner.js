@@ -13,13 +13,13 @@ class Banner extends Component {
       <Container className="iconContainer">
         <Row>
           <Col sm={6} className="leftIconBlock">
-            <SocialIcon className="socialMediaIcon" url="https://www.facebook.com/SoCalMIST/" />
-            <SocialIcon className="socialMediaIcon" url="https://www.instagram.com/socalmist/" />
-            <SocialIcon className="socialMediaIcon" url="https://twitter.com/socalmist?lang=en" />
+            <SocialIcon target="_blank" className="socialMediaIcon" url="https://www.facebook.com/SoCalMIST/" />
+            <SocialIcon target="_blank" className="socialMediaIcon" url="https://www.instagram.com/socalmist/" />
+            <SocialIcon target="_blank" className="socialMediaIcon" url="https://twitter.com/socalmist?lang=en" />
           </Col>
           <Col sm={6} className="rightIconBlock">
-            <a href="https://apps.apple.com/us/app/get-mistified/id1341732029"><img className="appImage" alt="Apple App Store" src={appstoreImage} /></a>
-            <a href="https://play.google.com/store/apps/details?id=com.squarespace.getmistified"><img className="appImage" alt="Google Play Store" src={playstoreImage} /></a>
+            <a target="_blank" rel="noopener noreferrer" href="https://apps.apple.com/us/app/get-mistified/id1341732029"><img className="appImage" alt="Apple App Store" src={appstoreImage} /></a>
+            <a target="_blank" rel="noopener noreferrer" href="https://play.google.com/store/apps/details?id=com.squarespace.getmistified"><img className="appImage" alt="Google Play Store" src={playstoreImage} /></a>
           </Col>
         </Row>
       </Container>
