@@ -1,11 +1,11 @@
 .aboutpagebanner {
-    background-color: #fffb05f3;
+  background-color: #fffb05f3;
+  text-align: center;
+  padding-top: 7em;
+  padding-bottom: 7em;
+}
 
-    text-align: center;
-    padding-top: 7em;
-    padding-bottom: 7em;
-
-  }
-
-
-  
+.section {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
