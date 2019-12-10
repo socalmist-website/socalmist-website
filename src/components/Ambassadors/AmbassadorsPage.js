@@ -14,7 +14,7 @@ class AmbassadorsPage extends React.Component {
         <PageTitle pageTitle="MIST Ambassadors" />
         <Container id="ambassadorsContainer">
           <Row className="justify-content-sm-center">
-            <Col sm={7}>
+            <Col sm={8}>
               <Image fluid={true} src={image} />
             </Col>
           </Row>
