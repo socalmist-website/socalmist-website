@@ -181,7 +181,7 @@ class Header extends React.Component {
         <Nav.Link href="/contact">Contact</Nav.Link>
         <NavDropdown title="Sponsor/Donate">
           <NavDropdown.Item href="/sponsor">
-            Sponsor
+            Sponsor MIST
           </NavDropdown.Item>
           <NavDropdown.Item href="/donate">
             Donate

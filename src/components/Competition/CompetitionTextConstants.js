@@ -7,12 +7,12 @@ const competitions = {
     "title" : "Knowledge Tests",
     "tabs" : (
       <Tabs className="tabText" defaultActiveKey="overview" id="tab">
-        <Tab eventKey="overview" title="Overview">
+        <Tab eventKey="one" title="Overview">
           <div className="tabContent">
             <p>Read one of four books and take a test on it. The test comprises of a set of questions and an essay portion to judge reading and comprehension.</p>
           </div>
         </Tab>
-        <Tab eventKey="rules" title="Rules and Regulations">
+        <Tab eventKey="two" title="Rules and Regulations">
           <div className="tabContent">
             <div>
               <h3>
@@ -48,7 +48,7 @@ const competitions = {
             </div>
           </div>
         </Tab>
-        <Tab eventKey="books" title="2020 Books">
+        <Tab eventKey="three" title="2020 Books">
           <div className="tabContent">
             2020 books to be added
           </div>

@@ -19,32 +19,24 @@ class AboutPage extends React.Component {
             </Col>
           </Row>
           <Row className="justify-content-sm-center">
-            <Col sm={12} className="textholder">
-              <p>Put stuff about mist: Florida's intro for example:</p>
-              <p>
-                ​Our mission is to bring high school students together to
-                develop leadership, promote communication, and inspire
-                creativity while gaining a deeper understanding of Islam and
-                Muslims. We do this through our annual regional and national
-                tournaments. MIST was founded in 2002 by a teenage girl in
-                Houston, Texas and now takes place in 15 regions across North
-                America. And though our name and heritage are proudly Muslim, we
-                serve as an outlet for all high school students, regardless of
-                religion or faith!
-              </p>
+            <Col sm={12} className="aboutMission">
+              <h5>
+                Our mission is to bring high school students together to develop leadership, 
+                promote communication, and inspire creativity while gaining a deeper understanding of Islam and Muslims.
+              </h5>
             </Col>
           </Row>
           <hr></hr>
           <Row className="section">
             <Col sm={6}>
-              <h3>Develop Confidence and Professionalism</h3>
+              <h3>What We Offer</h3>
               <p>
-                Paragraph about develop confidence and professionalism
-                Paragraph about develop confidence and professionalism
-                Paragraph about develop confidence and professionalism
-                Paragraph about develop confidence and professionalism
-                Paragraph about develop confidence and professionalism
-                Paragraph about develop confidence and professionalism
+                SoCal MIST is a highly-anticipated and empowering program of competitions and workshops 
+                which brings together Muslim high school youth from across the Southern California region 
+                to compete in a friendly tournament and showcase their talents. The program offers a large 
+                variety of competitions such as Qur’an Memorization, Quiz Bowl, Debate, Math Olympics, 
+                Basketball, Spoken Word, Photography, and much, much more! With such a large variety of 
+                competitions offered, there is a place at MIST for all talents to shine.
               </p>
             </Col>
             <Col sm={6}>
@@ -57,51 +49,11 @@ class AboutPage extends React.Component {
               <Image fluid={true} src={image} />
             </Col>
             <Col sm={6}>
-              <h3>Learn Strategies to Deal with Stereotypes</h3>
+              <h3>Where Are We?</h3>
               <p>
-                Paragraph about learn strategies to deal with stereotypes
-                Paragraph about learn strategies to deal with stereotypes
-                Paragraph about learn strategies to deal with stereotypes
-                Paragraph about learn strategies to deal with stereotypes
-                Paragraph about learn strategies to deal with stereotypes
-                Paragraph about learn strategies to deal with stereotypes
-                Paragraph about learn strategies to deal with stereotypes
-              </p>
-            </Col>
-          </Row>
-          <hr></hr>
-          <Row className="section">
-            <Col sm={6}>
-              <h3>Express Thoughts, Feelings, and Ideas</h3>
-              <p>
-                Paragraph about express thoughts, feelings, and ideas
-                Paragraph about express thoughts, feelings, and ideas
-                Paragraph about express thoughts, feelings, and ideas
-                Paragraph about express thoughts, feelings, and ideas
-                Paragraph about express thoughts, feelings, and ideas
-                Paragraph about express thoughts, feelings, and ideas
-              </p>
-            </Col>
-            <Col sm={6}>
-              <Image fluid={true} src={image} />
-            </Col>
-          </Row>
-          <hr></hr>
-          <Row className="section">
-            <Col sm={6}>
-              <Image fluid={true} src={image} />
-            </Col>
-            <Col sm={6}>
-              
-              <h3>Meet and Network</h3>
-              <p>
-                Paragraph about meet and network
-                Paragraph about meet and network
-                Paragraph about meet and network
-                Paragraph about meet and network
-                Paragraph about meet and network
-                Paragraph about meet and network
-                Paragraph about meet and network
+              SoCal MIST is one of 15 different regions across the US and Canada which form the 
+              Muslim Interscholastic Tournament (MIST) organization. MIST is a program of 
+              competitions and workshops to help develop its competitors’ knowledge and skills.
               </p>
             </Col>
           </Row>
