@@ -14,12 +14,10 @@
     border: black solid 1px;
 }
 
-#tabHolderDiv {
-    background-color: #f2f2f2;
-    height: 750px;
+.nav-item.nav-link.active {
+    background-color: #d9c216 !important;
 }
 
-#tabContainer {
-    background-color: #f2f2f2;
-    height: 100%;
+#competitionTabHolder {
+    background-color: white;
 }

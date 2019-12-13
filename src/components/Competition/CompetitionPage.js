@@ -21,15 +21,13 @@ class CompetitionPage extends React.Component {
       )
     }
 
-    document.body.style = 'background: #f2f2f2;';
-
     return (
       <div>
         <Header />
         <PageTitle pageTitle={competitionInfo.title} />
-        <Jumbotron id="tabContainer">
+        <Jumbotron id="competitionTabHolder">
           <Row className="justify-content-sm-center">
-            <Col sm={8} id="tabsHolder">
+            <Col sm={8}>
               {competitionInfo.tabs}
             </Col>
           </Row>
