@@ -57,24 +57,24 @@ class SponsorPage extends React.Component {
           </Row>
           <Row className="justify-content-sm-center">
             <Col sm={3} className="logoHolder">
-              <img src={yaqeenlogo} height="100px" />
+              <img alt="Yaqeen Logo" src={yaqeenlogo} height="100px" />
             </Col>
             <Col sm={3} className="logoHolder">
-              <img src={cairlogo} height="100px" />
+              <img alt="Cair LA Logo" src={cairlogo} height="100px" />
             </Col>
             <Col sm={3} className="logoHolder">
-              <img src={irlogo} height="100px" />
+              <img alt="Islamic Relief Logo" src={irlogo} height="100px" />
             </Col>
           </Row>
           <Row className="justify-content-sm-center">
             <Col sm={3} className="logoHolder">
-              <img src={mpaclogo} height="100px" />
+              <img alt="MPAC Logo" src={mpaclogo} height="100px" />
             </Col>
             <Col sm={3} className="logoHolder">
-              <img src={ysslogo} height="100px" />
+              <img alt="YSS Logo"src={ysslogo} height="100px" />
             </Col>
             <Col sm={3} className="logoHolder">
-              <img src={lifelogo} height="100px" />
+              <img alt="LIFE Logo" src={lifelogo} height="100px" />
             </Col>
           </Row>
         </Container>
