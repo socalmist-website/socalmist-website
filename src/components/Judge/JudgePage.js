@@ -1,5 +1,9 @@
 import React from 'react';
 import { Header } from '../Header/Navbar';
+import { PageTitle } from '../Header/PageTitle';
+import { PageSubTitle } from '../Header/PageSubTitle';
+import { Container, Row, Col } from 'react-bootstrap';
+import './JudgePage.css';
 
 class JudgePage extends React.Component {
 
@@ -7,7 +11,36 @@ class JudgePage extends React.Component {
     return (
       <div>
         <Header />
-        <h1>Hello World Judge</h1>
+        <PageTitle pageTitle="Judge" />
+        <PageSubTitle pageSubTitle="Interested in judging at MIST?" />
+        <Container>
+          <Row className="justify-content-sm-center" >
+            <Col sm="7">
+              <p>SoCal MIST is committed to recruiting qualified judges who are professionals in the field of each competition.</p>
+            </Col>
+          </Row>
+          <Row className="justify-content-sm-center" >
+            <Col sm="7">
+              <h5>Qualifications</h5>
+              <ul>
+                <li>
+                  <p>21 years or older</p>
+                </li>
+                <li>
+                  <p>College graduates preferred</p>
+                  <ul>
+                    <li><p>College undergrads: Must be 3rd year or above</p></li>
+                  </ul>
+                </li>
+              </ul>
+            </Col>
+          </Row>
+          <Row className="justify-content-sm-center">
+            <Col className="sponsorFormHolder">
+              <iframe title="sponsorForm" src="https://docs.google.com/forms/d/e/1FAIpQLScmjOOWbMto-ivNEDedzm7SkJI0brWDGmSUogyQcU8275n8yQ/viewform?embedded=true" width="640" height="1111" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            </Col>
+          </Row>
+        </Container>
       </div>
     );
   }

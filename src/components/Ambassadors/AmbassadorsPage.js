@@ -20,20 +20,23 @@ class AmbassadorsPage extends React.Component {
           </Row>
           <Row className="justify-content-sm-center">
             <Col sm={7} className="textHolder">
-              <p>SoCal MIST is excited to introduce the MIST Ambassadors Program!</p>
-              <p>So, what is a MIST Ambassador? An ambassador is a leader who can inspire and organize 
-                students to go to MIST from their school and the community in their area.</p>
-              <p>During this program, you will improve your leadership skills, learn how to give 
-                an elevator pitch, and be equipped with the answer to any question that can come 
-                your way about MIST. You will put your skills to the test by reaching out to new 
-                local high schools and expand the reach of SoCal MIST.</p>
-              <p>Please fill out this application form by FRIDAY, DECEMBER 28 AT 11:59 PM, 
-                and you’ll be one step closer to being part of the first ever SoCal MIST Ambassadors Program! 
-                After you submit your application, you will be contacted by our Executive Board. 
-                Please make sure to check your emails!</p>
+              <p>The purpose of the ambassadors program is to recruit students from each participating team to represent MIST at their high schools and their communities. Ambassadors gain skills in leadership, public speaking, communication, while picking up spirit points for their teams along the way!</p>
+              <p>MIST Ambassadors will be expected to lead their MIST teams, recruit new members to their team, and serve as the liaison between MIST board and their team. For every new team member or school recruited, Ambassadors earn spirit points for their team!</p>
+              <p>MIST Ambassadors will have the opportunity to meet community members, speak at Masjid events, and be in direct communication with the MIST board. Being a MIST Ambassador serves as the stepping stone to join MIST E-Board!</p>
+            </Col>
+          </Row>
+          <Row className="justify-content-sm-center">
+            <Col sm={7} className="ambassadorInterestText">
+              <h4>Interested in becoming a MIST Ambassador?</h4>
+            </Col>
+          </Row>
+          <Row className="justify-content-sm-center">
+            <Col className="sponsorFormHolder">
+              <iframe title="sponsorForm" src="https://docs.google.com/forms/d/e/1FAIpQLScmjOOWbMto-ivNEDedzm7SkJI0brWDGmSUogyQcU8275n8yQ/viewform?embedded=true" width="640" height="1111" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
             </Col>
           </Row>
         </Container>
+
       </div>
     );
   }

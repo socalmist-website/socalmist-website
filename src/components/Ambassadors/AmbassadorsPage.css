@@ -11,3 +11,9 @@
 #ambassadorsContainer {
     margin-top: 2em;
 }
+
+.ambassadorInterestText {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+}
