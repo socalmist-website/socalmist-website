@@ -5,9 +5,11 @@ import Col from 'react-bootstrap/Col'
 import './Numbers.css';
 
 class Numbers extends Component {
-  students = 183;
+  students = 160;
   schools = 30;
   prizes = 6;
+  judges = 72;
+  volunteers = 50;
 
   started = false;
 
@@ -76,6 +78,18 @@ class Numbers extends Component {
             <div>
               <h1 className="numberText">{( Math.round((this.state.count / 100) * this.prizes)) }</h1>
               <h4>SPONSORS</h4>
+            </div>
+          </Col>
+          <Col lg={2} md={3} className="centerAlign">
+            <div>
+              <h1 className="numberText">{( Math.round((this.state.count / 100) * this.judges)) }</h1>
+              <h4>JUDGES</h4>
+            </div>
+          </Col>
+          <Col lg={2} md={3} className="centerAlign">
+            <div>
+              <h1 className="numberText">{( Math.round((this.state.count / 100) * this.volunteers)) }</h1>
+              <h4>VOLUNTEERS</h4>
             </div>
           </Col>
         </Row>

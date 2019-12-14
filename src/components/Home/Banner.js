@@ -50,8 +50,8 @@ class Banner extends Component {
           <h1 className="bannerText">SoCal MIST 2020</h1>
         </div>
         <div className="bannerSubInfoHolder">
-          <h2 className="bannerSubHeader">Registration opens January 1st</h2>
-          <Button id="bannerButton" variant="light">Register</Button>
+          <h2 className="bannerSubHeader">Registration opens soon!</h2>
+          <Button id="bannerButton" variant="light" disabled="true">Register</Button>
         </div>
         {icons}
       </div>
