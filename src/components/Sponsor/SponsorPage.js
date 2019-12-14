@@ -8,6 +8,13 @@ import './SponsorPage.css';
 class SponsorPage extends React.Component {
 
   render() {
+    const yaqeenlogo = require("../../public/yaqeen-logo.png");
+    const cairlogo = require("../../public/cair-logo.jpg");
+    const irlogo = require("../../public/ir-logo.png");
+    const mpaclogo = require("../../public/mpac-logo.png");
+    const ysslogo = require("../../public/yss-logo.png");
+    const lifelogo = require("../../public/life-logo.jpeg");
+    
     return (
       <div>
         <Header />
@@ -41,6 +48,33 @@ class SponsorPage extends React.Component {
               <p>
                 If you would like to view our sponsorship package, please email us at socal@getmistified.com.
               </p>
+            </Col>
+          </Row>
+          <Row className="justify-content-sm-center">
+            <Col sm={4} className="centerAlign">
+              <h3>Proudly Sponsored By:</h3>
+            </Col>            
+          </Row>
+          <Row className="justify-content-sm-center">
+            <Col sm={3} className="logoHolder">
+              <img src={yaqeenlogo} height="100px" />
+            </Col>
+            <Col sm={3} className="logoHolder">
+              <img src={cairlogo} height="100px" />
+            </Col>
+            <Col sm={3} className="logoHolder">
+              <img src={irlogo} height="100px" />
+            </Col>
+          </Row>
+          <Row className="justify-content-sm-center">
+            <Col sm={3} className="logoHolder">
+              <img src={mpaclogo} height="100px" />
+            </Col>
+            <Col sm={3} className="logoHolder">
+              <img src={ysslogo} height="100px" />
+            </Col>
+            <Col sm={3} className="logoHolder">
+              <img src={lifelogo} height="100px" />
             </Col>
           </Row>
         </Container>
