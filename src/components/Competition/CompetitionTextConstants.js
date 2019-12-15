@@ -1995,6 +1995,14 @@ const competitions = {
             </div>
           </div>
         </Tab>
+        <Tab eventKey="three" title="Detailed Ballot">
+          <div>
+            <Image
+              alt="Ballot picture"
+              src={require("./ballotPictures/improvballot.png")}
+            />
+          </div>
+        </Tab>
       </Tabs>
     )
   },
