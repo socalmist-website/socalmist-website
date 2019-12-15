@@ -50,8 +50,7 @@ class EarlySubmissionsPage extends Component {
               <p style={this.styles}>
                 To submit your entries, email them as an attachment following
                 the guidelines above, with the *COMPETITIONNAME__Submission* as
-                the subject line to our competitions chair at
-                tsyed@getmistified.com
+                the subject line to socal@getmistified.com
               </p>
             </Col>
           </Row>
