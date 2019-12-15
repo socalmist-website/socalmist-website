@@ -11,7 +11,7 @@ class CompetitionPage extends React.Component {
   render() {
     const params = queryString.parse(this.props.location.search);
     const competitionInfo = competitions[params.competitionName];
-    
+
     if (competitionInfo == null) {
       return (
         <div>

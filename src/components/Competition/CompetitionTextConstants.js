@@ -55,7 +55,133 @@ const competitions = {
         </Tab>
       </Tabs>
     )
-  }
+  },
+
+  "quranMemorization" : {
+    "title" : "Qur'an Memorization",
+    "tabs" : <h3 style={{"text-align":"center"}}>Details coming soon!</h3>
+  },
+
+  "2dArt" : {
+    "title" : "2D Art",
+    "tabs" : <h3 style={{"text-align":"center"}}>Details coming soon!</h3>
+  },
+
+  "3dArt" : {
+    "title" : "3D Art",
+    "tabs" : <h3 style={{"text-align":"center"}}>Details coming soon!</h3>
+  },
+
+  "fashionDesign" : {
+    "title" : "Fashion Design",
+    "tabs" : <h3 style={{"text-align":"center"}}>Details coming soon!</h3>
+  },
+
+  "graphicDesign" : {
+    "title" : "Graphic Design",
+    "tabs" : <h3 style={{"text-align":"center"}}>Details coming soon!</h3>
+  },
+
+  "photography" : {
+    "title" : "Photography",
+    "tabs" : <h3 style={{"text-align":"center"}}>Details coming soon!</h3>
+  },
+
+  "roundOneArtBallot" : {
+    "title" : "Round One Art Ballot",
+    "tabs" : <h3 style={{"text-align":"center"}}>Details coming soon!</h3>
+  },
+
+  "extemporaneousEssay" : {
+    "title" : "Extemporaneous Essay",
+    "tabs" : <h3 style={{"text-align":"center"}}>Details coming soon!</h3>
+  },
+
+  "extemporaneousSpeaking" : {
+    "title" : "Extemporaneous Speaking",
+    "tabs" : <h3 style={{"text-align":"center"}}>Details coming soon!</h3>
+  },
+
+  "originalOratory" : {
+    "title" : "Original Oratory",
+    "tabs" : <h3 style={{"text-align":"center"}}>Details coming soon!</h3>
+  },
+
+  "poetry" : {
+    "title" : "Poetry",
+    "tabs" : <h3 style={{"text-align":"center"}}>Details coming soon!</h3>
+  },
+
+  "preparedEssay" : {
+    "title" : "Prepared Essay",
+    "tabs" : <h3 style={{"text-align":"center"}}>Details coming soon!</h3>
+  },
+
+  "shortFiction" : {
+    "title" : "Short Fiction",
+    "tabs" : <h3 style={{"text-align":"center"}}>Details coming soon!</h3>
+  },
+
+  "spokenWord" : {
+    "title" : "Spoken Word",
+    "tabs" : <h3 style={{"text-align":"center"}}>Details coming soon!</h3>
+  },
+
+  "debate" : {
+    "title" : "Debate",
+    "tabs" : <h3 style={{"text-align":"center"}}>Details coming soon!</h3>
+  },
+
+  "mathOlympics" : {
+    "title" : "Math Olympics",
+    "tabs" : <h3 style={{"text-align":"center"}}>Details coming soon!</h3>
+  },
+
+  "mistQuizBowl" : {
+    "title" : "MIST Quiz Bowl",
+    "tabs" : <h3 style={{"text-align":"center"}}>Details coming soon!</h3>
+  },
+
+  "improv" : {
+    "title" : "Improv",
+    "tabs" : <h3 style={{"text-align":"center"}}>Details coming soon!</h3>
+  },
+
+  "businessVenture" : {
+    "title" : "Business Venture",
+    "tabs" : <h3 style={{"text-align":"center"}}>Details coming soon!</h3>
+  },
+
+  "humanitarianService" : {
+    "title" : "Humanitarian Service",
+    "tabs" : <h3 style={{"text-align":"center"}}>Details coming soon!</h3>
+  },
+
+  "nasheed" : {
+    "title" : "Nasheed/Rap",
+    "tabs" : <h3 style={{"text-align":"center"}}>Details coming soon!</h3>
+  },
+
+  "scienceFair" : {
+    "title" : "Science Fair",
+    "tabs" : <h3 style={{"text-align":"center"}}>Details coming soon!</h3>
+  },
+
+  "shortFilm" : {
+    "title" : "Short Film",
+    "tabs" : <h3 style={{"text-align":"center"}}>Details coming soon!</h3>
+  },
+
+  "socialMedia" : {
+    "title" : "Social Media",
+    "tabs" : <h3 style={{"text-align":"center"}}>Details coming soon!</h3>
+  },
+
+  "basketball" : {
+    "title" : "Basketball",
+    "tabs" : <h3 style={{"text-align":"center"}}>Details coming soon!</h3>
+  },
+
 }
 
 export {competitions};

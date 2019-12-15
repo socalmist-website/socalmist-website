@@ -53,7 +53,7 @@ class Header extends React.Component {
         </NavDropdown>
         <Nav.Link href="/register">Register</Nav.Link>
         <NavDropdown title="Competitions">
-          <NavDropdown.Item href="/competition">
+          <NavDropdown.Item href="/earlySubmissions">
             Early Submissions
           </NavDropdown.Item>
           <NavItem>
@@ -61,99 +61,99 @@ class Header extends React.Component {
               <NavDropdown.Item href="/competition?competitionName=knowledgeTests">
                 Knowledge Tests
               </NavDropdown.Item>
-              <NavDropdown.Item href="/competition">
+              <NavDropdown.Item href="/competition?competitionName=quranMemorization">
                 Qur'an Memorization
               </NavDropdown.Item>
             </NavDropdown>
           </NavItem>
           <NavItem>
             <NavDropdown title="Arts" drop="right" >
-              <NavDropdown.Item href="/competition">
+              <NavDropdown.Item href="/competition?competitionName=2dArt">
                 2D Arts
               </NavDropdown.Item>
-              <NavDropdown.Item href="/competition">
+              <NavDropdown.Item href="/competition?competitionName=3dArt">
                 3D Arts
               </NavDropdown.Item>
-              <NavDropdown.Item href="/competition">
+              <NavDropdown.Item href="/competition?competitionName=fashionDesign">
                 Fashion Design
               </NavDropdown.Item>
-              <NavDropdown.Item href="/competition">
+              <NavDropdown.Item href="/competition?competitionName=graphicDesign">
                 Graphic Design
               </NavDropdown.Item>
-              <NavDropdown.Item href="/competition">
+              <NavDropdown.Item href="/competition?competitionName=photography">
                 Photography
               </NavDropdown.Item>
-              <NavDropdown.Item href="/competition">
+              <NavDropdown.Item href="/competition?competitionName=roundOneArtBallot">
                 Round One Art Ballot
               </NavDropdown.Item>
             </NavDropdown>
           </NavItem>
           <NavItem>
             <NavDropdown title="Writing & Oratory" drop="right" >
-              <NavDropdown.Item href="/competition">
+              <NavDropdown.Item href="/competition?competitionName=extemporaneousEssay">
                 Extemporaneous Essay
               </NavDropdown.Item>
-              <NavDropdown.Item href="/competition">
+              <NavDropdown.Item href="/competition?competitionName=extemporaneousSpeaking">
                 Extemporaneous Speaking
               </NavDropdown.Item>
-              <NavDropdown.Item href="/competition">
+              <NavDropdown.Item href="/competition?competitionName=originalOratory">
                 Original Oratory
               </NavDropdown.Item>
-              <NavDropdown.Item href="/competition">
+              <NavDropdown.Item href="/competition?competitionName=poetry">
                 Poetry
               </NavDropdown.Item>
-              <NavDropdown.Item href="/competition">
+              <NavDropdown.Item href="/competition?competitionName=preparedEssay">
                 Prepared Essay
               </NavDropdown.Item>
-              <NavDropdown.Item href="/competition">
+              <NavDropdown.Item href="/competition?competitionName=shortFiction">
                 Short Fiction
               </NavDropdown.Item>
-              <NavDropdown.Item href="/competition">
+              <NavDropdown.Item href="/competition?competitionName=spokenWord">
                 Spoken Word
               </NavDropdown.Item>
             </NavDropdown>
           </NavItem>
           <NavItem>
             <NavDropdown title="Brackets" drop="right" >
-              <NavDropdown.Item href="/competition">
+              <NavDropdown.Item href="/competition?competitionName=debate">
                 Debate
               </NavDropdown.Item>
-              <NavDropdown.Item href="/competition">
+              <NavDropdown.Item href="/competition?competitionName=mathOlympics">
                 Math Olympics
               </NavDropdown.Item>
-              <NavDropdown.Item href="/competition">
+              <NavDropdown.Item href="/competition?competitionName=mistQuizBowl">
                 MIST Quiz Bowl
               </NavDropdown.Item>
-              <NavDropdown.Item href="/competition">
+              <NavDropdown.Item href="/competition?competitionName=improv">
                 Improv
               </NavDropdown.Item>
             </NavDropdown>
           </NavItem>
           <NavItem>
             <NavDropdown title="Group Projects" drop="right" >
-              <NavDropdown.Item href="/competition">
+              <NavDropdown.Item href="/competition?competitionName=businessVenture">
                 Business Venture
               </NavDropdown.Item>
-              <NavDropdown.Item href="/competition">
+              <NavDropdown.Item href="/competition?competitionName=humanitarianService">
                 Humanitarian Service
               </NavDropdown.Item>
-              <NavDropdown.Item href="/competition">
+              <NavDropdown.Item href="/competition?competitionName=nasheed">
                 Nasheed/Rap
               </NavDropdown.Item>
-              <NavDropdown.Item href="/competition">
+              <NavDropdown.Item href="/competition?competitionName=scienceFair">
                 Science Fair
               </NavDropdown.Item>
-              <NavDropdown.Item href="/competition">
+              <NavDropdown.Item href="/competition?competitionName=shortFilm">
                 Short Film
               </NavDropdown.Item>
-              <NavDropdown.Item href="/competition">
+              <NavDropdown.Item href="/competition?competitionName=socialMedia">
                 Social Media
               </NavDropdown.Item>
             </NavDropdown>
           </NavItem>
           <NavItem>
             <NavDropdown title="Sports" drop="right" >
-              <NavDropdown.Item href="/competition">
+              <NavDropdown.Item href="/competition?competitionName=basketball">
                 Basketball
               </NavDropdown.Item>
             </NavDropdown>

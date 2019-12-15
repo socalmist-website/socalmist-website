@@ -13,6 +13,7 @@ import { BoardPage } from './components/Board/BoardPage';
 import { AmbassadorsPage } from './components/Ambassadors/AmbassadorsPage';
 import { JudgePage } from './components/Judge/JudgePage';
 import { VolunteerPage } from './components/Volunteer/VolunteerPage';
+import { EarlySubmissionsPage } from './components/EarlySubmissions/EarlySubmissionsPage'
 import { Route, Switch, Redirect } from 'react-router-dom';
 
 const App = () => (
@@ -31,6 +32,7 @@ const App = () => (
     <Route path="/competition" component={ CompetitionPage } />
     <Route path="/sponsor" component={ SponsorPage } />
     <Route path="/donate" component={ DonatePage } />
+    <Route path="/earlySubmissions" component={ EarlySubmissionsPage } />
 
     <Redirect to="/" />
   </Switch>

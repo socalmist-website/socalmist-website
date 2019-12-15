@@ -3,7 +3,7 @@ import { Header } from "../Header/Navbar";
 import { PageTitle } from "../Header/PageTitle";
 import { Container, Row, Col } from "react-bootstrap";
 
-class Submissions extends Component {
+class EarlySubmissionsPage extends Component {
   styles = {
     fontWeight: "bold"
   };
@@ -11,7 +11,7 @@ class Submissions extends Component {
     return (
       <div>
         <Header />
-        <PageTitle pageTitle="Early Submissions is Open Now!" />
+        <PageTitle pageTitle="Early Submissions" />
         <Container id="submissionsContainer">
           <Row className="justify-content-sm-center"></Row>
           <Row className="justify-content-sm-center">
@@ -61,4 +61,4 @@ class Submissions extends Component {
   }
 }
 
-export default Submissions;
+export { EarlySubmissionsPage };
