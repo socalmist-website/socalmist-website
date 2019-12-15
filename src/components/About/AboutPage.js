@@ -7,7 +7,7 @@ import { Container, Row, Col, Image } from "react-bootstrap";
 class AboutPage extends React.Component {
 
   render() {
-    const image = require("../../public/aboutfiller.png");
+    const image = require("../../public/about-image.jpg");
     return (
       <div>
         <Header />
