@@ -484,7 +484,6 @@ const competitions = {
         <Tab eventKey="three" title="Detailed Ballot">
           <div>
             <Image alt="Ballot picture" src={require("./ballotPictures/3dartballot.png")} />
-            <Image alt="Ballot picture" src={require("./ballotPictures/3dartballot2.png")} />
           </div>
         </Tab>
       </Tabs>
@@ -671,7 +670,13 @@ const competitions = {
         <Tab eventKey="three" title="Detailed Ballot">
           <div>
             <Image alt="Ballot picture" src={require("./ballotPictures/fashiondesignballot.png")} />
-            <Image alt="Ballot picture" src={require("./ballotPictures/fashiondesignballot2.png")} />
+          </div>
+        </Tab>
+        <Tab eventKey="four" title="Example Portfolio">
+          <div style={{"margin-top":"1em"}}>
+            <Image alt="Ballot picture" src={require("./ballotPictures/fashiondesignexample.png")} /><br></br>
+            <Image alt="Ballot picture" src={require("./ballotPictures/fashiondesignexample2.png")} /><br></br>
+            <Image alt="Ballot picture" src={require("./ballotPictures/fashiondesignexample3.png")} />
           </div>
         </Tab>
       </Tabs>
@@ -796,7 +801,6 @@ const competitions = {
         <Tab eventKey="three" title="Detailed Ballot">
           <div>
             <Image alt="Ballot picture" src={require("./ballotPictures/graphicdesignballot.png")} />
-            <Image alt="Ballot picture" src={require("./ballotPictures/graphicdesignballot2.png")} />
           </div>
         </Tab>
       </Tabs>
@@ -941,7 +945,6 @@ const competitions = {
         <Tab eventKey="three" title="Detailed Ballot">
           <div>
             <Image alt="Ballot picture" src={require("./ballotPictures/photographyballot.png")} />
-            <Image alt="Ballot picture" src={require("./ballotPictures/photographyballot2.png")} />
           </div>
         </Tab>
       </Tabs>
