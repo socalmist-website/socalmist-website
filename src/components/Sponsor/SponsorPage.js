@@ -31,7 +31,7 @@ class SponsorPage extends React.Component {
               </p>
             </Col>
           </Row>
-          <Row className="justify-content-sm-center">
+          {/* <Row className="justify-content-sm-center">
             <Col sm="7" style={{"text-align": "center", "font-weight":"bold", "margin-top":"1em"}}>
               <p>
                 If you are interested in sponsoring MIST, please complete our interest form:
@@ -42,7 +42,7 @@ class SponsorPage extends React.Component {
             <Col sm={7} className="sponsorFormHolder">
               <iframe style={{"width":"100%"}} title="sponsorForm" src="https://docs.google.com/forms/d/e/1FAIpQLScmjOOWbMto-ivNEDedzm7SkJI0brWDGmSUogyQcU8275n8yQ/viewform?embedded=true" height="1111" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
             </Col>
-          </Row>
+          </Row> */}
           <Row className="justify-content-sm-center">
             <Col sm="7" style={{"text-align": "center", "font-weight":"bold", "margin-bottom":"2em"}}>
               <p>

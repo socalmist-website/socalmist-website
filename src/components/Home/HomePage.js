@@ -20,12 +20,12 @@ class HomePage extends React.Component {
         <Container>
           <Row className="justify-content-sm-center">
             <Col sm={4} className="centerAlign">
-              <h3>Proudly Sponsored By:</h3>
+              <h4>Proudly Sponsored By:</h4>
             </Col>            
           </Row>
           <Row className="justify-content-sm-center">
             <Col sm={6} className="centerAlign">
-              <img alt="Yaqeen logo" src={yaqeenlogo} height="150px" />
+              <img alt="Yaqeen logo" src={yaqeenlogo} height="100px" />
             </Col>
           </Row>
         </Container>

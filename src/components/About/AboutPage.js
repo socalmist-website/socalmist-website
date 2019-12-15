@@ -43,20 +43,6 @@ class AboutPage extends React.Component {
               <Image fluid={true} src={image} />
             </Col>
           </Row>
-          <hr></hr>
-          <Row className="section">
-            <Col sm={6}>
-              <Image fluid={true} src={image} />
-            </Col>
-            <Col sm={6}>
-              <h3>Where Are We?</h3>
-              <p>
-              SoCal MIST is one of 15 different regions across the US and Canada which form the 
-              Muslim Interscholastic Tournament (MIST) organization. MIST is a program of 
-              competitions and workshops to help develop its competitors’ knowledge and skills.
-              </p>
-            </Col>
-          </Row>
         </Container>
       </div>
     );

@@ -33,10 +33,17 @@ class VolunteerPage extends React.Component {
             </Col>
           </Row>
           <Row className="justify-content-sm-center">
+            <Col sm="7" style={{"text-align": "center", "font-weight":"bold", "margin-bottom":"2em"}}>
+              <p>
+                For more questions about volunteering, please contact us at socal@getmistified.com.
+              </p>
+            </Col>
+          </Row>
+          {/* <Row className="justify-content-sm-center">
             <Col className="sponsorFormHolder">
               <iframe title="sponsorForm" style={{"width":"100%"}} src="https://docs.google.com/forms/d/e/1FAIpQLScmjOOWbMto-ivNEDedzm7SkJI0brWDGmSUogyQcU8275n8yQ/viewform?embedded=true" width="640" height="1111" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
             </Col>
-          </Row>
+          </Row> */}
         </Container>
       </div>
     );

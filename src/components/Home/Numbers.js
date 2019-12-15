@@ -6,7 +6,7 @@ import './Numbers.css';
 
 class Numbers extends Component {
   students = 160;
-  schools = 30;
+  schools = 12;
   prizes = 6;
   judges = 72;
   volunteers = 50;
