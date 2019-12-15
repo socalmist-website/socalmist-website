@@ -8,6 +8,14 @@ import {competitions} from './CompetitionTextConstants';
 
 class CompetitionPage extends React.Component {
 
+  componentDidMount() {
+    try {
+      document.getElementById("tab-tab-one").click();
+    } catch (e) {
+      
+    }
+  }
+
   render() {
     const params = queryString.parse(this.props.location.search);
     const competitionInfo = competitions[params.competitionName];

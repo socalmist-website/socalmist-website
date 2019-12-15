@@ -354,8 +354,8 @@ const competitions = {
           </div>
         </Tab>
         <Tab eventKey="three" title="Detailed Ballot">
-          <div className="centerAlign">
-          <Image src={require("./ballotPictures/2dartballot.png")} />
+          <div>
+            <Image alt="Ballot picture" src={require("./ballotPictures/2dartballot.png")} />
           </div>
         </Tab>
       </Tabs>
@@ -479,6 +479,12 @@ const competitions = {
                 be collected at on-site registration.]
               </p>
             </div>
+          </div>
+        </Tab>
+        <Tab eventKey="three" title="Detailed Ballot">
+          <div>
+            <Image alt="Ballot picture" src={require("./ballotPictures/3dartballot.png")} />
+            <Image alt="Ballot picture" src={require("./ballotPictures/3dartballot2.png")} />
           </div>
         </Tab>
       </Tabs>
@@ -662,6 +668,12 @@ const competitions = {
             </div>
           </div>
         </Tab>
+        <Tab eventKey="three" title="Detailed Ballot">
+          <div>
+            <Image alt="Ballot picture" src={require("./ballotPictures/fashiondesignballot.png")} />
+            <Image alt="Ballot picture" src={require("./ballotPictures/fashiondesignballot2.png")} />
+          </div>
+        </Tab>
       </Tabs>
     )
   },
@@ -779,6 +791,12 @@ const competitions = {
                 portfolio that has all required items securely intact.]
               </p>
             </div>
+          </div>
+        </Tab>
+        <Tab eventKey="three" title="Detailed Ballot">
+          <div>
+            <Image alt="Ballot picture" src={require("./ballotPictures/graphicdesignballot.png")} />
+            <Image alt="Ballot picture" src={require("./ballotPictures/graphicdesignballot2.png")} />
           </div>
         </Tab>
       </Tabs>
@@ -918,6 +936,12 @@ const competitions = {
                 clips or a large manila envelope for these purposes.]
               </p>
             </div>
+          </div>
+        </Tab>
+        <Tab eventKey="three" title="Detailed Ballot">
+          <div>
+            <Image alt="Ballot picture" src={require("./ballotPictures/photographyballot.png")} />
+            <Image alt="Ballot picture" src={require("./ballotPictures/photographyballot2.png")} />
           </div>
         </Tab>
       </Tabs>
