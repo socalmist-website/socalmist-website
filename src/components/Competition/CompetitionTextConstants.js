@@ -1,6 +1,7 @@
 import React from "react";
 import Tabs from "react-bootstrap/Tabs";
 import Tab from "react-bootstrap/Tab";
+import Image from "react-bootstrap/Image";
 
 const competitions = {
   knowledgeTests: {
@@ -350,6 +351,11 @@ const competitions = {
                 clips or a large manila envelope for these purposes.]
               </p>
             </div>
+          </div>
+        </Tab>
+        <Tab eventKey="three" title="Detailed Ballot">
+          <div className="centerAlign">
+          <Image src={require("./ballotPictures/2dartballot.png")} />
           </div>
         </Tab>
       </Tabs>
@@ -916,11 +922,6 @@ const competitions = {
         </Tab>
       </Tabs>
     )
-  },
-
-  roundOneArtBallot: {
-    title: "Round One Art Ballot",
-    tabs: <h3 style={{ "text-align": "center" }}>Details coming soon!</h3>
   },
 
   extemporaneousEssay: {

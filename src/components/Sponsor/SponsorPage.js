@@ -21,7 +21,7 @@ class SponsorPage extends React.Component {
         <PageTitle pageTitle="Sponsor MIST" />
         <PageSubTitle pageSubTitle="Interested in sponsoring MIST?" />
       
-        <Container>
+        <Container fluid={true}>
           <Row className="justify-content-sm-center">
             <Col sm="7" style={{"text-align": "center"}}>
               <p>
@@ -55,26 +55,26 @@ class SponsorPage extends React.Component {
               <h3>Proudly Sponsored By:</h3>
             </Col>            
           </Row>
-          <Row className="justify-content-sm-center">
-            <Col sm={3} className="logoHolder">
-              <img alt="Yaqeen Logo" src={yaqeenlogo} height="100px" />
+          <Row className="justify-content-md-center">
+            <Col md={2} className="logoHolder">
+              <img alt="Yaqeen Logo" src={yaqeenlogo} height="50px" />
             </Col>
-            <Col sm={3} className="logoHolder">
-              <img alt="Cair LA Logo" src={cairlogo} height="100px" />
+            <Col md={2} className="logoHolder">
+              <img alt="Cair LA Logo" src={cairlogo} height="50px" />
             </Col>
-            <Col sm={3} className="logoHolder">
-              <img alt="Islamic Relief Logo" src={irlogo} height="100px" />
+            <Col md={2} className="logoHolder">
+              <img alt="Islamic Relief Logo" src={irlogo} height="50px" />
             </Col>
-          </Row>
-          <Row className="justify-content-sm-center">
-            <Col sm={3} className="logoHolder">
-              <img alt="MPAC Logo" src={mpaclogo} height="100px" />
+          {/* </Row>
+          <Row className="justify-content-sm-center"> */}
+            <Col md={2} className="logoHolder">
+              <img alt="MPAC Logo" src={mpaclogo} height="50px" />
             </Col>
-            <Col sm={3} className="logoHolder">
-              <img alt="YSS Logo"src={ysslogo} height="100px" />
+            <Col md={2} className="logoHolder">
+              <img alt="YSS Logo"src={ysslogo} height="50px" />
             </Col>
-            <Col sm={3} className="logoHolder">
-              <img alt="LIFE Logo" src={lifelogo} height="100px" />
+            <Col md={2} className="logoHolder">
+              <img alt="LIFE Logo" src={lifelogo} height="50px" />
             </Col>
           </Row>
         </Container>
