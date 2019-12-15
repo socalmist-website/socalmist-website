@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Header } from "../Header/Navbar";
 import { PageTitle } from "../Header/PageTitle";
-import { Container, Row, Col } from "react-bootstrap";
+//import { Container, Row, Col } from "react-bootstrap";
 
 class EarlySubmissionsPage extends Component {
   styles = {
@@ -12,7 +12,10 @@ class EarlySubmissionsPage extends Component {
       <div>
         <Header />
         <PageTitle pageTitle="Early Submissions" />
-        <Container id="submissionsContainer">
+        <div className="titleHolder">
+          <h2>We are not accepting early submissions at this time</h2>
+        </div>
+        {/* <Container id="submissionsContainer">
           <Row className="justify-content-sm-center"></Row>
           <Row className="justify-content-sm-center">
             <Col sm={7} className="textHolder">
@@ -54,7 +57,7 @@ class EarlySubmissionsPage extends Component {
               </p>
             </Col>
           </Row>
-        </Container>
+        </Container> */}
       </div>
     );
   }
