@@ -14,8 +14,8 @@ class DonatePage extends React.Component {
         <PageTitle pageTitle="Donate" />
         <Container>
           <Row className="justify-content-sm-center">
-            <Col className="donationBanner">
-              <Image src={donationBanner} />
+            <Col sm={7} className="donationBanner">
+              <Image style={{"width":"100%"}} src={donationBanner} />
             </Col>
           </Row>
           <Row className="justify-content-sm-center">
@@ -25,7 +25,7 @@ class DonatePage extends React.Component {
           </Row>
           <Row className="justify=content-sm-center">
             <Col className="sponsorFormHolder">
-               <iframe id="JotFormIFrame-83484228011149" title="Donation" onload="window.parent.scrollTo(0,0)" allowtransparency="true" allowfullscreen="true" height="500" allow="geolocation; microphone; camera" src="https://form.jotform.com/83484228011149" frameborder="0" style={{"min-width": "100%"}} > </iframe>
+               <iframe id="JotFormIFrame-83484228011149" title="Donation" frameborder="0" marginheight="0" marginwidth="0" style={{"width":"100%","height":"500px"}} src="https://form.jotform.com/83484228011149"> </iframe>
             </Col>
           </Row>
         </Container>

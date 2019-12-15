@@ -1,5 +1,7 @@
 import React from 'react';
 import { Header } from '../Header/Navbar';
+import { PageTitle } from '../Header/PageTitle';
+
 
 class BoardPage extends React.Component {
 
@@ -7,7 +9,10 @@ class BoardPage extends React.Component {
     return (
       <div>
         <Header />
-        <h1>Hello World Board</h1>
+        <PageTitle pageTitle="Meet the Board" />
+        <div className="titleHolder">
+          <h2>Board information coming soon!</h2>
+        </div>
       </div>
     );
   }

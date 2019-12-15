@@ -39,8 +39,8 @@ class SponsorPage extends React.Component {
             </Col>
           </Row>
           <Row className="justify-content-sm-center">
-            <Col className="sponsorFormHolder">
-              <iframe title="sponsorForm" src="https://docs.google.com/forms/d/e/1FAIpQLScmjOOWbMto-ivNEDedzm7SkJI0brWDGmSUogyQcU8275n8yQ/viewform?embedded=true" width="640" height="1111" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            <Col sm={7} className="sponsorFormHolder">
+              <iframe style={{"width":"100%"}} title="sponsorForm" src="https://docs.google.com/forms/d/e/1FAIpQLScmjOOWbMto-ivNEDedzm7SkJI0brWDGmSUogyQcU8275n8yQ/viewform?embedded=true" height="1111" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
             </Col>
           </Row>
           <Row className="justify-content-sm-center">
