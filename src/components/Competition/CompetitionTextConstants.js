@@ -673,7 +673,7 @@ const competitions = {
           </div>
         </Tab>
         <Tab eventKey="four" title="Example Portfolio">
-          <div style={{"margin-top":"1em"}}>
+          <div style={{"margin-top":"1em", "text-align":"center"}}>
             <Image alt="Ballot picture" src={require("./ballotPictures/fashiondesignexample.png")} /><br></br>
             <Image alt="Ballot picture" src={require("./ballotPictures/fashiondesignexample2.png")} /><br></br>
             <Image alt="Ballot picture" src={require("./ballotPictures/fashiondesignexample3.png")} />

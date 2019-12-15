@@ -7,7 +7,7 @@ import "./AmbassadorsPage.css";
 class AmbassadorsPage extends React.Component {
 
   render() {
-    const image = require("../../public/ambassadors.jpg");
+    const image = require("../../public/ambassadors.png");
     return (
       <div>
         <Header />

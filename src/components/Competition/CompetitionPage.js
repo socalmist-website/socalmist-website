@@ -35,7 +35,7 @@ class CompetitionPage extends React.Component {
         <PageTitle pageTitle={competitionInfo.title} />
         <Jumbotron id="competitionTabHolder">
           <Row className="justify-content-sm-center">
-            <Col sm={8}>
+            <Col sm={9}>
               {competitionInfo.tabs}
             </Col>
           </Row>
