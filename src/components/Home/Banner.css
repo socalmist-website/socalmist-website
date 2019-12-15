@@ -1,4 +1,4 @@
-.backgroundPicture {
+#backgroundPicture {
   background: url("../../public/background.jpg") no-repeat center center fixed;
   height: 650px;
   -webkit-background-size: cover;
