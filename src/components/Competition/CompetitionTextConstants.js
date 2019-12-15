@@ -674,8 +674,8 @@ const competitions = {
         </Tab>
         <Tab eventKey="four" title="Example Portfolio">
           <div style={{"margin-top":"1em", "text-align":"center"}}>
-            <Image alt="Ballot picture" src={require("./ballotPictures/fashiondesignexample.png")} /><br></br>
-            <Image alt="Ballot picture" src={require("./ballotPictures/fashiondesignexample2.png")} /><br></br>
+            <Image alt="Ballot picture" src={require("./ballotPictures/fashiondesignexample.png")} />ADD
+            <Image alt="Ballot picture" src={require("./ballotPictures/fashiondesignexample2.png")} />
             <Image alt="Ballot picture" src={require("./ballotPictures/fashiondesignexample3.png")} />
           </div>
         </Tab>
@@ -953,57 +953,352 @@ const competitions = {
 
   extemporaneousEssay: {
     title: "Extemporaneous Essay",
-    tabs: <h3 style={{ "text-align": "center" }}>Details coming soon!</h3>
+    tabs: (
+      <Tabs className="tabText" defaultActiveKey="overview" id="tab">
+        <Tab eventKey="one" title="Overview">
+          <div className="tabContent">
+            <p>
+            Competitors are allotted 60 minutes to compose a handwritten essay on a randomly selected topic related to the theme.
+            </p>
+          </div>
+        </Tab>
+        <Tab eventKey="two" title="Rules and Regulations">
+          <div className="tabContent">
+            <div>
+              <h3>Procedures:</h3>
+              <p>
+                The following is a list of rules and procedures for this
+                category. Failure to fulfill these obligations and/or any
+                violation of them may result in point loss.
+              </p>
+              <ol><li>A limit of two (2) students from each team may register for this competition. Each student competes individually, so collaboration is not permitted.</li><li>After registering, students are given a MIST ID Number, which must be used to identify the student on the test. Names and other identifying information should not be written anywhere on the final submission. </li><li>All competitors are to report to the competition room at the same time, which will be designated in the competition schedule. </li><li>Paper and pen/pencil will be provided, but students may feel free to bring their own. </li><li>Out of three randomly selected topics presented at the time of competition, students must choose one topic for their essay. The topics will be relevant to the annual theme. </li><li>Students will be allotted 60 minutes to complete their essay, to be written in the English language. The submission is to be turned in to the proctor at the end of the hour but can be turned in earlier. </li><li>Students are allowed to bring printed reference materials or quotations relevant to the theme with them to use for citation during the competition, but prepared notes or personal essays are not allowed. Materials must be reviewed and approved at the sole discretion of the test proctor before the competition begins. </li><li>Electronic device usage is not permitted during the competition.</li></ol>
+            </div>
+          </div>
+        </Tab>
+        <Tab eventKey="three" title="Detailed Ballot">
+          <div>
+            <Image alt="Ballot picture" src={require("./ballotPictures/extempessayballot.png")} />
+          </div>
+        </Tab>
+      </Tabs>
+    )
   },
 
   extemporaneousSpeaking: {
     title: "Extemporaneous Speaking",
-    tabs: <h3 style={{ "text-align": "center" }}>Details coming soon!</h3>
+    tabs: (
+      <Tabs className="tabText" defaultActiveKey="overview" id="tab">
+        <Tab eventKey="one" title="Overview">
+          <div className="tabContent">
+            <p>
+            The art of extemporaneous speaking is not for the faint-hearted. Delivering a coherent, engaging, and moving speech, is easy enough, right? Now try doing that on the spot with only 15 minutes of preparation!
+            </p>
+          </div>
+        </Tab>
+        <Tab eventKey="two" title="Rules and Regulations">
+          <div className="tabContent">
+            <div>
+              <h3>Procedures:</h3>
+              <p>
+                The following is a list of rules and procedures for this
+                category. Failure to fulfill these obligations and/or any
+                violation of them may result in point loss.
+              </p>
+              <ol><li>A limit of two (2) students from each team may register for this competition. Each student competes individually, so collaboration is not permitted. </li><li>MIST ID and order of competition will be pre-assigned on a random selection basis. </li><li>All competitors are to report to the competition room at the same time, which will be designated in the competition schedule. </li><li>Paper and pen/pencil will be provided, but students may feel free to bring their own. </li><li>Out of three randomly selected topics presented at the time of competition, students must choose one topic for their speech. The topics will be relevant to the annual theme.</li><li>Topics are to be phrased in the form of a question. Topics will not necessarily require reference materials, but will require an understanding of contemporary issues affecting Muslims domestically and internationally. Example topic: Does a significant rift exist between African-American Muslims and immigrant Muslim communities? </li><li>Depending on the number of students who sign up for this event, the competition might be conducted in a series of rounds, with only the top contestants advancing to subsequent rounds. </li><li>Participants may, if they choose, use references (books, the Quran, etc.) If any reference is used the participant MUST cite the reference during his or her speech. NO references will be provided by MIST. The use of reference material is optional. </li><li>Fifteen minutes before the contest is to begin, the first speaker shall draw three topics, choose one, and return the others. The other contestants shall draw in like manner, in their speaking order, at seven-minute intervals. A contestant drawing a topic on which he has spoken previously in the tournament shall return that topic and draw again. </li><li>After the contestant has chosen a topic, he shall withdraw to the preparation area and have fifteen (15) minutes to plan his/her speech without conferring or exchanging information with anyone. No prepared notes or outlines will be allowed in the preparation room. Reference to books, magazines and a bibliographical file is permitted. Once a contestant has chosen a topic, she/he may neither change from nor alter that topic. No visual aids may be used in the delivery of the speech. </li><li>A note card may be used in preliminary rounds of invitational qualifying tournaments but is not permitted in any elimination rounds of these tournaments. </li><li>Time limit is seven minutes maximum with thirty-second grace period. Violation of this rule will result in the contestant being ranked last in the round when visible time signals have been given by the judge or by the authorized timekeeper. </li><li>Electronic device usage is not permitted during the competition.</li></ol>
+            </div>
+          </div>
+        </Tab>
+        <Tab eventKey="three" title="Detailed Ballot">
+          <div>
+            <Image alt="Ballot picture" src={require("./ballotPictures/extempspeakingballot.png")} />
+          </div>
+        </Tab>
+      </Tabs>
+    )
   },
 
   originalOratory: {
     title: "Original Oratory",
-    tabs: <h3 style={{ "text-align": "center" }}>Details coming soon!</h3>
+    tabs: (
+      <Tabs className="tabText" defaultActiveKey="overview" id="tab">
+        <Tab eventKey="one" title="Overview">
+          <div className="tabContent">
+            <p>
+            The art of extemporaneous speaking is not for the faint-hearted. Delivering a coherent, engaging, and moving speech, is easy enough, right? Now try doing that on the spot with only 15 minutes of preparation!
+            </p>
+          </div>
+        </Tab>
+        <Tab eventKey="two" title="Rules and Regulations">
+          <div className="tabContent">
+            <div>
+              <h3>Procedures:</h3>
+              <p>
+                The following is a list of rules and procedures for this
+                category. Failure to fulfill these obligations and/or any
+                violation of them may result in point loss.
+              </p>
+              <ol><li>A limit of two (2) students from each team may register for this competition. Each student competes individually, so collaboration is not permitted. </li><li>MIST ID and order of competition will be pre-assigned on a random selection basis. </li><li>All competitors are to report to the competition room at the same time, which will be designated in the competition schedule. </li><li>The Orator must provide 3 COPIES of his/her script to be turned in during the competition orientation. MIST will not photocopy any scripts. Contestants must come prepared with their copies. The competitor must compete with the script that is submitted at that time. </li><li>Orations must be labeled with the MIST ID ONLY. The contestant name must not appear anywhere on the work. </li><li>The orator must be truthful. Any non-factual reference, especially a personal one, must be so identified. </li><li>The oration may not contain more than 150 words of quoted material. Extensive paraphrasing from other sources is prohibited. Orators caught plagiarizing or extensively paraphrasing will be disqualified. </li><li>No visual aids may be used in the delivery of the speech. </li><li>An orator holding a manuscript or notes will be ranked last. </li><li>Time limit is seven minutes maximum with thirty-second grace period. Violation of this rule will result in the contestant being ranked last in the round when visible time signals have been given by the judge or by the authorized timekeeper. </li><li>Electronic device usage is not permitted during the competition</li></ol>
+            </div>
+          </div>
+        </Tab>
+        <Tab eventKey="three" title="Detailed Ballot">
+          <div>
+            <Image alt="Ballot picture" src={require("./ballotPictures/originaloratoryballot.png")} />
+          </div>
+        </Tab>
+      </Tabs>
+    )
   },
 
   poetry: {
     title: "Poetry",
-    tabs: <h3 style={{ "text-align": "center" }}>Details coming soon!</h3>
+    tabs: (
+      <Tabs className="tabText" defaultActiveKey="overview" id="tab">
+        <Tab eventKey="one" title="Overview">
+          <div className="tabContent">
+            <p>
+            Competitors must submit an original piece of poetry never before published within a 40 line limit. The piece must clearly relate back to the theme, but also be applicable to a general audience.
+            </p>
+          </div>
+        </Tab>
+        <Tab eventKey="two" title="Rules and Regulations">
+          <div className="tabContent">
+            <div>
+              <h3>Procedures:</h3>
+              <p>
+                The following is a list of rules and procedures for this
+                category. Failure to fulfill these obligations and/or any
+                violation of them may result in point loss.
+              </p>
+              <ol><li>A limit of two (2) students from each team may register for this competition. Each student competes individually, so collaboration is not permitted.</li><li>Poetry must clearly reflect upon any aspect of this year’s theme.</li><li>Submissions must be labeled with the MIST ID ONLY. The contestant name must not appear anywhere on the work.</li><li>Competitors may incorporate any style or genres of poetry including rhymed, lyric, dramatic, narrative, or free verse.</li><li>All poems must have a title and must not exceed 40 lines in length (excluding title).</li><li>Poems must be the original work of the entrant. Entries must not have been published, self-published, published on a website or broadcast before January 2016.</li><li>Handwritten entries cannot be accepted. Entries should be typed in black ink only. Entries can be double or single-spaced. Please do not staple printed entries.</li><li>A PDF copy of the poem must be emailed to your Regional Competitions Headquarters <strong>two (2) weeks</strong> before the Regional Tournament. Late submissions will result in a point deduction on your final score. Your region may have different deadlines for this competition. Contact your Regional Competitions Headquarters for more information.</li><li>Poetry submissions must include a filled-out “Poetry Analyzing Written Statement”.</li></ol>
+            </div>
+          </div>
+        </Tab>
+        <Tab eventKey="three" title="Detailed Ballot">
+          <div>
+            <Image alt="Ballot picture" src={require("./ballotPictures/poetryballot.png")} />
+          </div>
+        </Tab>
+      </Tabs>
+    )
   },
 
   preparedEssay: {
     title: "Prepared Essay",
-    tabs: <h3 style={{ "text-align": "center" }}>Details coming soon!</h3>
+    tabs: (
+      <Tabs className="tabText" defaultActiveKey="overview" id="tab">
+        <Tab eventKey="one" title="Overview">
+          <div className="tabContent">
+            <p>
+            Have you been inspired by this year’s MIST theme? The prepared essay competition is perfect if you’re looking for an outlet. This is your chance to be creative and persuade us on the significance of your chosen topic. Share the passion!
+            </p>
+          </div>
+        </Tab>
+        <Tab eventKey="two" title="Rules and Regulations">
+          <div className="tabContent">
+            <div>
+              <h3>Procedures:</h3>
+              <p>
+                The following is a list of rules and procedures for this
+                category. Failure to fulfill these obligations and/or any
+                violation of them may result in point loss.
+              </p>
+              <ol><li>A limit of two (2) students from each team may register for this competition. Each student competes individually, so collaboration is not permitted.</li><li>The written essay must be typed or word-processed and double-spaced. It must be on white, 8.5 X 11 paper and must be stapled in the left corner.</li><li>The essay MUST have a cover page. The cover page must include the title and MIST ID only. The contestant name must not appear anywhere on the submission.</li><li>If outside sources are used, proper MLA citations as well as a “Works Cited” page must be included in the essay.</li><li>A PDF copy of the written essay must be emailed to your Regional Competitions Headquarters <strong>two (2) weeks</strong> before the Regional Tournament. Late submissions will result in a point deduction on your final score. Your region may have different deadlines for this competition. Contact your Regional Competitions Headquarters for more information.</li><li>Some regions require three (3) copies of the written essay to be taken to MIST and turned in by the competitor to the event section leader at the competitor’s orientation. Contestants are solely responsible for bringing their own copies. Contact your Regional Competitions Headquarters for more information.</li><li>The written essay shall be a minimum of 1,500 words and a maximum of 2,000 words. All abbreviations, acronyms (excluding a, an, the) will be counted. Only the first 2,000 countable words will be read.</li><li>Competitors will be judged according to the Prepared Essay Ballot.</li></ol>
+            </div>
+          </div>
+        </Tab>
+        <Tab eventKey="three" title="Detailed Ballot">
+          <div>
+            <Image alt="Ballot picture" src={require("./ballotPictures/preparedessayballot.png")} />ADD
+            <Image alt="Ballot picture" src={require("./ballotPictures/preparedessayballot2.png")} />
+          </div>
+        </Tab>
+      </Tabs>
+    )
   },
 
   shortFiction: {
     title: "Short Fiction",
-    tabs: <h3 style={{ "text-align": "center" }}>Details coming soon!</h3>
+    tabs: (
+      <Tabs className="tabText" defaultActiveKey="overview" id="tab">
+        <Tab eventKey="one" title="Overview">
+          <div className="tabContent">
+            <p>
+            Competitors are to submit an original work of fiction no longer than 10 pages that relates to the theme and can also be applied to a competitor-defined target audience. Illustrations are permitted for younger intended audiences
+            </p>
+          </div>
+        </Tab>
+        <Tab eventKey="two" title="Rules and Regulations">
+          <div className="tabContent">
+            <div>
+              <h3>Procedures:</h3>
+              <p>
+                The following is a list of rules and procedures for this
+                category. Failure to fulfill these obligations and/or any
+                violation of them may result in point loss.
+              </p>
+              <ol><li>A limit of two (2) students from each team may register for this competition. Each student competes individually, so collaboration is not permitted.</li><li>After registering, students are given a MIST ID Number, which must be used to identify the student on the submission. Names and other identifying information should not be written anywhere on the final submission.</li><li>Competitors must identify a target audience on the title page.</li><li>All competitors are to submit a PDF version of their submissions <strong>two (2) weeks</strong> prior&nbsp;to the regional tournament. Late submissions will result in a point deduction on your final score. Your region may have different deadlines for this competition. Contact your Regional Competitions Headquarters for more information.</li><li>All submissions must be a. Typed and double spaced b. Have a cover page with the title, MIST ID, and intended audience age group only. The contestant name or other identifying markers must not appear anywhere on the submission. c. Typed on 8.5 X 11 inch paper, stapled in the left corner. d. No more than 10 pages, Times New Roman, 12 pt font.</li><li>If your region requires it, three copies of your story must also be taken to the MIST tournament and turned in by the competitor to the event section leader at the competitor’s orientation.</li><li>Competitors will be judged according to the Short Fiction Ballot.</li></ol>
+            </div>
+          </div>
+        </Tab>
+        <Tab eventKey="three" title="Detailed Ballot">
+          <div>
+            <Image alt="Ballot picture" src={require("./ballotPictures/shortfictionballot.png")} />ADD
+            <Image alt="Ballot picture" src={require("./ballotPictures/shortfictionballot2.png")} />
+          </div>
+        </Tab>
+      </Tabs>
+    )
   },
 
   spokenWord: {
     title: "Spoken Word",
-    tabs: <h3 style={{ "text-align": "center" }}>Details coming soon!</h3>
+    tabs: (
+      <Tabs className="tabText" defaultActiveKey="overview" id="tab">
+        <Tab eventKey="one" title="Overview">
+          <div className="tabContent">
+            <p>
+            If you’re more of the performer type of a poet, then spoken word is for you! Here’s your chance to convey your passion and originality, all while inspiring those around you.
+            </p>
+          </div>
+        </Tab>
+        <Tab eventKey="two" title="Rules and Regulations">
+          <div className="tabContent">
+            <div>
+              <h3>Procedures:</h3>
+              <p>
+                The following is a list of rules and procedures for this
+                category. Failure to fulfill these obligations and/or any
+                violation of them may result in point loss.
+              </p>
+              <ol><li>A limit of two (2) students from each team may register for this competition. Each student competes individually, so collaboration is not permitted.</li><li>The competitor must provide 3 COPIES of his/her piece to be turned in during the competition orientation. MIST will not photocopy any pieces. Contestants must come prepared with their copies. The competitor must compete with the piece that is submitted at that time.</li><li>Orations must be labeled with the MIST ID ONLY. The contestant name must not appear anywhere on the work.</li><li>MIST ID and order of competition will be pre-assigned on a random selection basis.</li><li>All competitors are to report to the competition room at the same time, which will be designated in the competition schedule.</li><li>Spoken word pieces will be judged based on the following criteria: writing, performance, originality, sincerity, and inspiration.</li><li>The performance should not exceed more than six (6) minutes. Points will be deducted from the total score if the performance exceeds the allotted time when visible time signals have been given by the judge or by the authorized timekeeper.</li><li>No instruments can be used for the performance.</li></ol>
+            </div>
+          </div>
+        </Tab>
+        <Tab eventKey="three" title="Detailed Ballot">
+          <div>
+            <Image alt="Ballot picture" src={require("./ballotPictures/spokenwordballot.png")} />
+          </div>
+        </Tab>
+      </Tabs>
+    )
   },
 
   debate: {
     title: "Debate",
-    tabs: <h3 style={{ "text-align": "center" }}>Details coming soon!</h3>
+    tabs: (
+      <Tabs className="tabText" defaultActiveKey="overview" id="tab">
+        <Tab eventKey="one" title="Overview">
+          <div className="tabContent">
+            <p>
+            Are you great at winning arguments? Do you have the poise of a public speaker and the convincing tone of a scholar? Join debate to compete with others who are just like you.
+            </p>
+          </div>
+        </Tab>
+        <Tab eventKey="two" title="Rules and Regulations">
+          <div className="tabContent">
+            <div>
+              <h3>Procedures:</h3>
+              <p>
+                The following is a list of rules and procedures for this
+                category. Failure to fulfill these obligations and/or any
+                violation of them may result in point loss.
+              </p>
+              <p>
+              Parliamentary Debate is a Bracket Competition, which stipulates that it is an elimination competition. There are two rounds of Preliminaries, one Quarterfinal Round (top 8 teams), one Semifinal Round (top 4 teams) and one Final Round. [In the event that an odd number of teams are present at the very first preliminary round of the Parliamentary Debate Tournament, even-numbered pairs will be made, with a randomized odd team given an automatic advancement to the 2nd preliminary round.] All teams regardless of round results advance to Round 2.
+              </p>
+              <ol><li>This competition is a team effort. Only two (2) people may register for this competition, and they must compete as a team. No substitutions are allowed. </li><li>The moderator of a Parliamentary debate is called the “Speaker” and all debaters must address themselves to “Mr. [or Madam] Speaker” at the outset of their speeches. The affirmative side is called the “Government” while the “Opposition” represents the negative. Participants in the debate and members of the audience are referred to collectively as the “House” while the resolution is simply termed the “Bill”. Debaters must always refer to one another in the third person (for example, “the Prime Minister”, “Leader of the Opposition”). They must not call other debaters by their real names. </li><li>Members will speak only when called upon by the Speaker or when allowed a ‘Point of Information’.</li><li>Only one debater may hold the floor of the House at a time. </li><li>Debaters shall not use profane or offensive language. </li><li>During the final rebuttal speeches presented by the Leader of the Opposition and the Prime Minister, debaters may not bring up any new arguments or new evidence except in direct refutation of material which has already been presented. </li><li>Competitors are allowed to bring in notes and outlines on the Resolution and may refer to them at any point during the debate. If needed, they will also be provided with scrap paper for tracking their opponent’s arguments.</li><li>Competitors may not have access to blank debate ballots, nor are they allowed to view ballots at any point during the tournament. They are only allowed to access the Debater Feedback page of the ballot upon conclusion of the tournament. </li><li>Parliamentary Debate topics are available at www.getmistified.com</li></ol>
+            </div>
+          </div>
+        </Tab>
+      </Tabs>
+    )
   },
 
   mathOlympics: {
     title: "Math Olympics",
-    tabs: <h3 style={{ "text-align": "center" }}>Details coming soon!</h3>
+    tabs: (
+      <Tabs className="tabText" defaultActiveKey="overview" id="tab">
+        <Tab eventKey="one" title="Overview">
+          <div className="tabContent">
+            <p>
+            Think you have what it takes for the olympics? Earn the title of true Math Olympian in this intense battle of numbers.
+            </p>
+          </div>
+        </Tab>
+        <Tab eventKey="two" title="Rules and Regulations">
+          <div className="tabContent">
+            <div>
+              <h3>Procedures:</h3>
+              <p>
+                The following is a list of rules and procedures for this
+                category. Failure to fulfill these obligations and/or any
+                violation of them may result in point loss.
+              </p>
+              <ol><li>A limit of two (2) students from each team may register for this competition. Each student competes individually, so collaboration is not permitted.</li><li>This competition will test students’ ability to think critically and apply arithmetic to solve word problems.</li><li>No knowledge of Trigonometry or Calculus is required. An understanding of only Geometry, Algebra I &amp; II and Statistics &amp; Probability are sufficient for a student.</li><li>A number 2 pencil is required.</li><li>Basic scientific calculators are allowed. Calculators with graphing ability, such as the TI-83 or higher, are NOT allowed.</li><li>Students will a get a set of problems in different rounds. The student with the highest number of points moves on to the next round.</li><li>A ballot is not provided for this competition, as scoring will be based solely on test performance.</li></ol>
+              <h3>Layout:</h3>
+              <p>The competition will be split up into three portions. The first portion will be the MIST Math Olympics Pretest, the second will be the Ciphering Round I, and the last portion will be the Ciphering Round II. If two or more competitors tie by the end of Ciphering Round II, then the competitors will go into the Ciphering Bonus Round. The Pretest will consist of 30 different questions ranging from Geometry and Algebra and will be one hour long. The two Ciphering Rounds will both contain 10 questions. The ciphering round questions are not only designed to be difficult but also put the competitor under time pressure by giving him/her only a couple minutes to answer each question.</p>
+            </div>
+          </div>
+        </Tab>
+      </Tabs>
+    )
   },
 
   mistQuizBowl: {
     title: "MIST Quiz Bowl",
-    tabs: <h3 style={{ "text-align": "center" }}>Details coming soon!</h3>
+    tabs: (
+      <Tabs className="tabText" defaultActiveKey="overview" id="tab">
+        <Tab eventKey="one" title="Overview">
+          <div className="tabContent">
+            <p>
+            Does the sound of a quiz bowl buzzer and recalling knowledge in seconds give you an adrenaline rush? Are you the kid that knows a little bit of everything, from the geography of China, to the poetry of Rumi? Then MIST Quiz Bowl is the competition for you!
+            </p>
+          </div>
+        </Tab>
+        <Tab eventKey="two" title="Rules and Regulations">
+          <div className="tabContent">
+            <div>
+              <h3>Procedures:</h3>
+              <p>
+                The following is a list of rules and procedures for this
+                category. Failure to fulfill these obligations and/or any
+                violation of them may result in point loss.
+              </p>
+              <ol><li>Teams will consist of a minimum of two (2) members and a maximum of six (6). At any given time, only a maximum of four (4) students can play. A student can substitute for another student ONLY between rounds. </li><li>If your team has six (6) students, there will be four (4) starters and two (2) people on the bench. The more students you have on your bowl team, the better it is for your team. This way, each student can study one of the six scholastic bowl categories. </li><li>Scores will not released to the competitors after the end of the rounds. </li><li>A preliminary/quarterfinals/semifinal competition consists of three rounds, with a total of 42 questions. A round consists of 7 questions each from 2 categories, with a total of 6 categories covered by the end of competition. Questions for the entire competition are printed in one packet, with each round clearly marked. Appropriate point values are pre-assigned. </li><li>Each team is allowed 6 members, with no more than 4 members participating per round. Teams are allowed to shuffle their players ONLY between rounds. Judges should announce which two categories are being played in each round so that each team may arrange itself accordingly. </li><li>The competition begins with the judges explaining the rules of Round 1 to the competitors. Judges will tell the teams which two categories are represented in Round 1. This round begins with the judge reading the point value of the question first, and then proceeding to read the question aloud. Only after the judge has finished reading the ENTIRE question may the competitors buzz in, which will be signaled by the judge saying “Done”. The “Done” rule will only be applicable for Round 1, and will be dropped for the rest of the rounds. If a team buzzes in before the entire question is read, then they will not have the opportunity to answer that question. It is up to the judges’ discretion to select whether or not teams have adhered to the done rule.The first team to buzz in after the judge has said “Done” must begin to answer within 10 seconds and must finish answering within 30 seconds. This means that you have a total of 30 seconds to provide a complete answer. If judges suspect that you are stalling on a question or are “buying time,” they have the right to penalize you accordingly. A correct answer wins points and an incorrect answer does not penalize the team. If an incorrect answer is given, then the floor is reopened once the judge has said “incorrect.” The question may now be answered by the next team to buzz in for half of its original point value, with a 10 second limit given on the response. Only two teams can attempt to answer any single question, after which, if both teams are unsuccessful, the judge will give the answer and proceed to the next question. The entire round consists of 14 questions from two categories. Scores will not be released to the competitors after the end of any round. </li><li>Round 2 follows with the next two categories of questions which follow in the packet, which will be mentioned at the beginning of the round. The rules for Round 2 are identical to the rules in Round 1, except the “Done” rule will be dropped for Rounds 2 and 3. Judges will read the point-value of the question firstly, and then proceed to read the question to completion. If a competitor believes that they can anticipate the answer from the current question, they may buzz in early and answer the question. If the student interrupts the moderator to give an answer, the student should immediately give the answer. The competitor must respond within the 10 second limit of buzzing in, and if incorrect, the question will be opened to the floor for all other teams. For example, if a team were to respond incorrectly to a 200 point question, then 200 points are deducted from their running total. The question point value would be halved to 100 and be open for any other team to answer. If another team were to then respond to this same question incorrectly, then that team is penalized 100 points. </li><li>Round 3 then follows in the same fashion as Round 2: incorrect answers are to be penalized. Judges will mention which two categories are being represented in Round 3.</li></ol>
+            </div>
+          </div>
+        </Tab>
+      </Tabs>
+    )
   },
 
   improv: {
     title: "Improv",
-    tabs: <h3 style={{ "text-align": "center" }}>Details coming soon!</h3>
+    tabs: (
+      <Tabs className="tabText" defaultActiveKey="overview" id="tab">
+        <Tab eventKey="one" title="Overview">
+          <div className="tabContent">
+            <p>
+            This competition is a fun way to display your creativity under spontaneous and timed circumstances. Each team must impress the judges in various hypothetical scenarios while under pressure to think on their feet and make the audience laugh!
+            </p>
+          </div>
+        </Tab>
+        <Tab eventKey="two" title="Rules and Regulations">
+          <div className="tabContent">
+            <div>
+              <h3>Procedures:</h3>
+              <p>
+                The following is a list of rules and procedures for this
+                category. Failure to fulfill these obligations and/or any
+                violation of them may result in point loss.
+              </p>
+              <ol><li>Each school may bring a brothers’ team (consisting of a maximum of six brothers) as well as a sisters’ team (consisting of a maximum of six sisters). </li><li>This competition is a team effort. Teams may consist of a minimum of four (4) members and a maximum of six (6) members. </li><li>MIST ID and order of competition will be pre-assigned on a random selection basis. </li><li>Competitors shall report at the appropriate time to the designated place. Competitors shall be introduced to the judges by their MIST IDs. </li><li>This competition consists of three (3) rounds with two (2) games each. Each team will perform the first game, and once all teams have performed, we will move on to the second game. At the end of each game, judges will take a moment to write their scores, and they will also be allowed 2 minutes per team to ask questions if necessary. Then, the subsequent game will begin. </li><li>All teams will have equal playing time, and they will all play the same games. </li><li>This competition will be moderated by a host. The host will make introductions, announce the rules and explain the game. The rules for each game will differ. For examples of improv games, see: http://improvencyclopedia. org. For example, the host may say, “The game is called Questions, and the rule is that players must only speak in questions. No sentences ending with a period and no fragments – just questions. If the actor says something that is not a question, or if they continually repeat questions (“What did you say?” “What did you say again?”), then a judge sounds the buzzer and the game is over for the presenting team. The limits for this game are: Three (3) players, 30 second prep time, two (2) minute presentation.” </li><li>The host will then randomly pick a team to come up to the stage. This team will be asked to pick one situation out of a hat. For example, using the game described above, the situation might be: “At the theme park,” and so the players might act out a situation like this: a tourist asks, “How do I get to the water ride?” and the ride operator replies, “First time at Gatorland?” In response, the tourist says, “How can you tell?”...and so on. </li><li>Teams must adhere to the time limit. 7 5 7 5 official MIST rulebook 2016 </li><li>If a team violates any of the game rules, a judge will sound the buzzer. Alternatively, the buzzer will sound once time is up. Once the buzzer has sounded, all players must stop their performances, and exit the stage. </li><li>Once a team has presented, the next team will be called up to the stage to play the same game, but with a different situation. </li><li>Judging is based on improvisation, projection, articulation, wit, intelligence, believability, body language and ability to create your environment. Competitors will be judged according to the Improv Ballot.</li><li>All competitors must adhere to Islamic principles and appropriate language. Points will be deducted for inappropriate actions or comments.&nbsp;</li></ol>
+            </div>
+          </div>
+        </Tab>
+      </Tabs>
+    )
   },
 
   businessVenture: {
