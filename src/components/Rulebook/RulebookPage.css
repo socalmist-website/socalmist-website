@@ -1,0 +1,18 @@
+.bannerHolder {
+  margin-top: 2em;
+}
+
+#rulebookButton {
+  margin-top: 2em;
+  font-size: 1.4em;
+  padding-left: 0.8em;
+  padding-right: 0.8em;
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+  background-color: #d9c216;
+  border-color: #d9c216;
+}
+
+#rulebookButton:hover {
+  background-color: #b5a214;
+}
