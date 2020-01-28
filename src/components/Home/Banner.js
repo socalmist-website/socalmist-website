@@ -63,8 +63,8 @@ class Banner extends Component {
           <h1 className="bannerText">SoCal MIST 2020</h1>
         </div>
         <div className="bannerSubInfoHolder">
-          <h2 className="bannerSubHeader">Check Out the Official Rulebook!</h2>
-          <Button id="bannerButton" variant="light" href="https://www.getmistified.com/news/2020/1/13/2020-competitions-rulebook" target="_blank">Rulebook</Button>
+          <h2 className="bannerSubHeader">Early Bird Registration is Now Open!</h2>
+          <Button id="bannerButton" variant="light" href="https://my.getmistified.com" target="_blank">Register</Button>
         </div>
         {icons}
       </div>
