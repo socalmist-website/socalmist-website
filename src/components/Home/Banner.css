@@ -28,8 +28,19 @@
   margin-bottom: 1em;
 }
 
+@font-face {
+  font-family: 'Antonio-Light';
+  src: local('Antonio-Light'), url(../../fonts/Antonio-Light.ttf) format('truetype');
+}
+
 #bannerButton {
   font-size: 1.5em;
+  width: 97%;
+  padding: .4em 0em;
+  margin: .2em .2em;
+  font-family: 'Antonio-Light';
+  background-color: #bd8c2a;
+  border: white 3px solid;
 }
 
 .socialMediaIcon {
@@ -37,7 +48,7 @@
 }
 
 .iconContainer {
-  margin-top: 8em;
+  margin-top: 5em;
 }
 
 .smallIconContainer {
@@ -65,4 +76,41 @@
 .centerAlignIcons {
   text-align: center;
   margin-top: 1.5em;
+}
+
+.buttonRow {
+  margin-top: 3.5em;
+}
+
+.buttonDiv {
+  background-clip:content-box;
+  font-size: 2em;
+  border:.7em #f5c809 double;
+  background-color:#f5c809;
+  font-family: Antonio-Light;
+  transition:.5s;
+  height: 100%;
+  width: 100%;
+  display: table;
+}
+
+.buttonLink {
+  color: black;
+}
+
+.buttonDiv:hover {
+  transition:.5s;
+  border-color: #ca6946;
+  background-color: #ca6946;
+}
+
+.buttonLink:hover {
+  color: black;
+  text-decoration: white;
+}
+
+.buttonDiv .buttonText {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
 }

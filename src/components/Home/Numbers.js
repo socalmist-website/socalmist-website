@@ -28,7 +28,7 @@ class Numbers extends Component {
 
       const scrolled = winScroll / height
       
-      if (scrolled >= 0.20) {
+      if (scrolled >= 0.12 || document.documentElement.clientHeight > 950) {
         this.started = true;
         self.interval = setInterval(() => {
           self.setState({ time: Date.now(), count: this.state.count + 1 });
@@ -52,6 +52,9 @@ class Numbers extends Component {
   }
 
   render() { 
+    if (document.documentElement.clientHeight > 950) {
+      this.handleScroll(this);
+    }
     return (
       <Jumbotron className="numbersBackground">
         <Row className="justify-content-sm-center">
