@@ -51,7 +51,14 @@ class Header extends React.Component {
             Meet the Board
           </NavDropdown.Item>
         </NavDropdown>
-        <Nav.Link href="/register">Register</Nav.Link>
+        <NavDropdown title="Registration">
+          <NavDropdown.Item href="/register">
+            Register
+          </NavDropdown.Item>
+          <NavDropdown.Item href="/8th-grade">
+            8th Grade Application
+          </NavDropdown.Item>
+        </NavDropdown>
         <NavDropdown title="Competitions">
           <NavDropdown.Item href="/rulebook">
             Rulebook

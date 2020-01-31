@@ -15,6 +15,7 @@ import { JudgePage } from './components/Judge/JudgePage';
 import { VolunteerPage } from './components/Volunteer/VolunteerPage';
 import { EarlySubmissionsPage } from './components/EarlySubmissions/EarlySubmissionsPage'
 import { RulebookPage } from './components/Rulebook/RulebookPage'
+import { EighthGradeApp } from './components/EighthGradeApp/EighthGradeApp'
 import { Route, Switch, Redirect } from 'react-router-dom';
 
 const App = () => (
@@ -35,6 +36,7 @@ const App = () => (
     <Route path="/donate" component={ DonatePage } />
     <Route path="/earlySubmissions" component={ EarlySubmissionsPage } />
     <Route path="/rulebook" component={ RulebookPage } />
+    <Route path="/8th-grade" component={ EighthGradeApp } />
 
     <Redirect to="/" />
   </Switch>

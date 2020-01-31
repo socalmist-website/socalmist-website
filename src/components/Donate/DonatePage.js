@@ -25,7 +25,7 @@ class DonatePage extends React.Component {
           </Row>
           <Row className="justify=content-sm-center">
             <Col className="sponsorFormHolder">
-               <iframe id="JotFormIFrame-83484228011149" title="Donation" frameborder="0" marginheight="0" marginwidth="0" style={{"width":"100%","height":"500px"}} src="https://form.jotform.com/83484228011149"> </iframe>
+              <iframe id="JotFormIFrame-83484228011149" title="Donation" frameborder="0" marginheight="0" marginwidth="0" style={{"width":"100%","height":"500px"}} src="https://form.jotform.com/83484228011149"> </iframe>
             </Col>
           </Row>
         </Container>
