@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:300|Open+Sans|Raleway&display=swap');
+
 .centerAlign {
   text-align: center;
   padding-left: 1em;
@@ -6,13 +9,29 @@
 
 .numberText {
   font-size: 4em;
+
 }
 
 .numbersTitle {
-  padding-bottom: 0.7em;
-  font-size: 3em;
+  padding-bottom: 0.0em;
+  font-size: 4em;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .numbersBackground {
   background-color: #f5c809 !important;
 }
+
+.numbersSubTitle {
+  font-family: 'Lato', sans-serif;
+  font-size: 2em;
+  margin-top:0.0em;
+  padding-top: 0.0em;
+  padding-bottom: 0.7em;
+
+}
+
+h4 {
+  font-family: 'Lato', sans-serif;
+}
+

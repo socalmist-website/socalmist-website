@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
 .navbar {
   background-color: black;
+  font-family: 'Montserrat', sans-serif;
+
 }
 
 .navbarBlack {

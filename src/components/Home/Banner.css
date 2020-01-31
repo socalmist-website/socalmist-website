@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300|Open+Sans|Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
 #backgroundPicture {
   background: url("../../public/background.jpg") no-repeat center center fixed;
   height: 650px;
@@ -20,17 +23,14 @@
 .bannerText {
   color: white;
   font-size: 3.7em;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .bannerSubHeader {
   color: white;
   font-size: 2.7em;
   margin-bottom: 1em;
-}
-
-@font-face {
-  font-family: 'Antonio-Light';
-  src: local('Antonio-Light'), url(../../fonts/Antonio-Light.ttf) format('truetype');
+  font-family: 'Montserrat', sans-serif;
 }
 
 #bannerButton {
@@ -38,7 +38,7 @@
   width: 97%;
   padding: .4em 0em;
   margin: .2em .2em;
-  font-family: 'Antonio-Light';
+  font-family: 'Montserrat', sans-serif;
   background-color: #bd8c2a;
   border: white 3px solid;
 }
@@ -84,10 +84,10 @@
 
 .buttonDiv {
   background-clip:content-box;
-  font-size: 2em;
+  font-size: 1.5em;
   border:.7em #f5c809 double;
   background-color:#f5c809;
-  font-family: Antonio-Light;
+  font-family: 'Lato', sans-serif;
   transition:.5s;
   height: 100%;
   width: 100%;
