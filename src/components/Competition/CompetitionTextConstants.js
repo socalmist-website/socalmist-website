@@ -58,7 +58,35 @@ const competitions = {
           </div>
         </Tab>
         <Tab eventKey="three" title="2020 Books">
-          <div className="tabContent">2020 books to be added</div>
+          <div className="tabContent">
+            <ul data-rte-list="default">
+              <li>
+                <p><strong>Keys to Immortal Success: A Collection of </strong>
+                <a target="_blank" rel="noopener noreferrer" href="https://yaqeeninstitute.org/"><span><strong>Yaqeen Institute</strong></span></a><strong> Publications</strong></p>
+                <ul data-rte-list="default">
+                  <li>
+                    <p>
+                      <a target="_blank" rel="noopener noreferrer" href="https://yaqeeninstitute.org/justin-parrott/the-guiding-principles-of-faith-sincerity-honesty-and-good-will-in-islam/#.XhuOelNKhQI">
+                        <span>The Guiding Principles of Faith: Sincerity, Honesty and Good Will in Islam</span>
+                      </a>
+                    </p>
+                  </li>
+                  <li><p><a target="_blank" rel="noopener noreferrer" href="https://cdn2.hubspot.net/hubfs/4713562/Website-Paper-PDFs/FINAL_-The-Technology-of-Happiness.pdf?__hstc=251652889.e0a64058aa847b71ac0154f8151f0f7d.1576186560291.1576186560291.1576186560291.1&amp;__hssc=251652889.3366141426.1578864070430"><span>The Technology of Happiness</span></a></p></li>
+                  <li><p><a target="_blank" rel="noopener noreferrer" href="https://cdn2.hubspot.net/hubfs/4713562/Website-Paper-PDFs/The%20Idea%20of%20Happiness%20in%20the%20Quran.pdf?__hstc=251652889.e0a64058aa847b71ac0154f8151f0f7d.1576186560291.1576186560291.1576186560291.1&amp;__hssc=251652889.336614.1578864070430"><span>The Idea of Happiness in the Qur’an</span></a></p></li>
+                </ul>
+              </li>
+              <li><p><strong>Gender &amp; Islam: A Collection of </strong><a target="_blank" rel="noopener noreferrer" href="https://yaqeeninstitute.org/"><span><strong>Yaqeen Institute</strong></span></a><strong> Publications</strong></p>
+                <ul data-rte-list="default">
+                  <li><p><a target="_blank" rel="noopener noreferrer" href="https://cdn2.hubspot.net/hubfs/4713562/Website-Paper-PDFs/FINAL_-Courage-&amp;-Commitment_-The-Femininity-of-Muslim-Women.pdf?__hstc=251652889.e0a64058aa847b71ac0154f8151f0f7d.1576186560291.1576186560291.1576186560291.1&amp;__hssc=251652889.3366141426333435.1578864070430"><span>Courage &amp; Commitment: The Femininity of Muslim Women</span></a></p></li>
+                  <li><p><a target="_blank" rel="noopener noreferrer"href="https://cdn2.hubspot.net/hubfs/4713562/Website-Paper-PDFs/FINAL_-An-Open-Letter-to-Muslim-Men_-The-Sunnah-Trumps-Toxic-Masculinity.pdf?__hstc=251652889.e0a64058aa847b71ac0154f8151f0f7d.1576186560291.1576186560291.1576186560291.1&amp;__hssc=251652889.33661414263334.1578864070430"><span>An Open Letter to Muslim Men: The Sunnah Trumps Toxic Masculinity</span></a></p></li>
+                  <li><p><a target="_blank" rel="noopener noreferrer" href="https://cdn2.hubspot.net/hubfs/4713562/Website-Paper-PDFs/Be%20a%20Man_%20Prophetic%20Masculinity.pdf?__hstc=251652889.e0a64058aa847b71ac0154f8151f0f7d.1576186560291.1576186560291.1576186560291.1&amp;__hssc=251652889.336614142633.1578864070430"><span>Be a Man: Prophetic Masculinity</span></a></p></li>
+                  <li><p><a target="_blank" rel="noopener noreferrer" href="https://cdn2.hubspot.net/hubfs/4713562/Website-Paper-PDFs/FINAL-Women-in-Islamic-Law_-Examining-Five-Prevalent-Myths.pdf?__hssc=251652889.3.1580082652384&amp;__hstc=251652889.e0a64058aa847b71ac0154f8151f0f7d.1576186560291.1576186560291.1576186560291.1">Women in Islamic Law: Examining Five Prevalent Myths</a></p></li>
+                </ul>
+              </li>
+              <li><p><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Destiny-Disrupted-History-Through-Islamic/dp/1586488139"><span><strong>Destiny Disrupted: A History of the World Through Islamic Eyes by Tamim Ansary</strong></span></a></p></li>
+              <li><p><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Becoming-Dr-Journey-Migrant-Surgeon/dp/0520274563/ref=sr_1_1?keywords=Becoming+Dr.+Q%3A+My+Journey+from+Migrant+Farm+Worker+to+Brain+Surgeon+by+Alfredo+Qui%C3%B1ones-Hinojosa&amp;qid=1578931006&amp;s=books&amp;sr=1-1"><span><strong>Becoming Dr. Q: My Journey from Migrant Farm Worker to Brain Surgeon by Alfredo Quiñones-Hinojosa&nbsp;</strong></span></a></p></li>
+            </ul>
+          </div>
         </Tab>
       </Tabs>
     )
@@ -1262,6 +1290,11 @@ const competitions = {
             />
           </div>
         </Tab>
+        <Tab eventKey="four" title="Prompts">
+          <div className="tabContent">
+            <h4><a href="https://static1.squarespace.com/static/5610f7bce4b033aa91249ccd/t/5e1cfdb4db2c3e0f98890c23/1578958261899/Writing+Prompts.pdf" target="_blank" without rel="noopener noreferrer">Writing and Oratory Prompts</a></h4>
+          </div>
+        </Tab>
       </Tabs>
     )
   },
@@ -1432,6 +1465,11 @@ const competitions = {
               alt="Ballot picture"
               src={require("./ballotPictures/preparedessayballot2.png")}
             />
+          </div>
+        </Tab>
+        <Tab eventKey="four" title="Prompts">
+          <div className="tabContent">
+            <h4><a href="https://static1.squarespace.com/static/5610f7bce4b033aa91249ccd/t/5e1cfdb4db2c3e0f98890c23/1578958261899/Writing+Prompts.pdf" target="_blank" without rel="noopener noreferrer">Writing and Oratory Prompts</a></h4>
           </div>
         </Tab>
       </Tabs>
@@ -1686,6 +1724,11 @@ const competitions = {
             </div>
           </div>
         </Tab>
+        <Tab eventKey="three" title="Prompts">
+          <div className="tabContent">
+            <h4><a href="https://static1.squarespace.com/static/5610f7bce4b033aa91249ccd/t/5e1f2e82408e262d959a6d61/1579101827552/Debate+Prompts.pdf" target="_blank" without rel="noopener noreferrer">Debate Prompts</a></h4>
+          </div>
+        </Tab>
       </Tabs>
     )
   },
@@ -1879,6 +1922,18 @@ const competitions = {
                 </li>
               </ol>
             </div>
+          </div>
+        </Tab>
+        <Tab eventKey="three" title="Topics">
+          <div className="tabContent">
+            <h3 style={{"margin-bottom" : ".6em"}}>2020 MIST Quiz Bowl Topics</h3>
+            <ol>
+              <li><p><a href="/s/MIST-Bowl-Topic-I.pdf">Topic I: Predicting &amp; Preventing Islamophobia</a> with <a href="https://www.ispu.org/"><span>ISPU</span></a></p></li>
+              <li><p ><a href="/s/MIST-Bowl-Topic-II.pdf" target="_blank">Topic II: The Firsts, the Forerunners of Islam</a> with <a href="https://yaqeeninstitute.org/"><span>Yaqeen Institute</span></a></p></li>
+              <li><p ><a href="/s/MIST-Bowl-Topic-III.pdf" target="_blank">Topic III: Black Muslim History Foundations</a> with <a href="https://yaqeeninstitute.org/"><span>Yaqeen Institute</span></a></p></li>
+              <li><p ><a href="/s/MIST-Bowl-Topic-IV.pdf">Topic IV: Muslim Youth &amp; Mental Health</a></p></li><li><p ><a href="/s/MIST-Bowl-Topic-V.pdf">Topic V: The Rise of the Far Right</a></p></li>
+              <li><p>Topic VI: Current Events (Starting January 1st, 2020)</p></li>
+            </ol>
           </div>
         </Tab>
       </Tabs>

@@ -8,7 +8,6 @@ import './SponsorPage.css';
 class SponsorPage extends React.Component {
 
   render() {
-    const yaqeenlogo = require("../../public/yaqeen-logo.png");
     const cairlogo = require("../../public/cair-logo.jpg");
     const irlogo = require("../../public/ir-logo.png");
     const mpaclogo = require("../../public/mpac-logo.png");
@@ -57,16 +56,11 @@ class SponsorPage extends React.Component {
           </Row>
           <Row className="justify-content-md-center">
             <Col md={2} className="logoHolder">
-              <img alt="Yaqeen Logo" src={yaqeenlogo} height="50px" />
-            </Col>
-            <Col md={2} className="logoHolder">
               <img alt="Cair LA Logo" src={cairlogo} height="50px" />
             </Col>
             <Col md={2} className="logoHolder">
               <img alt="Islamic Relief Logo" src={irlogo} height="50px" />
             </Col>
-          {/* </Row>
-          <Row className="justify-content-sm-center"> */}
             <Col md={2} className="logoHolder">
               <img alt="MPAC Logo" src={mpaclogo} height="50px" />
             </Col>
