@@ -5,7 +5,7 @@ class PageTitle extends React.Component {
   render() {
     return (
       <div className="pageTitle">
-        <h1>{this.props.pageTitle}</h1>
+        <h1 className = "titleText">{this.props.pageTitle}</h1>
       </div>
     )
   }

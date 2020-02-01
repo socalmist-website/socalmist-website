@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+
 .pageTitle {
     text-align: center;
     padding-top: 1.7em;
     padding-bottom: 1.7em;
-    background-color: #d9c216;
+    background-color: #f5c809;
+    
+}
+
+.titleText {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 5em;
 }

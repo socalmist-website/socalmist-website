@@ -80,12 +80,21 @@
   margin-top: 1.5em;
 }
 
+.container-fluid {
+  display: grid;
+  grid-template-columns: repeat(6, autofill);
+  grid-template-rows: repeat(2, autofill);
+}
+
 .buttonRow {
   margin-top: 3.5em;
 }
 
+
 .buttonDiv {
-  position: relative;
+  justify-content: center;
+  align-items: center;
+  /*position: relative;*/
   font-size: 1.6em;
   border:.7em #f5c809 double;
   background-color:#f5c809;
@@ -99,12 +108,16 @@
 }
 
 .borderBox {
+  display: flex;
   border: 3px solid #f5c809;
   position: absolute;
+  right: 2.0em;
   width: 78%;
-  height: 110%;
-  bottom: 0.4em;
+  height: 120%;
+  top: 0.1em;
+  bottom: 0.1em;
   z-index: 1;
+  box-shadow: 3px 4px #ca6946;
 }
 
 .buttonLink {

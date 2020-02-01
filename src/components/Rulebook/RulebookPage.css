@@ -1,18 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
 .bannerHolder {
   margin-top: 2em;
 }
 
 #rulebookButton {
+  color: black;
   margin-top: 2em;
   font-size: 1.4em;
   padding-left: 0.8em;
   padding-right: 0.8em;
   padding-top: 0.4em;
   padding-bottom: 0.4em;
-  background-color: #d9c216;
-  border-color: #d9c216;
+  border:.7em #f5c809 double;
+  background-color:#f5c809;
+  box-shadow: 3px 4px #ca6946;
+  border-radius: 0em;
+  font-family: 'Montserrat', sans-serif;
+
 }
 
 #rulebookButton:hover {
-  background-color: #b5a214;
+  color: white;
+  transition:.5s;
+  border-color: #ca6946;
+  background-color: #ca6946;
+  box-shadow: 3px 5px #f5c809;
 }

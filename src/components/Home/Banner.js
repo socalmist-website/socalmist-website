@@ -19,37 +19,36 @@ class Banner extends Component {
       <Container fluid={true}>
           <Row className="justify-content-sm-center buttonRow">
             <Col lg={3} style={{'text-align':'center'}}>
-            
-           
-              <a className="buttonLink" target="_blank" rel="noopener noreferrer" href="https://my.getmistified.com">
-              <div className = 'borderBox'> </div>
-
+            <a className="buttonLink" target="_blank" rel="noopener noreferrer" href="https://my.getmistified.com">
+              {/* <div className = 'borderBox'> </div> */}
                   <div className='buttonDiv'>
                   
-                    <span className='buttonText'>Register</span>
+                    <span className='buttonText'><b>Register</b></span>
                     
-             
-                  </div>
+                    </div>
+                  
               </a>
               
                 
             </Col>
             <Col lg={3} style={{'text-align':'center'}}>
               <a className="buttonLink" target="_blank" rel="noopener noreferrer" href="https://www.getmistified.com/news/2020/1/13/2020-competitions-rulebook">
-              <div className = 'borderBox'> </div>
+              {/* <div className = 'borderBox'> </div> */}
                
                 <div className='buttonDiv'>
-                <span className='buttonText'>2020 Rulebook</span>
+                <span className='buttonText'><b>2020 Rulebook</b></span>
+
+                
                 </div>
               </a>
               
             </Col>
             <Col lg={3} className="centerAlign">
               <a className="buttonLink" href="https://socalmist.com/8th-grade" target="_blank" rel="noopener noreferrer">
-              <div className = 'borderBox'> </div>
+              {/* <div className = 'borderBox'> </div> */}
                
                 <div className='buttonDiv'>
-                  <span className='buttonText'>8th Grade App</span>
+                  <span className='buttonText'><b>8th Grade App</b></span>
                 </div>
               </a>
             </Col>
@@ -57,30 +56,30 @@ class Banner extends Component {
           <Row className="justify-content-sm-center buttonRow">
             <Col lg={3} className="centerAlign">
               <a className="buttonLink" href="https://socalmist.com/judge" target="_blank" rel="noopener noreferrer">
-              <div className = 'borderBox'> </div>
+              {/* <div className = 'borderBox'> </div> */}
                
                 <div className='buttonDiv'>
-                  <span className='buttonText'>Judge</span>
+                  <span className='buttonText'><b>Judge</b></span>
                 </div>
               </a>
               
             </Col>
             <Col lg={3} className="centerAlign">
               <a className="buttonLink" target="_blank" rel="noopener noreferrer" href="https://socalmist.com/volunteer">
-              <div className = 'borderBox'> </div>
+              {/* <div className = 'borderBox'> </div> */}
                
                 <div className='buttonDiv'>
-                <span className='buttonText'>Volunteer</span>
+                <span className='buttonText'><b>Volunteer</b></span>
                 </div>
               </a>
               
             </Col>
             <Col lg={3} className="centerAlign">
               <a className="buttonLink" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/1M7iyi4tL9WI4nfo7mC4ZKYmKxrDsjpGnwyglmcKxf3I/edit?fbclid=IwAR1UCVIzu67NRl3q1DWIgLXCM3lEnK1K8f2y30mxPHydgW1lq3bXUkdPwNc">
-              <div className = 'borderBox'> </div>
+              {/* <div className = 'borderBox'> </div> */}
                
                 <div className='buttonDiv'>
-                <span className='buttonText'>Join Our Mailing List!</span>
+                <span className='buttonText'><b>Join Our Mailing List!</b></span>
                 </div>
               </a>
             </Col>
