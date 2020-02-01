@@ -24,7 +24,8 @@ class YoutubeHolder extends Component {
 
     return (
       <div className="videoHolder">
-        <h1 className="numbersTitle">MIST 2019 Highlights</h1>
+        <h1 className="numbersTitle">MIST 2019 </h1>
+        <h1 className = "numbersSubTitle"><b>HIGHLIGHTS</b></h1>
         <Youtube videoId="CnjbiC76ltY" opts={opts} />
       </div>
     );

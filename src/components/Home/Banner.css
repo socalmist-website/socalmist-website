@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300|Open+Sans|Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 #backgroundPicture {
   background: url("../../public/background.jpg") no-repeat center center fixed;
@@ -22,8 +24,8 @@
 
 .bannerText {
   color: white;
-  font-size: 3.7em;
-  font-family: 'Montserrat', sans-serif;
+  font-size: 7.7em;
+  font-family: 'Bebas Neue', cursive;
 }
 
 .bannerSubHeader {
@@ -83,15 +85,26 @@
 }
 
 .buttonDiv {
-  background-clip:content-box;
-  font-size: 1.5em;
+  position: relative;
+  font-size: 1.6em;
   border:.7em #f5c809 double;
   background-color:#f5c809;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   transition:.5s;
   height: 100%;
-  width: 100%;
+  width: 80%;
   display: table;
+  z-index: 2;
+  box-shadow: 3px 4px #ca6946;
+}
+
+.borderBox {
+  border: 3px solid #f5c809;
+  position: absolute;
+  width: 78%;
+  height: 110%;
+  bottom: 0.4em;
+  z-index: 1;
 }
 
 .buttonLink {
@@ -102,10 +115,12 @@
   transition:.5s;
   border-color: #ca6946;
   background-color: #ca6946;
+  box-shadow: 3px 5px #f5c809;
+
 }
 
 .buttonLink:hover {
-  color: black;
+  color: white;
   text-decoration: white;
 }
 
