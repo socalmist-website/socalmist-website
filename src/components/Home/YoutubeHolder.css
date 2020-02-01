@@ -1,6 +1,13 @@
+.numbersTitle {
+  padding-bottom: 0.0em;
+}
 
+.numbersSubTitle {
+  padding-bottom: 1em;
+  
+}
 
 .videoHolder {
   text-align: center;
-  padding-bottom: 2em;
+  padding-bottom: 1em;
 }

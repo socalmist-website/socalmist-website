@@ -60,7 +60,7 @@ class Numbers extends Component {
         <Row className="justify-content-sm-center">
           <Col sm={6} className="centerAlign">
             <h1 className="numbersTitle">MIST 2019</h1>
-            <h2 className = "numbersSubTitle">BY THE NUMBERS</h2>
+            <h2 className = "numbersSubTitle"><b>BY THE NUMBERS</b></h2>
           </Col>
         </Row>
         <Row className="justify-content-md-center">
@@ -68,34 +68,34 @@ class Numbers extends Component {
             <div>
               <h1 className="numberText">{( Math.round((this.state.count / 100) * this.students)) }</h1>
               
-                  <h4><b>Students</b></h4>
-                  <h4><b>Registered</b></h4>
+                  <h4>STUDENTS</h4>
+                  <h4>REGISTERED</h4>
               
             </div>
           </Col>
           <Col lg={2} md={3} className="centerAlign">
             <div>
               <h1 className="numberText">{( Math.round((this.state.count / 100) * this.schools)) }</h1>
-              <h4><b>Schools</b></h4>
-              <h4><b>Participated</b></h4>
+              <h4>SCHOOLS</h4>
+              <h4>PARTICIPATED</h4>
             </div>
           </Col>
           <Col lg={2} md={3} className="centerAlign">
             <div>
               <h1 className="numberText">{( Math.round((this.state.count / 100) * this.prizes)) }</h1>
-              <h4><b>Sponsors</b></h4>
+              <h4>SPONSORS</h4>
             </div>
           </Col>
           <Col lg={2} md={3} className="centerAlign">
             <div>
               <h1 className="numberText">{( Math.round((this.state.count / 100) * this.judges)) }</h1>
-              <h4><b>Judges</b></h4>
+              <h4>JUDGES</h4>
             </div>
           </Col>
           <Col lg={2} md={3} className="centerAlign">
             <div>
               <h1 className="numberText">{( Math.round((this.state.count / 100) * this.volunteers)) }</h1>
-              <h4><b>Volunteers</b></h4>
+              <h4>VOLUNTEERS</h4>
             </div>
           </Col>
         </Row>
