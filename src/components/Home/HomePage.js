@@ -20,7 +20,7 @@ class HomePage extends React.Component {
         <Container>
           <Row className="justify-content-sm-center">
             <Col sm={4} className="centerAlign">
-              <h4>Proudly Sponsored By:</h4>
+              <h4>PROUDLY SPONSORED BY:</h4>
             </Col>            
           </Row>
           <Row className="justify-content-sm-center">
