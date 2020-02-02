@@ -1928,10 +1928,11 @@ const competitions = {
           <div className="tabContent">
             <h3 style={{"margin-bottom" : ".6em"}}>2020 MIST Quiz Bowl Topics</h3>
             <ol>
-              <li><p><a href="/s/MIST-Bowl-Topic-I.pdf">Topic I: Predicting &amp; Preventing Islamophobia</a> with <a href="https://www.ispu.org/"><span>ISPU</span></a></p></li>
-              <li><p ><a href="/s/MIST-Bowl-Topic-II.pdf" target="_blank">Topic II: The Firsts, the Forerunners of Islam</a> with <a href="https://yaqeeninstitute.org/"><span>Yaqeen Institute</span></a></p></li>
-              <li><p ><a href="/s/MIST-Bowl-Topic-III.pdf" target="_blank">Topic III: Black Muslim History Foundations</a> with <a href="https://yaqeeninstitute.org/"><span>Yaqeen Institute</span></a></p></li>
-              <li><p ><a href="/s/MIST-Bowl-Topic-IV.pdf">Topic IV: Muslim Youth &amp; Mental Health</a></p></li><li><p ><a href="/s/MIST-Bowl-Topic-V.pdf">Topic V: The Rise of the Far Right</a></p></li>
+              <li><p><a target="_blank" rel="noopener noreferrer" href="https://static1.squarespace.com/static/5610f7bce4b033aa91249ccd/t/5e1cfdece3d43f03ae8f73b0/1578958320411/MIST+Bowl+Topic+I.pdf">Topic I: Predicting &amp; Preventing Islamophobia</a> with <a href="https://www.ispu.org/"><span>ISPU</span></a></p></li>
+              <li><p ><a rel="noopener noreferrer" href="https://static1.squarespace.com/static/5610f7bce4b033aa91249ccd/t/5e1f2c1bf7c6f25343ba7023/1579101212743/MIST+Bowl+Topic+II.pdf" target="_blank">Topic II: The Firsts, the Forerunners of Islam</a> with <a href="https://yaqeeninstitute.org/"><span>Yaqeen Institute</span></a></p></li>
+              <li><p ><a rel="noopener noreferrer" href="https://static1.squarespace.com/static/5610f7bce4b033aa91249ccd/t/5e1f692a8be38876070abf69/1579116844183/MIST+Bowl+Topic+III.pdf" target="_blank">Topic III: Black Muslim History Foundations</a> with <a href="https://yaqeeninstitute.org/"><span>Yaqeen Institute</span></a></p></li>
+              <li><p ><a target="_blank" rel="noopener noreferrer" href="https://static1.squarespace.com/static/5610f7bce4b033aa91249ccd/t/5e1f2cdc87f6675d68995ed5/1579101413147/MIST+Bowl+Topic+IV.pdf">Topic IV: Muslim Youth &amp; Mental Health</a></p></li>
+              <li><p ><a target="_blank" rel="noopener noreferrer" href="https://static1.squarespace.com/static/5610f7bce4b033aa91249ccd/t/5e1f2d6e24911f3b79a726f8/1579101551572/MIST+Bowl+Topic+V.pdf">Topic V: The Rise of the Far Right</a></p></li>
               <li><p>Topic VI: Current Events (Starting January 1st, 2020)</p></li>
             </ol>
           </div>
