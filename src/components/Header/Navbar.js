@@ -58,6 +58,9 @@ class Header extends React.Component {
           <NavDropdown.Item href="/8th-grade">
             8th Grade Application
           </NavDropdown.Item>
+          <NavDropdown.Item href="/financial-aid">
+            Financial Aid Application
+          </NavDropdown.Item>
         </NavDropdown>
         <NavDropdown title="Competitions">
           <NavDropdown.Item href="/rulebook">
