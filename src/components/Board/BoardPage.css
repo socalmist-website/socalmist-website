@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+
+img {
+    position: relative;
+}
+
+.boardMemName {
+    padding-top: 0.2em;
+    text-align: center;
+    word-wrap: break-word;
+
+    
+}
+
+.boardPos {
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Bebas Neue', cursive;
+    word-wrap: break-word;
+
+}
+
+.caption {
+    width: 90%;
+    text-align: center;
+    position: relative;
+    height: 90%;
+    word-wrap: break-word;
+    display: block;
+    padding-top: 1em;
+
+}
+
