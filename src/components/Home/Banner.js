@@ -75,11 +75,11 @@ class Banner extends Component {
               
             </Col>
             <Col lg={3} className="centerAlign">
-              <a className="buttonLink" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/1M7iyi4tL9WI4nfo7mC4ZKYmKxrDsjpGnwyglmcKxf3I/edit?fbclid=IwAR1UCVIzu67NRl3q1DWIgLXCM3lEnK1K8f2y30mxPHydgW1lq3bXUkdPwNc">
+              <a className="buttonLink" target="_blank" rel="noopener noreferrer" href="http://localhost:3000/financial-aid">
               {/* <div className = 'borderBox'> </div> */}
                
                 <div className='buttonDiv'>
-                <span className='buttonText'><b>Join Our Mailing List!</b></span>
+                <span className='buttonText'><b>Financial Aid App</b></span>
                 </div>
               </a>
             </Col>

@@ -10,6 +10,7 @@ class RegisterPage extends React.Component {
   };
   render() {
     const image = require("../../public/early-bird-banner.png")
+    const pdf = require("../../public/registration.pdf")
     return (
       <div>
         <Header />
@@ -23,6 +24,11 @@ class RegisterPage extends React.Component {
           <Row className="justify-content-sm-center">
             <Col sm={6} className="registerButtonHolder">
               <Button id="registerButton" variant="primary" href="https://my.getmistified.com" target="_blank">Register</Button>
+            </Col>
+          </Row>
+          <Row style={{"margin-top":"3em", "margin-bottom":"3em"}} className="justify-content-sm-center">
+            <Col sm={8}>
+              <iframe title="registrationPdf" src={pdf} width="100%" height="950"></iframe>
             </Col>
           </Row>
         </Container>
