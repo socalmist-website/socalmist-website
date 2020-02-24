@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Header } from "../Header/Navbar";
 import { PageTitle } from "../Header/PageTitle";
-//import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 
 class EarlySubmissionsPage extends Component {
   styles = {
@@ -12,9 +12,13 @@ class EarlySubmissionsPage extends Component {
       <div>
         <Header />
         <PageTitle pageTitle="Early Submissions" />
-        <div className="titleHolder">
-          <h2>We are not accepting early submissions at this time</h2>
-        </div>
+        <Container id="ambassadorsContainer">
+          <Row className="justify-content-sm-center">
+            <Col className="sponsorFormHolder">
+              <iframe id="JotFormIFrame-83138061192150" title="MIST 2020 Early Submissions" src="https://form.jotform.com/83138061192150" frameborder="0" style={{"width":"100%","height":"1100px"}}> </iframe>
+            </Col>
+          </Row>
+        </Container>
         {/* <Container id="submissionsContainer">
           <Row className="justify-content-sm-center"></Row>
           <Row className="justify-content-sm-center">
