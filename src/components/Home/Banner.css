@@ -34,11 +34,12 @@
   font-size: 5em;
   font-family: 'Bebas Neue', cursive;
   margin-bottom: 0em;
-  transition:.5s;
+  transition:.2s;
+  text-decoration: underline;
 }
 
 .bannerSubText:hover {
-  text-decoration: none;
+  text-decoration: underline;
   color: darkred;
 }
 
@@ -52,11 +53,12 @@
   color: red;
   font-size: 4em;
   font-family: 'Bebas Neue', cursive;
-  transition:.5s;
+  transition:.2s;
+  text-decoration: underline;
 }
 
 .bannerSubTextSmall:hover {
-  text-decoration: none;
+  text-decoration: underline;
   color: darkred;
 }
 

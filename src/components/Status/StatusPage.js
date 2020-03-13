@@ -1,7 +1,6 @@
 import React from 'react';
 import { Header } from '../Header/Navbar';
 import { PageTitle } from '../Header/PageTitle';
-import { PageSubTitle } from '../Header/PageSubTitle';
 import { Container, Row, Col } from 'react-bootstrap';
 import './StatusPage.css';
 
