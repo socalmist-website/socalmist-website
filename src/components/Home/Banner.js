@@ -99,6 +99,7 @@ class Banner extends Component {
     let mainTitle = (
       <div className="bannerInfoHolder">
         <h1 className="bannerText">SoCal MIST 2020</h1>
+        <a target="_blank" rel="noopener noreferrer" className="noDecorationHover" href="https://socalmist.com/status"><h1 className="bannerSubText">POSTPONED DUE TO COVID-19</h1></a>
       </div>
     );
 
@@ -125,13 +126,14 @@ class Banner extends Component {
       );
       buttons = (
         <div className="bannerSubInfoHolder">
-          <h2 className="bannerSubHeader">Early Bird Registration is Now Open!</h2>
+          <h2 className="bannerSubHeader">Registration is Now Open!</h2>
           <Button style={{ "font-size": "1.5em" }} variant="light" href="https://my.getmistified.com" target="_blank">Register</Button>
         </div>
       );
       mainTitle = (
         <div className="bannerInfoHolder">
           <h1 className="bannerTextSmall">SoCal MIST 2020</h1>
+          <a target="_blank" rel="noopener noreferrer" className="noDecorationHover" href="https://socalmist.com/status"><h1 className="bannerSubTextSmall">POSTPONED DUE TO COVID-19</h1></a>
         </div>
       );
     }

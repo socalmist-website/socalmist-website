@@ -13,25 +13,55 @@
 }
 
 .bannerInfoHolder {
-  padding-top: 2em;
+  padding-top: 0.5em;
   text-align: center;
 }
 
 .bannerSubInfoHolder {
-  padding-top: 2em;
+  padding-top: 1em;
   text-align: center;
 }
 
 .bannerText {
   color: white;
-  font-size: 7em;
+  font-size: 6.5em;
   font-family: 'Bebas Neue', cursive;
+  margin-bottom: 0em;
+}
+
+.bannerSubText {
+  color: red;
+  font-size: 5em;
+  font-family: 'Bebas Neue', cursive;
+  margin-bottom: 0em;
+  transition:.5s;
+}
+
+.bannerSubText:hover {
+  text-decoration: none;
+  color: darkred;
 }
 
 .bannerTextSmall {
   color: white;
   font-size: 5em;
   font-family: 'Bebas Neue', cursive;
+}
+
+.bannerSubTextSmall {
+  color: red;
+  font-size: 4em;
+  font-family: 'Bebas Neue', cursive;
+  transition:.5s;
+}
+
+.bannerSubTextSmall:hover {
+  text-decoration: none;
+  color: darkred;
+}
+
+.noDecorationHover {
+  text-decoration: none !important; 
 }
 
 .bannerSubHeader {

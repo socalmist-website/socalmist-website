@@ -17,6 +17,7 @@ import { EarlySubmissionsPage } from './components/EarlySubmissions/EarlySubmiss
 import { RulebookPage } from './components/Rulebook/RulebookPage'
 import { EighthGradeApp } from './components/EighthGradeApp/EighthGradeApp'
 import { FinancialAidPage } from './components/FinancialAidPage/FinancialAidPage'
+import { StatusPage } from './components/Status/StatusPage'
 import { Route, Switch, Redirect } from 'react-router-dom';
 
 const App = () => (
@@ -39,6 +40,7 @@ const App = () => (
     <Route path="/rulebook" component={ RulebookPage } />
     <Route path="/8th-grade" component={ EighthGradeApp } />
     <Route path="/financial-aid" component={ FinancialAidPage } />
+    <Route path="/status" component={ StatusPage } />
 
     <Redirect to="/" />
   </Switch>
