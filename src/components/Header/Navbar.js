@@ -51,17 +51,7 @@ class Header extends React.Component {
             Meet the Board
           </NavDropdown.Item>
         </NavDropdown>
-        <NavDropdown title="Registration">
-          <NavDropdown.Item href="/register">
-            Register
-          </NavDropdown.Item>
-          <NavDropdown.Item href="/8th-grade">
-            8th Grade Application
-          </NavDropdown.Item>
-          <NavDropdown.Item href="/financial-aid">
-            Financial Aid Application
-          </NavDropdown.Item>
-        </NavDropdown>
+        <Nav.Link href="/register">Register</Nav.Link>
         <NavDropdown title="Competitions">
           <NavDropdown.Item href="/rulebook">
             Rulebook
@@ -181,9 +171,9 @@ class Header extends React.Component {
           <NavDropdown.Item href="/judge">
             Judge
           </NavDropdown.Item>
-          <NavDropdown.Item href="/volunteer">
+          {/* <NavDropdown.Item href="/volunteer">
             Volunteer
-          </NavDropdown.Item>
+          </NavDropdown.Item> */}
           <NavDropdown.Item href="/ambassadors">
             MIST Ambassadors
           </NavDropdown.Item>

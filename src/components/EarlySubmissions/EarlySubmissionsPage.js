@@ -12,13 +12,16 @@ class EarlySubmissionsPage extends Component {
       <div>
         <Header />
         <PageTitle pageTitle="Early Submissions" />
-        <Container id="ambassadorsContainer">
+        <div className="titleHolder">
+          <h2>Early submissions opening soon!</h2>
+        </div>
+        {/* <Container id="ambassadorsContainer">
           <Row className="justify-content-sm-center">
             <Col className="sponsorFormHolder">
               <iframe id="JotFormIFrame-83138061192150" title="MIST 2020 Early Submissions" src="https://form.jotform.com/83138061192150" frameborder="0" style={{"width":"100%","height":"1100px"}}> </iframe>
             </Col>
           </Row>
-        </Container>
+        </Container> */}
         {/* <Container id="submissionsContainer">
           <Row className="justify-content-sm-center"></Row>
           <Row className="justify-content-sm-center">

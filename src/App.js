@@ -12,24 +12,24 @@ import { DonatePage } from './components/Donate/DonatePage';
 import { BoardPage } from './components/Board/BoardPage';
 import { AmbassadorsPage } from './components/Ambassadors/AmbassadorsPage';
 import { JudgePage } from './components/Judge/JudgePage';
-import { VolunteerPage } from './components/Volunteer/VolunteerPage';
+// import { VolunteerPage } from './components/Volunteer/VolunteerPage';
 import { EarlySubmissionsPage } from './components/EarlySubmissions/EarlySubmissionsPage'
 import { RulebookPage } from './components/Rulebook/RulebookPage'
 import { EighthGradeApp } from './components/EighthGradeApp/EighthGradeApp'
-import { FinancialAidPage } from './components/FinancialAidPage/FinancialAidPage'
-import { StatusPage } from './components/Status/StatusPage'
+// import { FinancialAidPage } from './components/FinancialAidPage/FinancialAidPage'
+// import { StatusPage } from './components/Status/StatusPage'
 import { Route, Switch, Redirect } from 'react-router-dom';
 
 const App = () => (
   <Switch>
     <Route exact path="/" component={ HomePage } />
-    <Route path="/admin" component={ AdminPage } />
+    {/* <Route path="/admin" component={ AdminPage } /> */}
     <Route path="/about" component={ AboutPage } />
     <Route path="/board" component={ BoardPage } />
     <Route path="/theme" component={ ThemePage } />
     <Route path="/schedule" component={ SchedulePage } />
     <Route path="/judge" component={ JudgePage } />
-    <Route path="/volunteer" component={ VolunteerPage } />
+    {/* <Route path="/volunteer" component={ VolunteerPage } /> */}
     <Route path="/ambassadors" component={ AmbassadorsPage } />
     <Route path="/contact" component={ ContactPage } />
     <Route path="/register" component={ RegisterPage } />
@@ -39,8 +39,8 @@ const App = () => (
     <Route path="/earlySubmissions" component={ EarlySubmissionsPage } />
     <Route path="/rulebook" component={ RulebookPage } />
     <Route path="/8th-grade" component={ EighthGradeApp } />
-    <Route path="/financial-aid" component={ FinancialAidPage } />
-    <Route path="/status" component={ StatusPage } />
+    {/* <Route path="/financial-aid" component={ FinancialAidPage } />
+    <Route path="/status" component={ StatusPage } /> */}
 
     <Redirect to="/" />
   </Switch>

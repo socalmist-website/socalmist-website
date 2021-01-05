@@ -44,8 +44,10 @@ class BoardPage extends React.Component {
       <div>
         <Header />
         <PageTitle pageTitle="Meet the Board" />
-
-        <Container style={{ "margin-top": "3em" }}>
+        <div className="titleHolder">
+          <h2>Board page coming soon!</h2>
+        </div>
+        {/* <Container style={{ "margin-top": "3em" }}>
           <Row className="justify-content-sm-center">
             <Col lg={4} style={{ 'text-align': 'center', "margin-top": "2em" }}>
               <img alt="img" className = "top2" src={maria_director} height="250px"></img>
@@ -260,7 +262,7 @@ class BoardPage extends React.Component {
             
             
           </Row>
-        </Container>
+        </Container> */}
 
 
       </div>

@@ -19,60 +19,46 @@ class Banner extends Component {
       <Container fluid={true}>
         <Row className="justify-content-sm-center buttonRow">
           <Col lg={3} style={{ 'text-align': 'center' }}>
-            <a className="buttonLink" target="_blank" rel="noopener noreferrer" href="https://my.getmistified.com">
-              {/* <div className = 'borderBox'> </div> */}
+            <a className="buttonLink" target="_blank" rel="noopener noreferrer" href="https://www.getmistified.com/">
               <div className='buttonDiv'>
                 <span className='buttonText'><b>Register</b></span>
               </div>
             </a>
-
-
           </Col>
           <Col lg={3} style={{ 'text-align': 'center' }}>
             <a className="buttonLink" target="_blank" rel="noopener noreferrer" href="https://www.getmistified.com/news/2020/1/13/2020-competitions-rulebook">
-              {/* <div className = 'borderBox'> </div> */}
               <div className='buttonDiv'>
-                <span className='buttonText'><b>2020 Rulebook</b></span>
+                <span className='buttonText'><b>2021 Rulebook</b></span>
               </div>
             </a>
-
           </Col>
           <Col lg={3} className="centerAlign">
-            <a className="buttonLink" href="https://socalmist.com/earlySubmissions" target="_blank" rel="noopener noreferrer">
-              {/* <div className = 'borderBox'> </div> */}
+            <a className="buttonLink" href="/theme" target="_blank" rel="noopener noreferrer">
               <div className='buttonDiv'>
-                <span className='buttonText'><b>Early Submissions</b></span>
+                <span className='buttonText'><b>Theme</b></span>
               </div>
             </a>
           </Col>
         </Row>
         <Row className="justify-content-sm-center buttonRow">
           <Col lg={3} className="centerAlign">
-            <a className="buttonLink" href="https://socalmist.com/judge" target="_blank" rel="noopener noreferrer">
-              {/* <div className = 'borderBox'> </div> */}
-
+            <a className="buttonLink" href="/earlySubmissions" target="_blank" rel="noopener noreferrer">
+              <div className='buttonDiv'>
+                <span className='buttonText'><b>Early Submissions</b></span>
+              </div>
+            </a>
+          </Col>
+          <Col lg={3} className="centerAlign">
+            <a className="buttonLink" href="/judge" target="_blank" rel="noopener noreferrer">
               <div className='buttonDiv'>
                 <span className='buttonText'><b>Judge</b></span>
               </div>
             </a>
-
           </Col>
           <Col lg={3} className="centerAlign">
-            <a className="buttonLink" target="_blank" rel="noopener noreferrer" href="https://socalmist.com/volunteer">
-              {/* <div className = 'borderBox'> </div> */}
-
+            <a className="buttonLink" target="_blank" rel="noopener noreferrer" href="/donate">
               <div className='buttonDiv'>
-                <span className='buttonText'><b>Volunteer</b></span>
-              </div>
-            </a>
-
-          </Col>
-          <Col lg={3} className="centerAlign">
-            <a className="buttonLink" target="_blank" rel="noopener noreferrer" href="http://localhost:3000/financial-aid">
-              {/* <div className = 'borderBox'> </div> */}
-
-              <div className='buttonDiv'>
-                <span className='buttonText'><b>Financial Aid App</b></span>
+                <span className='buttonText'><b>Donate</b></span>
               </div>
             </a>
           </Col>
@@ -98,8 +84,7 @@ class Banner extends Component {
     );
     let mainTitle = (
       <div className="bannerInfoHolder">
-        <h1 className="bannerText">SoCal MIST 2020</h1>
-        <a target="_blank" rel="noopener noreferrer" className="noDecorationHover" href="https://socalmist.com/status"><h1 className="bannerSubText">POSTPONED DUE TO COVID-19</h1></a>
+        <h1 className="bannerText">SoCal MIST 2021</h1>
       </div>
     );
 
@@ -127,13 +112,12 @@ class Banner extends Component {
       buttons = (
         <div className="bannerSubInfoHolder">
           <h2 className="bannerSubHeader">Registration is Now Open!</h2>
-          <Button style={{ "font-size": "1.5em" }} variant="light" href="https://my.getmistified.com" target="_blank">Register</Button>
+          <Button style={{ "font-size": "1.5em" }} variant="light" href="https://www.getmistified.com/" target="_blank">Register</Button>
         </div>
       );
       mainTitle = (
         <div className="bannerInfoHolder">
-          <h1 className="bannerTextSmall">SoCal MIST 2020</h1>
-          <a target="_blank" rel="noopener noreferrer" className="noDecorationHover" href="https://socalmist.com/status"><h1 className="bannerSubTextSmall">POSTPONED DUE TO COVID-19</h1></a>
+          <h1 className="bannerTextSmall">SoCal MIST 2021</h1>
         </div>
       );
     }

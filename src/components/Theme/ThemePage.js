@@ -6,7 +6,7 @@ import {Container, Row, Col, Image} from 'react-bootstrap';
 class ThemePage extends React.Component {
 
   render() {
-    const image = require("../../public/mist-theme-2020.png");
+    const image = require("../../public/mist-theme-2021.png");
     return (
       <div>
         <Header />
@@ -19,15 +19,16 @@ class ThemePage extends React.Component {
           </Row>
           <Row className="justify-content-sm-center">
             <Col sm={10} style={{"text-align":"center", "margin-top":"1.2em"}}>
-              <h5>Trusting the Process: Contentment Through Adversity </h5>
+              <h5>The Character of Community: Healing Together as One</h5>
             </Col>
           </Row>
           <Row className="justify-content-sm-center">
             <Col sm={8} style={{"margin-top":"1em"}}>
-             <p>As we pass through ever changing stages of our life (whether we are moving on from high school, moving to an unfamiliar place, or starting a new career path), we face an unknown future that may come with unsettling challenges. Greater hardships, like the passing of a loved one, can leave us confused, unstable, and hopeless. Through this adversity, it’s hard to refrain from asking, “Why am I going through this?” Being content when events don’t pan out the way that we planned becomes increasingly difficult as obstacles pile up on the path to our goals.</p>
-             <p>“…God will find a way out for those who are mindful of Him, and will provide for them from an unexpected source; God will be enough for those who put their trust in Him…” (Qur’an 65:2-3). This passage from the Qur’an shows us how to be optimistic - even when the odds are against us - through the Islamic concept of Tawakkul, which means, “To trust in God.” This trust stems from an understanding that God is in control of our lives and has a plan for us that will lead to what is most appropriate for our lives. This doesn’t mean we should stop trying to create positive change around us; a man came to the Prophet Muhammad, peace be upon him, and asked him if he should tie his camel, or simply trust in God. The Prophet Muhammad, peace be upon him, replied, “Tie her up and trust in God,” (Tirmidhi). Tawakkul gives us a methodology for dealing with challenges, finding our place in the cosmos, and attaining contentment without becoming complacent with our circumstances. It is similar to concepts in modern psychology that also teach us how to persevere through tough times. One such method is called radical acceptance, which posits that accepting the reality of adversity can be a healthy way to deal with our challenges. Although we may not be able to change the problems we face, we can alter our perception towards them.</p>
-             <p>When difficulties and uncertainties arrive in your life, how do you move forward and remain content? How do you support others who are facing their own challenges? How does Tawakkul - or your own view on destiny - inspire you to move beyond obstacles, reach your dreams, and find contentment in times of adversity? </p>
-             <p>We encourage you to creatively explore these concepts, and more, in Regional and National competitions and workshops during MIST 2020. Remember that unique projects displaying creativity and insight will be judged most favorably.</p>
+             <p>COVID-19 affected our lives in ways previously unimaginable. Throughout the turbulence of the past year, communities around the world have come together to assist those in need, highlight and fight injustice, and stand with frontline workers. Despite the mandated physical distance between us, our communities and social circles have often drawn closer in the face of profound tragedy.</p>
+             <p>Although our communities have rallied in some respects, we remain deeply divided in other ways. Racism, sectarianism, and elitism were rampant before the pandemic, and continue to be present. Arrogance, power-seeking, and a lack of compassion drive some of us away from communities where we once felt welcome. Crisis will often make existing divisions worse while reinforcing the importance of strong communities at the same time. The station of community bonds was emphasized by the Prophet Muhammad, peace be upon him, who is reported to have said: “Verily, the believers are like a structure, each part strengthening the other…” (Bukhari, Muslim).</p>
+             <p>The current situation where we find ourselves can take us down two paths, according to incoming Surgeon General Dr. Vivek Murthy: one leads to further isolation, loneliness, and their negative mental and physical effects, and the other is to “...use this moment to recenter our lives on people. And if we do that, then I believe we can come out of this pandemic more connected, more fulfilled and more resilient than before the pandemic began.”</p>
+             <p>What are some characteristics of strong and resilient communities? Do you feel included in your community? How do discrimination, racism, and bias affect communal bonds? How has the COVID-19 pandemic brought out the best in your community? Can we utilize our periods of solitude to better understand our social needs and responsibilities?</p>
+             <p>We encourage you to creatively explore these concepts and more in online Regional and National competitions and workshops during MIST 2021. Remember that unique projects displaying creativity and insight will be judged most favorably.</p>
             </Col>
           </Row>
         </Container>
