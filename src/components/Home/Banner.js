@@ -26,7 +26,7 @@ class Banner extends Component {
             </a>
           </Col>
           <Col lg={3} style={{ 'text-align': 'center' }}>
-            <a className="buttonLink" target="_blank" rel="noopener noreferrer" href="https://www.getmistified.com/news/2020/1/13/2020-competitions-rulebook">
+            <a className="buttonLink" target="_blank" rel="noopener noreferrer" href="https://www.getmistified.com/news/2021/1/6/2021-competitions-rulebook">
               <div className='buttonDiv'>
                 <span className='buttonText'><b>2021 Rulebook</b></span>
               </div>
