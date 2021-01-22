@@ -1,5 +1,4 @@
 import React from 'react';
-import { AdminPage } from './components/Admin/AdminPage';
 import { HomePage } from './components/Home/HomePage';
 import { ContactPage } from './components/Contact/ContactPage';
 import { AboutPage } from './components/About/AboutPage';
@@ -10,7 +9,7 @@ import { CompetitionPage } from './components/Competition/CompetitionPage';
 import { SponsorPage } from './components/Sponsor/SponsorPage';
 import { DonatePage } from './components/Donate/DonatePage';
 import { BoardPage } from './components/Board/BoardPage';
-import { AmbassadorsPage } from './components/Ambassadors/AmbassadorsPage';
+import { BoardApplicationPage } from './components/BoardApplication/BoardApplicationPage';
 import { JudgePage } from './components/Judge/JudgePage';
 // import { VolunteerPage } from './components/Volunteer/VolunteerPage';
 import { EarlySubmissionsPage } from './components/EarlySubmissions/EarlySubmissionsPage'
@@ -30,7 +29,7 @@ const App = () => (
     <Route path="/schedule" component={ SchedulePage } />
     <Route path="/judge" component={ JudgePage } />
     {/* <Route path="/volunteer" component={ VolunteerPage } /> */}
-    <Route path="/ambassadors" component={ AmbassadorsPage } />
+    <Route path="/boardApplication" component={ BoardApplicationPage } />
     <Route path="/contact" component={ ContactPage } />
     <Route path="/register" component={ RegisterPage } />
     <Route path="/competition" component={ CompetitionPage } />
