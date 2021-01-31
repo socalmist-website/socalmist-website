@@ -19,7 +19,7 @@ class Banner extends Component {
       <Container fluid={true}>
         <Row className="justify-content-sm-center buttonRow">
           <Col lg={3} style={{ 'text-align': 'center' }}>
-            <a className="buttonLink" target="_blank" rel="noopener noreferrer" href="https://www.getmistified.com/">
+            <a className="buttonLink" target="_blank" rel="noopener noreferrer" href="https://my.getmistified.com/">
               <div className='buttonDiv'>
                 <span className='buttonText'><b>Register</b></span>
               </div>
@@ -112,7 +112,7 @@ class Banner extends Component {
       buttons = (
         <div className="bannerSubInfoHolder">
           <h2 className="bannerSubHeader">Registration is Now Open!</h2>
-          <Button style={{ "font-size": "1.5em" }} variant="light" href="https://www.getmistified.com/" target="_blank">Register</Button>
+          <Button style={{ "font-size": "1.5em" }} variant="light" href="https://my.getmistified.com/" target="_blank">Register</Button>
         </div>
       );
       mainTitle = (
