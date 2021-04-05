@@ -1,13 +1,18 @@
 .numbersTitle {
-  padding-bottom: 0.0em;
+  padding-bottom: 0em;
 }
 
 .numbersSubTitle {
   padding-bottom: 1em;
-  
 }
 
 .videoHolder {
   text-align: center;
   padding-bottom: 1em;
+}
+
+.spiritPointsTitle {
+  padding-top: 0.5em;
+  font-size: 5em;
+  font-family: "Bebas Neue", cursive;
 }
