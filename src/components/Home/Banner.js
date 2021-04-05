@@ -72,7 +72,7 @@ class Banner extends Component {
             >
               <div className="buttonDiv">
                 <span className="buttonText">
-                  <b>2021 sWinners</b>
+                  <b>2021 Winners</b>
                 </span>
               </div>
             </a>
