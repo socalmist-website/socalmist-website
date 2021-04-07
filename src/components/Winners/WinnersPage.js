@@ -89,6 +89,7 @@ class WinnersPage extends React.Component {
                   Alyssa Betancourt (Arnold O. Beckman High School (Irvine, CA))
                 </li>
                 <li>Hafsa Chaudhry (Van Nuys High School)</li>
+                <li>Azam Modan (Tamalpais High School (Mill Valley, CA))</li>
               </ol>
               <h4>Category IV: Brackets</h4>
               <h5>Debate</h5>
