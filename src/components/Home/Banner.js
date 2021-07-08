@@ -20,6 +20,15 @@ class Banner extends Component {
       <Container fluid={true}>
         <Row className="justify-content-sm-center buttonRow">
           <Col lg={3} style={{ "text-align": "center" }}>
+            <a className="buttonLink" href="/about">
+              <div className="buttonDiv">
+                <span className="buttonText">
+                  <b>About MIST</b>
+                </span>
+              </div>
+            </a>
+          </Col>
+          <Col lg={3} style={{ "text-align": "center" }}>
             <a
               className="buttonLink"
               target="_blank"
@@ -33,27 +42,28 @@ class Banner extends Component {
               </div>
             </a>
           </Col>
-          <Col lg={3} style={{ "text-align": "center" }}>
-            <a
-              className="buttonLink"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://www.getmistified.com/news/2021/1/6/2021-competitions-rulebook"
-            >
+        </Row>
+        <Row className="justify-content-sm-center buttonRow">
+          {/* <Col lg={3} className="centerAlign">
+            <a className="buttonLink" href="/winners">
               <div className="buttonDiv">
                 <span className="buttonText">
-                  <b>2021 Rulebook</b>
+                  <b>2021 Winners</b>
                 </span>
               </div>
             </a>
-          </Col>
+          </Col> */}
+          {/* <Col lg={3} className="centerAlign">
+            <a className="buttonLink" href="/schedule">
+              <div className="buttonDiv">
+                <span className="buttonText">
+                  <b>Program</b>
+                </span>
+              </div>
+            </a>
+          </Col> */}
           <Col lg={3} className="centerAlign">
-            <a
-              className="buttonLink"
-              href="/theme"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a className="buttonLink" href="/theme">
               <div className="buttonDiv">
                 <span className="buttonText">
                   <b>Theme</b>
@@ -61,43 +71,8 @@ class Banner extends Component {
               </div>
             </a>
           </Col>
-        </Row>
-        <Row className="justify-content-sm-center buttonRow">
           <Col lg={3} className="centerAlign">
-            <a
-              className="buttonLink"
-              href="/winners"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div className="buttonDiv">
-                <span className="buttonText">
-                  <b>2021 Winners</b>
-                </span>
-              </div>
-            </a>
-          </Col>
-          <Col lg={3} className="centerAlign">
-            <a
-              className="buttonLink"
-              href="/schedule"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div className="buttonDiv">
-                <span className="buttonText">
-                  <b>Program</b>
-                </span>
-              </div>
-            </a>
-          </Col>
-          <Col lg={3} className="centerAlign">
-            <a
-              className="buttonLink"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="/donate"
-            >
+            <a className="buttonLink" href="/donate">
               <div className="buttonDiv">
                 <span className="buttonText">
                   <b>Donate</b>
@@ -158,7 +133,7 @@ class Banner extends Component {
     );
     let mainTitle = (
       <div className="bannerInfoHolder">
-        <h1 className="bannerText">SoCal MIST 2021</h1>
+        <h1 className="bannerText">SoCal MIST</h1>
       </div>
     );
 
@@ -228,7 +203,7 @@ class Banner extends Component {
       );
       mainTitle = (
         <div className="bannerInfoHolder">
-          <h1 className="bannerTextSmall">SoCal MIST 2021</h1>
+          <h1 className="bannerTextSmall">SoCal MIST</h1>
         </div>
       );
     }

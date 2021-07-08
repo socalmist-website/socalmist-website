@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import { Header } from "../Header/Navbar";
 import { PageTitle } from "../Header/PageTitle";
-import { Container, Row, Col } from "react-bootstrap";
+// import { Container, Row, Col } from "react-bootstrap";
 
 class EarlySubmissionsPage extends Component {
   styles = {
-    fontWeight: "bold"
+    fontWeight: "bold",
   };
   render() {
     return (

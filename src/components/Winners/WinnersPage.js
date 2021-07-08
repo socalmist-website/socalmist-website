@@ -10,7 +10,7 @@ class WinnersPage extends React.Component {
     return (
       <div>
         <Header />
-        <PageTitle pageTitle="MIST 2021 Winners" />
+        <PageTitle pageTitle="MIST Winners" />
         <PageSubTitle pageSubTitle="Here are the results for MIST 2021" />
         <Container>
           <Row className="justify-content-sm-center">
