@@ -175,31 +175,37 @@ class Banner extends Component {
                 />
               </a>
             </Col>
-            <Col xs={12} className="centerAlignIcons">
-              <Button
-                href="https://docs.google.com/forms/d/1M7iyi4tL9WI4nfo7mC4ZKYmKxrDsjpGnwyglmcKxf3I/edit?fbclid=IwAR1UCVIzu67NRl3q1DWIgLXCM3lEnK1K8f2y30mxPHydgW1lq3bXUkdPwNc"
-                target="_blank"
-                style={{ "font-size": "1.5em" }}
-                variant="light"
-              >
-                Join Our Mailing List!
-              </Button>
-            </Col>
           </Row>
         </Container>
       );
       buttons = (
-        <div className="bannerSubInfoHolder">
-          <h2 className="bannerSubHeader">Registration is Now Open!</h2>
-          <Button
-            style={{ "font-size": "1.5em" }}
-            variant="light"
-            href="https://my.getmistified.com/"
-            target="_blank"
-          >
-            Register
-          </Button>
-        </div>
+        <Container className="smallIconContainer">
+          <Row>
+            <Col xs={3} className="centerAlignIcons">
+            </Col>
+            <Col xs={7} className="centerAlignIcons">
+              <a className="buttonLink" href="/about">
+                <div className="buttonDiv">
+                  <span className="buttonText">
+                    <b>About MIST</b>
+                  </span>
+                </div>
+              </a>
+            </Col>
+            <Col xs={3} className="centerAlignIcons">
+            </Col>
+            <Col xs={7} className="centerAlignIcons">
+              <a className="buttonLink" href="https://docs.google.com/forms/d/1M7iyi4tL9WI4nfo7mC4ZKYmKxrDsjpGnwyglmcKxf3I/edit?fbclid=IwAR1UCVIzu67NRl3q1DWIgLXCM3lEnK1K8f2y30mxPHydgW1lq3bXUkdPwNc"
+                target="_blank" rel="noopener noreferrer">
+                <div className="buttonDiv">
+                  <span className="buttonText">
+                    <b>Mailing List</b>
+                  </span>
+                </div>
+              </a>
+            </Col>
+          </Row>
+        </Container>
       );
       mainTitle = (
         <div className="bannerInfoHolder">
