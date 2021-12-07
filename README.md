@@ -1,5 +1,9 @@
+### SOCAL MIST RUN BUILD AND DEPLOY
+
 npm start - local test
 npm run build && firebase deploy - deploy changes
+
+### EXTRA
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

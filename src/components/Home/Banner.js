@@ -97,14 +97,9 @@ class Banner extends Component {
               className="socialMediaIcon"
               url="https://www.instagram.com/socalmist/"
             />
-            <SocialIcon
-              target="_blank"
-              className="socialMediaIcon"
-              url="https://twitter.com/socalmist?lang=en"
-            />
           </Col>
           <Col sm={4} style={{ "text-align": "center" }}></Col>
-          <Col sm={4} className="rightIconBlock">
+          {/* <Col sm={4} className="rightIconBlock">
             <a
               target="_blank"
               rel="noopener noreferrer"
@@ -127,7 +122,7 @@ class Banner extends Component {
                 src={playstoreImage}
               />
             </a>
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     );
@@ -150,16 +145,8 @@ class Banner extends Component {
                 className="socialMediaIcon"
                 url="https://www.instagram.com/socalmist/"
               />
-              <SocialIcon
-                className="socialMediaIcon"
-                url="https://twitter.com/socalmist?lang=en"
-              />
-              <SocialIcon
-                className="socialMediaIcon"
-                url="https://www.instagram.com/socalmist/"
-              />
             </Col>
-            <Col xs={12} className="centerAlignIcons">
+            {/* <Col xs={12} className="centerAlignIcons">
               <a href="https://apps.apple.com/us/app/get-mistified/id1341732029">
                 <img
                   className="appImage"
@@ -174,15 +161,14 @@ class Banner extends Component {
                   src={playstoreImage}
                 />
               </a>
-            </Col>
+            </Col> */}
           </Row>
         </Container>
       );
       buttons = (
         <Container className="smallIconContainer">
           <Row>
-            <Col xs={3} className="centerAlignIcons">
-            </Col>
+            <Col xs={3} className="centerAlignIcons"></Col>
             <Col xs={7} className="centerAlignIcons">
               <a className="buttonLink" href="/about">
                 <div className="buttonDiv">
@@ -192,11 +178,14 @@ class Banner extends Component {
                 </div>
               </a>
             </Col>
-            <Col xs={3} className="centerAlignIcons">
-            </Col>
+            <Col xs={3} className="centerAlignIcons"></Col>
             <Col xs={7} className="centerAlignIcons">
-              <a className="buttonLink" href="https://docs.google.com/forms/d/1M7iyi4tL9WI4nfo7mC4ZKYmKxrDsjpGnwyglmcKxf3I/edit?fbclid=IwAR1UCVIzu67NRl3q1DWIgLXCM3lEnK1K8f2y30mxPHydgW1lq3bXUkdPwNc"
-                target="_blank" rel="noopener noreferrer">
+              <a
+                className="buttonLink"
+                href="https://docs.google.com/forms/d/1M7iyi4tL9WI4nfo7mC4ZKYmKxrDsjpGnwyglmcKxf3I/edit?fbclid=IwAR1UCVIzu67NRl3q1DWIgLXCM3lEnK1K8f2y30mxPHydgW1lq3bXUkdPwNc"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <div className="buttonDiv">
                   <span className="buttonText">
                     <b>Mailing List</b>
