@@ -47,7 +47,7 @@ class Header extends React.Component {
           <Nav.Link href="/">Home</Nav.Link>
           <NavDropdown title="About">
             <NavDropdown.Item href="/about">About MIST</NavDropdown.Item>
-            <NavDropdown.Item href="/board">Meet the Board</NavDropdown.Item>
+            {/* <NavDropdown.Item href="/board">Meet the Board</NavDropdown.Item> */}
           </NavDropdown>
           <Nav.Link
             href="https://my.getmistified.com/"
@@ -64,7 +64,10 @@ class Header extends React.Component {
             >
               Rulebook
             </NavDropdown.Item>
-            <NavItem>
+            <NavDropdown.Item href="/rulebookSupplement">
+              Rulebook Supplement
+            </NavDropdown.Item>
+            {/* <NavItem>
               <NavDropdown title="Knowledge & Qur'an" drop="right">
                 <NavDropdown.Item href="/competition?competitionName=knowledgeTests">
                   Knowledge Tests
@@ -162,20 +165,18 @@ class Header extends React.Component {
                   Basketball
                 </NavDropdown.Item>
               </NavDropdown>
-            </NavItem>
+            </NavItem> */}
           </NavDropdown>
           <NavDropdown title="Program">
             <NavDropdown.Item href="/theme">Theme</NavDropdown.Item>
-            <NavDropdown.Item href="/schedule">Schedule</NavDropdown.Item>
+            {/* <NavDropdown.Item href="/schedule">Schedule</NavDropdown.Item> */}
           </NavDropdown>
           <NavDropdown title="Get Involved">
             <NavDropdown.Item href="/judge">Judge</NavDropdown.Item>
-            {/* <NavDropdown.Item href="/volunteer">
-            Volunteer
-          </NavDropdown.Item> */}
-            <NavDropdown.Item href="/boardApplication">
+            <NavDropdown.Item href="/volunteer">Volunteer</NavDropdown.Item>
+            {/* <NavDropdown.Item href="/boardApplication">
               Join the Team
-            </NavDropdown.Item>
+            </NavDropdown.Item> */}
           </NavDropdown>
           <Nav.Link href="/contact">Contact</Nav.Link>
           <NavDropdown title="Sponsor/Donate">

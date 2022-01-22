@@ -14,8 +14,8 @@ class Banner extends Component {
   }
 
   render() {
-    const appstoreImage = require("../../public/appstore.png");
-    const playstoreImage = require("../../public/playstore.png");
+    // const appstoreImage = require("../../public/appstore.png");
+    // const playstoreImage = require("../../public/playstore.png");
     let buttons = (
       <Container fluid={true}>
         <Row className="justify-content-sm-center buttonRow">
@@ -129,6 +129,7 @@ class Banner extends Component {
     let mainTitle = (
       <div className="bannerInfoHolder">
         <h1 className="bannerText">SoCal MIST</h1>
+        <h2 className="bannerTextSmall">March 18-20 at Cal State Fullerton</h2>
       </div>
     );
 

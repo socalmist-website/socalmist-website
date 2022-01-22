@@ -2,7 +2,7 @@ import React from "react";
 import { Header } from "../Header/Navbar";
 import { PageTitle } from "../Header/PageTitle";
 import { PageSubTitle } from "../Header/PageSubTitle";
-// import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import "./JudgePage.css";
 
 class JudgePage extends React.Component {
@@ -11,9 +11,9 @@ class JudgePage extends React.Component {
       <div>
         <Header />
         <PageTitle pageTitle="Judge" />
-        <PageSubTitle pageSubTitle="Judge applications are not currently open, please check back in the winter for more information!" />
-        {/* <Container>
-          <Row className="justify-content-sm-center">
+        {/* <PageSubTitle pageSubTitle="Judge applications are not currently open, please check back in the winter for more information!" /> */}
+        <Container>
+          {/* <Row className="justify-content-sm-center">
             <Col sm="7">
               <p>
                 SoCal MIST is committed to recruiting qualified judges who are
@@ -38,13 +38,13 @@ class JudgePage extends React.Component {
                 </li>
               </ul>
             </Col>
-          </Row>
+          </Row> */}
           <Row className="justify-content-sm-center">
             <Col className="sponsorFormHolder">
               <iframe
                 title="judge"
                 style={{ width: "65%" }}
-                src="https://docs.google.com/forms/d/e/1FAIpQLSeldFbxdWmQ3wtHanTYeJYhysgIwGXeIuu7tYFob-nFVuyGgA/viewform?embedded=true"
+                src="https://docs.google.com/forms/d/e/1FAIpQLSekMDMxQxqltlPdpFLyWnT9QPMTkmmTpXek7NYuNBbOTTMoOw/viewform?embedded=true"
                 height="2993"
                 frameborder="0"
                 marginheight="0"
@@ -54,7 +54,7 @@ class JudgePage extends React.Component {
               </iframe>
             </Col>
           </Row>
-        </Container> */}
+        </Container>
       </div>
     );
   }

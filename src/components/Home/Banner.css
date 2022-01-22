@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:300|Open+Sans|Raleway&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Lato:300|Open+Sans|Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 
 #backgroundPicture {
   background: url("../../public/background.jpg") no-repeat center center fixed;
@@ -26,16 +26,16 @@
 .bannerText {
   color: white;
   font-size: 6.5em;
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
   margin-bottom: 0em;
 }
 
 .bannerSubText {
   color: red;
   font-size: 5em;
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
   margin-bottom: 0em;
-  transition:.2s;
+  transition: 0.2s;
   text-decoration: underline;
 }
 
@@ -46,15 +46,15 @@
 
 .bannerTextSmall {
   color: white;
-  font-size: 5em;
-  font-family: 'Bebas Neue', cursive;
+  font-size: 3em;
+  font-family: "Bebas Neue", cursive;
 }
 
 .bannerSubTextSmall {
   color: red;
   font-size: 4em;
-  font-family: 'Bebas Neue', cursive;
-  transition:.2s;
+  font-family: "Bebas Neue", cursive;
+  transition: 0.2s;
   text-decoration: underline;
 }
 
@@ -64,22 +64,22 @@
 }
 
 .noDecorationHover {
-  text-decoration: none !important; 
+  text-decoration: none !important;
 }
 
 .bannerSubHeader {
   color: white;
   font-size: 2em;
   margin-bottom: 1em;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 #bannerButton {
   font-size: 1.5em;
   width: 97%;
-  padding: .4em 0em;
-  margin: .2em .2em;
-  font-family: 'Montserrat', sans-serif;
+  padding: 0.4em 0em;
+  margin: 0.2em 0.2em;
+  font-family: "Montserrat", sans-serif;
   background-color: #bd8c2a;
   border: white 3px solid;
 }
@@ -129,16 +129,15 @@
   margin-top: 2.5em;
 }
 
-
 .buttonDiv {
   justify-content: center;
   align-items: center;
   /*position: relative;*/
   font-size: 1.6em;
-  border:.7em #f5c809 double;
-  background-color:#f5c809;
-  font-family: 'Montserrat', sans-serif;
-  transition:.5s;
+  border: 0.7em #f5c809 double;
+  background-color: #f5c809;
+  font-family: "Montserrat", sans-serif;
+  transition: 0.5s;
   height: 100%;
   width: 80%;
   display: table;
@@ -150,7 +149,7 @@
   display: flex;
   border: 3px solid #f5c809;
   position: absolute;
-  right: 2.0em;
+  right: 2em;
   width: 78%;
   height: 120%;
   top: 0.1em;
@@ -164,7 +163,7 @@
 }
 
 .buttonDiv:hover {
-  transition:.5s;
+  transition: 0.5s;
   border-color: #ca6946;
   background-color: #ca6946;
   box-shadow: 3px 5px #f5c809;

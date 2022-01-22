@@ -5,11 +5,10 @@ import Col from "react-bootstrap/Col";
 import "./Numbers.css";
 
 class Numbers extends Component {
-  students = 160;
-  schools = 12;
-  prizes = 6;
-  judges = 72;
-  volunteers = 50;
+  competitions = 33;
+  competitors = 1819;
+  schools = 51;
+  volunteers = 208;
 
   started = false;
 
@@ -69,11 +68,18 @@ class Numbers extends Component {
           <Col lg={2} md={3} className="centerAlign">
             <div>
               <h1 className="numberText">
-                {Math.round((this.state.count / 100) * this.students)}
+                {Math.round((this.state.count / 100) * this.competitions)}
               </h1>
 
-              <h4>STUDENTS</h4>
-              <h4>REGISTERED</h4>
+              <h4>COMPETITIONS</h4>
+            </div>
+          </Col>
+          <Col lg={2} md={3} className="centerAlign">
+            <div>
+              <h1 className="numberText">
+                {Math.round((this.state.count / 100) * this.competitors)}
+              </h1>
+              <h4>COMPETITORS</h4>
             </div>
           </Col>
           <Col lg={2} md={3} className="centerAlign">
@@ -82,23 +88,6 @@ class Numbers extends Component {
                 {Math.round((this.state.count / 100) * this.schools)}
               </h1>
               <h4>SCHOOLS</h4>
-              <h4>PARTICIPATED</h4>
-            </div>
-          </Col>
-          <Col lg={2} md={3} className="centerAlign">
-            <div>
-              <h1 className="numberText">
-                {Math.round((this.state.count / 100) * this.prizes)}
-              </h1>
-              <h4>SPONSORS</h4>
-            </div>
-          </Col>
-          <Col lg={2} md={3} className="centerAlign">
-            <div>
-              <h1 className="numberText">
-                {Math.round((this.state.count / 100) * this.judges)}
-              </h1>
-              <h4>JUDGES</h4>
             </div>
           </Col>
           <Col lg={2} md={3} className="centerAlign">

@@ -19,11 +19,10 @@ class ContactPage extends React.Component {
             }}
           >
             <h5>
-              If you do not hear back from us within 5 business days, or if this
-              is an urgent matter, please contact us directly at:
-              socal@getmistified.com
+              For any general questions you have about SoCal MIST, please
+              contact us at: socal@getmistified.com
             </h5>
-            <iframe
+            {/* <iframe
               title="contactForm"
               style={{ width: "100%" }}
               src="https://docs.google.com/forms/d/e/1FAIpQLSdJPZPOYnoUhayld2egI7wbOZ1Y1GPCOM2eGTCaYpd3mAwDcA/viewform?embedded=true"
@@ -34,7 +33,7 @@ class ContactPage extends React.Component {
               marginwidth="0"
             >
               Loading…
-            </iframe>
+            </iframe> */}
           </Col>
         </Row>
       </div>
