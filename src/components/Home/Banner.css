@@ -30,6 +30,12 @@
   margin-bottom: 0em;
 }
 
+.bannerTextSmaller {
+  color: white;
+  font-size: 3em;
+  font-family: "Bebas Neue", cursive;
+}
+
 .bannerSubText {
   color: red;
   font-size: 5em;
@@ -46,7 +52,7 @@
 
 .bannerTextSmall {
   color: white;
-  font-size: 3em;
+  font-size: 5em;
   font-family: "Bebas Neue", cursive;
 }
 
