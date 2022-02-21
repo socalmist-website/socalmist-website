@@ -49,13 +49,30 @@ class Header extends React.Component {
             <NavDropdown.Item href="/about">About MIST</NavDropdown.Item>
             {/* <NavDropdown.Item href="/board">Meet the Board</NavDropdown.Item> */}
           </NavDropdown>
-          <Nav.Link
+          <NavDropdown title="Registration">
+            <NavDropdown.Item
+              href="https://my.getmistified.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Register
+            </NavDropdown.Item>
+            <NavDropdown.Item
+              href="https://www.youtube.com/watch?v=DvZVUkiqECI"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              How To Register
+            </NavDropdown.Item>
+            {/* <NavDropdown.Item href="/board">Meet the Board</NavDropdown.Item> */}
+          </NavDropdown>
+          {/* <Nav.Link
             href="https://my.getmistified.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
             Register
-          </Nav.Link>
+          </Nav.Link> */}
           <NavDropdown title="Competitions">
             <NavDropdown.Item
               href="https://www.getmistified.com/news/2021/12/5/2022-competitions-rulebook"
