@@ -29,15 +29,10 @@ class Banner extends Component {
             </a>
           </Col>
           <Col lg={3} style={{ "text-align": "center" }}>
-            <a
-              className="buttonLink"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://my.getmistified.com/"
-            >
+            <a className="buttonLink" href="/winners">
               <div className="buttonDiv">
                 <span className="buttonText">
-                  <b>Register</b>
+                  <b>Winners</b>
                 </span>
               </div>
             </a>

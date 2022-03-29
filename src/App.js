@@ -8,7 +8,7 @@ import { RegisterPage } from "./components/Register/RegisterPage";
 import { CompetitionPage } from "./components/Competition/CompetitionPage";
 import { SponsorPage } from "./components/Sponsor/SponsorPage";
 import { DonatePage } from "./components/Donate/DonatePage";
-import { BoardPage } from "./components/Board/BoardPage";
+import { WinnersPage } from "./components/Winners/WinnersPage";
 // import { BoardApplicationPage } from "./components/BoardApplication/BoardApplicationPage";
 import { JudgePage } from "./components/Judge/JudgePage";
 import { VolunteerPage } from "./components/Volunteer/VolunteerPage";
@@ -41,7 +41,7 @@ const App = () => (
     {/* <Route path="/8th-grade" component={EighthGradeApp} /> */}
     {/* <Route path="/financial-aid" component={ FinancialAidPage } />
     <Route path="/status" component={ StatusPage } /> */}
-    {/* <Route path="/winners" component={WinnersPage} /> */}
+    <Route path="/winners" component={WinnersPage} />
 
     <Redirect to="/" />
   </Switch>
