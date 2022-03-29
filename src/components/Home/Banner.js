@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./Banner.css";
 import { SocialIcon } from "react-social-icons";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import windowSize from "react-window-size";
 
 class Banner extends Component {
