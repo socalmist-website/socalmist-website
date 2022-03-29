@@ -12,6 +12,9 @@ class WinnersPage extends React.Component {
         <Header />
         <PageTitle pageTitle="MIST Winners" />
         <PageSubTitle pageSubTitle="Here are the results for MIST 2022" />
+        <div className="pageSubTitle">
+          <h5>The students listed below have qualified for nationals!</h5>
+        </div>
         <Container>
           <Row className="justify-content-sm-center">
             <Col sm="7">
