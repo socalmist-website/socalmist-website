@@ -123,10 +123,8 @@ class Banner extends Component {
     );
     let mainTitle = (
       <div className="bannerInfoHolder">
-        <h1 className="bannerText">SoCal MIST</h1>
-        <h2 className="bannerTextSmaller">
-          March 18-20 at Cal State Fullerton
-        </h2>
+        <h1 className="bannerText">SoCal MIST 2023</h1>
+        <h2 className="bannerTextSmaller">Stay Tuned!</h2>
       </div>
     );
 

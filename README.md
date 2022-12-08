@@ -1,7 +1,7 @@
 ### SOCAL MIST RUN BUILD AND DEPLOY
 
-npm start - local test
-npm run build && firebase deploy - deploy changes
+`npm start` - local test
+`npm run build && firebase deploy` - deploy changes
 
 ### EXTRA
 
