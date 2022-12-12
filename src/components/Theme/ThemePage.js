@@ -22,66 +22,62 @@ class ThemePage extends React.Component {
               style={{ "text-align": "center", "margin-top": "1.2em" }}
             >
               <h5>
-                The Conviction in Courage: Finding the Balance between Fear and
-                Risk
+              The Weight of Power: Ruling the Self to Serve Others
               </h5>
             </Col>
           </Row>
           <Row className="justify-content-sm-center">
             <Col sm={8} style={{ "margin-top": "1em" }}>
               <p>
-                The past 20 months have been demanding as we collectively cope
-                with a global pandemic, giving rise to protests and conflict at
-                home and abroad. These events have grabbed our attention as we
-                witness the challenges our brothers and sisters endure and are
-                awed by the determination and courage they possess. These months
-                have not been kind on our bodies and minds, yet we are asked by
-                our community to remain steadfast, to withstand these moments,
-                and keep faith that this will pass.
+              You hold tremendous power, even if you may not be aware of it. 
+              You have the power to perceive your environment and to act upon 
+              it by making decisions that can generate many outcomes. At this moment, 
+              your sphere of influence may be limited to yourself, but as you grow, 
+              so too will your influence and your responsibilities. Prophet Muhammad,
+              peace and blessings be upon him, encouraged us to channel the power
+              we hold, for “each and every one of you is like a shepherd, and 
+              each and every one of you has a flock to take care of, and each and
+              every single one of you will be held responsible” (Bukhari).
               </p>
+
               <p>
-                Often, when we think of courage, we look to the physical and
-                moral manifestation of it, imagining a fearless individual
-                standing firm in a protest, or those willing to make the tough
-                decisions in challenging situations. Philosophers such as Plato
-                or Aristotle discussed courage as a trait set aside for those
-                that do not fear death. However, we can look towards the
-                teachings of the Prophet Muhammad (may peace and blessings be
-                upon him) on how we can remain strong and demonstrate courage in
-                various forms. At a time where we are surrounded with
-                injustices, "a word of truth spoken before an unjust ruler"
-                (an-Nasa'i) is the best form of struggle. We remember
-                maintaining self-control is where true strength lies for a
-                believer for "the strong man is one who controls himself in
-                anger" (Bukhari).
+                Being thrust into a position to lead, by choice or by fate, 
+                is a heavy responsibility to bear as you become accountable 
+                to those around you. In such a position, you must be critically 
+                aware of yourself and your intentions. If not, your service can 
+                quickly become self-serving, rather than serving others. Would 
+                you allow yourself to become like the Pharaoh, who proclaimed 
+                to his people, “I am your Lord Most High,” (Quran 79:24) and 
+                subjugated them? Or do you take lessons from Prophet Muhammad, 
+                peace and blessings be upon him, whose wife Aisha, may God be 
+                pleased with her, described him as someone who would constantly 
+                be “serving his family” (Bukhari) while he was home? As such, 
+                Prophet Muhammad, peace and blessings be upon him, exemplified 
+                his teaching that “the leader of a people is their servant,” 
+                (Bayhaqi) placing service before self-interest and starting with 
+                himself and his loved ones.
               </p>
+
               <p>
-                However, sometimes our courage and our conviction to stand firm
-                can be tested or shaken by the outcomes and consequences of our
-                decisions and we may begin to question our yaqeen, our solid
-                conviction (certainty). Instead of giving into despair, we can
-                use this opportunity to become closer to Allah and have the
-                courage to hold firm in our beliefs and not have our faith
-                deterred as we have been told that "the strong believer is
-                better and more beloved to Allah" (Muslim). As we experience
-                tragedies and undergo failures that shake our core, we remain
-                patient and accept the order of Allah for "Allah does not decree
-                anything for the believer except what is good for him" (Ahmad).
+                Both Pharaoh and Prophet Muhammad, peace and blessings be upon 
+                him, made conscious decisions to lead their people towards arduous 
+                goals. If you were allowed to be in a similar position, how would 
+                you act? To "be the change you wish to see in the world" starts 
+                with you, navigating your doubts, desires, and dreams, and enriching 
+                the lives of yourself and others in your home and in your community.
               </p>
+
               <p>
-                How do you define courage and instill this characteristic into
-                situations that arise in your life? How can we harness our
-                courage to serve our communities while taking care of ourselves?
-                How do we strike the balance between the courage we inwardly and
-                outwardly demonstrate? How do we navigate our vulnerabilities as
-                a part of being courageous? What are ways to value and support
-                those who have taken a stand when it's needed? How can we
-                maintain our beliefs when making hard decisions?
+                Whom do you serve and why? How will you check yourself and your 
+                intentions? Where do you draw the line? Are you willing to sacrifice 
+                your desires, and if so, for what? How do you manage the stress 
+                of responsbility? What will be the legacy you leave behind?
               </p>
+
               <p>
                 We encourage you to creatively explore these concepts and more
                 in online and in-person Regional and National competitions and
-                workshops during MIST 2022. Remember that unique projects
+                workshops during MIST 2023. Remember that unique projects
                 displaying creativity and insight will be judged most favorably.
               </p>
             </Col>
