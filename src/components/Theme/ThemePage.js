@@ -35,9 +35,10 @@ class ThemePage extends React.Component {
               your sphere of influence may be limited to yourself, but as you grow, 
               so too will your influence and your responsibilities. Prophet Muhammad,
               peace and blessings be upon him, encouraged us to channel the power
-              we hold, for “each and every one of you is like a shepherd, and 
+              we hold, for <i>“each and every one of you is like a shepherd, and 
               each and every one of you has a flock to take care of, and each and
-              every single one of you will be held responsible” (Bukhari).
+              every single one of you will be held responsible” </i>
+              (<a href = "https://sunnah.com/adab:212">Bukhari</a>).
               </p>
 
               <p>
@@ -47,14 +48,16 @@ class ThemePage extends React.Component {
                 aware of yourself and your intentions. If not, your service can 
                 quickly become self-serving, rather than serving others. Would 
                 you allow yourself to become like the Pharaoh, who proclaimed 
-                to his people, “I am your Lord Most High,” (Quran 79:24) and 
+                to his people, <i>“I am your Lord Most High,” </i> 
+                (<a href = "https://quran.com/79/24">Quran 79:24</a>) and 
                 subjugated them? Or do you take lessons from Prophet Muhammad, 
                 peace and blessings be upon him, whose wife Aisha, may God be 
                 pleased with her, described him as someone who would constantly 
-                be “serving his family” (Bukhari) while he was home? As such, 
-                Prophet Muhammad, peace and blessings be upon him, exemplified 
-                his teaching that “the leader of a people is their servant,” 
-                (Bayhaqi) placing service before self-interest and starting with 
+                be <i>“serving his family” </i> 
+                <a href = "https://sunnah.com/bukhari:6039">(Bukhari)</a> while he was home? 
+                As such, Prophet Muhammad, peace and blessings be upon him, exemplified 
+                his teaching that <i>“the leader of a people is their servant,” </i> 
+                (<a href = "https://sunnah.com/shahwaliullah40:34">Bayhaqi</a>) placing service before self-interest and starting with 
                 himself and his loved ones.
               </p>
 
@@ -62,16 +65,16 @@ class ThemePage extends React.Component {
                 Both Pharaoh and Prophet Muhammad, peace and blessings be upon 
                 him, made conscious decisions to lead their people towards arduous 
                 goals. If you were allowed to be in a similar position, how would 
-                you act? To "be the change you wish to see in the world" starts 
+                you act? To <i>"be the change you wish to see in the world"</i> starts 
                 with you, navigating your doubts, desires, and dreams, and enriching 
                 the lives of yourself and others in your home and in your community.
               </p>
 
               <p>
-                Whom do you serve and why? How will you check yourself and your 
+                <i>Whom do you serve and why? How will you check yourself and your 
                 intentions? Where do you draw the line? Are you willing to sacrifice 
                 your desires, and if so, for what? How do you manage the stress 
-                of responsbility? What will be the legacy you leave behind?
+                of responsbility? What will be the legacy you leave behind?</i>
               </p>
 
               <p>
