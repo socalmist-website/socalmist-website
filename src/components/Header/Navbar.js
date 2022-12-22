@@ -75,7 +75,7 @@ class Header extends React.Component {
           </Nav.Link> */}
           <NavDropdown title="Competitions">
             <NavDropdown.Item
-              href="https://www.getmistified.com/news/2021/12/5/2022-competitions-rulebook"
+              href="https://www.getmistified.com/news/2023/12/21/2023-competitions-rulebook"
               target="_blank"
               rel="noopener noreferrer"
             >
