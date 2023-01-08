@@ -19,9 +19,9 @@ class DonatePage extends React.Component {
             </Col>
           </Row>
           <Row className="justify-content-sm-center">
-            <Col className="donationBanner">
+            {/* <Col className="donationBanner">
               <Button href="https://www.launchgood.com/project/support_socal_mist_to_empower_muslim_youth#!/" target="_blank" className="donateButton">Donate via LaunchGood</Button>
-            </Col>
+            </Col> */}
           </Row>
           <Row className="justify=content-sm-center">
             <Col className="sponsorFormHolder">
