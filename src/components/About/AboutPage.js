@@ -14,7 +14,7 @@ class AboutPage extends React.Component {
         <PageTitle pageTitle="About MIST" />
         <Container>
           <Row className="justify-content-sm-center">
-            <Col sm={12} className="titleHolder">
+            <Col sm={12} className="titleHolder" style={{ "text-align": "center", "margin-top": "1.2em"}} >
               <h2>MIST = Muslim Inter-Scholastic Tournament</h2>
             </Col>
           </Row>
