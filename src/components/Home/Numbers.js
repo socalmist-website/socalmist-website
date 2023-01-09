@@ -7,7 +7,7 @@ import "./Numbers.css";
 class Numbers extends Component {
   competitions = 64;
   competitors = 1911;
-  schools = 70;
+  schools = 54;
   volunteers = 242;
 
   started = false;
