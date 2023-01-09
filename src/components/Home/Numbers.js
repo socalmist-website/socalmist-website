@@ -5,10 +5,10 @@ import Col from "react-bootstrap/Col";
 import "./Numbers.css";
 
 class Numbers extends Component {
-  competitions = 33;
-  competitors = 1819;
-  schools = 51;
-  volunteers = 208;
+  competitions = 64;
+  competitors = 1911;
+  schools = 70;
+  volunteers = 242;
 
   started = false;
 
