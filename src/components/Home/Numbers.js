@@ -5,7 +5,7 @@ import Col from "react-bootstrap/Col";
 import "./Numbers.css";
 
 class Numbers extends Component {
-  competitions = 64;
+  competitions = 33;
   competitors = 1911;
   schools = 54;
   volunteers = 242;
@@ -58,7 +58,7 @@ class Numbers extends Component {
       <Jumbotron className="numbersBackground">
         <Row className="justify-content-sm-center">
           <Col sm={6} className="centerAlign">
-            <h1 className="numbersTitle">MIST</h1>
+            <h1 className="numbersTitle">SoCal MIST</h1>
             <h2 className="numbersSubTitle">
               <b>BY THE NUMBERS</b>
             </h2>
