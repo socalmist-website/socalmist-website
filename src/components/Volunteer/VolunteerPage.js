@@ -36,7 +36,7 @@ class VolunteerPage extends React.Component {
               <iframe
                 title="sponsorForm"
                 style={{ width: "100%" }}
-                src="https://docs.google.com/forms/d/e/1FAIpQLSe3C_ldPPnsVxbKUjx0nylSp25IrQPlzP0_ZK5ESeLpZyO6Cg/viewform?embedded=true"
+                src="https://tinyurl.com/MISTVolunteerApplication"
                 width="640"
                 height="2930"
                 frameborder="0"
