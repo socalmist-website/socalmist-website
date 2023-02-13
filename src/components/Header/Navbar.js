@@ -186,6 +186,7 @@ class Header extends React.Component {
           </NavDropdown>
           <NavDropdown title="Program">
             <NavDropdown.Item href="/theme">Theme</NavDropdown.Item>
+            <NavDropdown.Item href="/spirit">Spirit</NavDropdown.Item>
             {/* <NavDropdown.Item href="/schedule">Schedule</NavDropdown.Item> */}
           </NavDropdown>
           <NavDropdown title="Get Involved">
