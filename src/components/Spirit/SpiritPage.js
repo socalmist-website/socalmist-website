@@ -35,10 +35,8 @@ class SpiritPage extends React.Component {
             <Col className="sponsorFormHolder" style={{ paddingLeft: "4.5em", paddingRight: "2em" }}>
               <iframe
                 title="sponsorForm"
-                style={{ width: "100%", display: "block", "margin-left": "auto", "margin-right": "auto" }}
+                style={{ width: "100%", height:"620px", display: "block", "margin-left": "auto", "margin-right": "auto" }}
                 src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSFMIF1DPYYqKaMWUrxzcDiy-wocdC8rDRvLmSnujpcsTTaPm-h0k4AtHFCj3G6jtprQmiBQLze1tde/pubchart?oid=6343663&format=interactive"
-                width="640"
-                height="620"
                 frameborder="0"
                 marginheight="0"
                 marginwidth="0"
