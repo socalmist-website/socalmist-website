@@ -28,7 +28,7 @@ class RulebookPage extends React.Component {
           <Row className="justify-content-sm-center">
             <Col sm={8} style={{ "text-align": "center", "margin-top": "1.2em" }}>
               <h5>
-                <a href = "https://drive.google.com/file/d/1yg0BUNUr5onTVdXGY2cmMm3k1JL9Z1M1/view?usp=sharing">Click Here to Download!</a>
+                <a href = "https://drive.google.com/file/d/1SnO-0wx1NvI3_hhMDK0m4qpx_sbAoVCx/view?usp=sharing">Click Here to Download!</a>
               </h5>
             </Col>
           </Row>
