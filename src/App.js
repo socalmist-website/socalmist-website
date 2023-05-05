@@ -4,7 +4,8 @@ import { ContactPage } from "./components/Contact/ContactPage";
 import { AboutPage } from "./components/About/AboutPage";
 import { SchedulePage } from "./components/Schedule/SchedulePage";
 import { ThemePage } from "./components/Theme/ThemePage";
-//import { SpiritPage } from "./components/Spirit/SpiritPage";
+import { SpiritPage } from "./components/Spirit/SpiritPage";
+import { MISTree } from "./components/MISTree/MISTree";
 import { RegisterPage } from "./components/Register/RegisterPage";
 import { CompetitionPage } from "./components/Competition/CompetitionPage";
 import { SponsorPage } from "./components/Sponsor/SponsorPage";
@@ -29,6 +30,7 @@ const App = () => (
     {/* <Route path="/board" component={BoardPage} /> */}
     <Route path="/theme" component={ThemePage} />
     {/* <Route path="/spirit" component={SpiritPage} /> */}
+    <Route path="/MISTree" component={MISTree} />
     <Route path="/schedule" component={SchedulePage} />
     <Route path="/judge" component={JudgePage} />
     <Route path="/volunteer" component={VolunteerPage} />

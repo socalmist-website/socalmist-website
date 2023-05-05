@@ -1,86 +1,86 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:300|Open+Sans|Raleway&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
-/* @import url("https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap"); */
+@import url("https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 
-#backgroundPicture {
+/* #backgroundPicture {
   background: url("../../public/background.jpg") no-repeat center center fixed;
   height: 650px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
+} */
 
-.bannerInfoHolder {
+/* .bannerInfoHolder {
   padding-top: 2em;
   padding-bottom: 1em;
   text-align: center;
-}
+} */
 
-.bannerSubInfoHolder {
+/* .bannerSubInfoHolder {
   padding-top: 1em;
   text-align: center;
-}
+} */
 
-.bannerText {
+/* .bannerText {
   color: white;
   font-size: 6.5em;
   font-family: "Bebas Neue", cursive;
   margin-bottom: 0em;
-}
+} */
 
-.bannerTextSmaller {
+/* .bannerTextSmaller {
   color: white;
   font-size: 3em;
   font-family: "Bebas Neue", cursive;
-}
+} */
 
-.bannerSubText {
+/* .bannerSubText {
   color: red;
   font-size: 5em;
   font-family: "Bebas Neue", cursive;
   margin-bottom: 0em;
   transition: 0.2s;
   text-decoration: underline;
-}
+} */
 
-.bannerSubText:hover {
+/* .bannerSubText:hover {
   text-decoration: underline;
   color: darkred;
-}
+} */
 
-.bannerTextSmall {
+/* .bannerTextSmall {
   color: white;
   font-size: 5em;
   font-family: "Bebas Neue", cursive;
-}
+} */
 
-.bannerSubTextSmall {
+/* .bannerSubTextSmall {
   color: red;
   font-size: 4em;
   font-family: "Bebas Neue", cursive;
   transition: 0.2s;
   text-decoration: underline;
-}
+} */
 
-.bannerSubTextSmall:hover {
+/* .bannerSubTextSmall:hover {
   text-decoration: underline;
   color: darkred;
-}
+} */
 
-.noDecorationHover {
+/* .noDecorationHover {
   text-decoration: none !important;
-}
+} */
 
-.bannerSubHeader {
+/* .bannerSubHeader {
   color: white;
   font-size: 2em;
   margin-bottom: 1em;
   font-family: "Montserrat", sans-serif;
-}
+} */
 
-#bannerButton {
+/* #bannerButton {
   font-size: 1.5em;
   width: 97%;
   padding: 0.4em 0em;
@@ -88,9 +88,9 @@
   font-family: "Montserrat", sans-serif;
   background-color: #bd8c2a;
   border: white 3px solid;
-}
+} */
 
-.socialMediaIcon {
+/* .socialMediaIcon {
   margin-right: 0.5em;
 }
 
@@ -105,37 +105,41 @@
 .leftIconBlock {
   display: inline-block;
   text-align: left;
-}
-
+} */
+/* 
 .rightIconBlock {
   display: inline-block;
   text-align: right;
-}
+} */
 
-.appImage {
+/* .appImage {
   border-radius: 10px;
   height: 45px;
   width: 135px;
   border: 1px white solid;
   margin-right: 0.5em;
-}
+} */
 
-.centerAlignIcons {
+/* .centerAlignIcons {
   text-align: center;
   margin-top: 1.5em;
-}
+} */
 
-.container-fluid {
+/* .container-fluid {
   display: grid;
   grid-template-columns: repeat(6, autofill);
   grid-template-rows: repeat(2, autofill);
-}
-
+} */
+/* 
 .buttonRow {
   margin-top: 2.5em;
+} */
+
+.titleDiv {
+  text-transform: lowercase;
 }
 
-.buttonDiv {
+.buttonDivTree {
   justify-content: center;
   align-items: center;
   /*position: relative;*/
@@ -145,7 +149,7 @@
   font-family: "Montserrat", sans-serif;
   transition: 0.5s;
   height: 100%;
-  width: 80%;
+  width: 100%;
   display: table;
   z-index: 2;
   box-shadow: 3px 4px #ca6946;
@@ -185,3 +189,5 @@
   vertical-align: middle;
   width: 100%;
 }
+
+
