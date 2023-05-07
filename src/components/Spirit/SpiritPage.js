@@ -7,6 +7,12 @@ import "./SpiritPage.css";
 
 class SpiritPage extends React.Component {
   render() {
+
+    // const colStyle =
+    //   this.props.windowWidth < 992
+    //     ? { paddingLeft: "2em", paddingRight: "2em" }
+    //     : { paddingLeft: "2em", paddingRight: "2em" };
+
     return (
       <div>
         <Header />
@@ -32,19 +38,32 @@ class SpiritPage extends React.Component {
             </Col>
           </Row> */}
           <Row className="justify-content-sm-center">
-            <Col className="sponsorFormHolder" style={{ paddingLeft: "4.5em", paddingRight: "2em" }}>
+            <Col className="sponsorFormHolder d-flex justify-content-center">
               <iframe
                 title="sponsorForm"
-                style={{ width: "100%", display: "block", "margin-left": "auto", "margin-right": "auto" }}
-                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRh4EZ11BJwCjPabgMiBdf27kHCtNmT05G1g42mvQCjpLeaJla5tsmjo44RfXKVFPC-E9tbDDfRuJAD/pubchart?oid=6343663&amp;format=interactive"
-                width="640"
-                height="620"
+                style={{
+                  width: "100%",
+                  maxWidth: "740px",
+                  minHeight: "620px",
+                  display: "block",
+                  marginLeft: "auto",
+                  marginRight: "auto"
+                }}
+                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSFMIF1DPYYqKaMWUrxzcDiy-wocdC8rDRvLmSnujpcsTTaPm-h0k4AtHFCj3G6jtprQmiBQLze1tde/pubchart?oid=6343663&amp"
                 frameborder="0"
                 marginheight="0"
                 marginwidth="0"
               >
                 Loading…
               </iframe>
+              {/* <iframe
+                width="705"
+                height="389"
+                seamless frameborder="0"
+                scrolling="no"
+                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSFMIF1DPYYqKaMWUrxzcDiy-wocdC8rDRvLmSnujpcsTTaPm-h0k4AtHFCj3G6jtprQmiBQLze1tde/pubchart?oid=6343663&amp;format=interactive%22%3E"
+              >
+              </iframe> */}
             </Col>
           </Row>
 

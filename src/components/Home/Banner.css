@@ -125,6 +125,11 @@
   margin-top: 1.5em;
 }
 
+/* .centerAlign {
+  margin-left: 20px;
+  text-align: center;
+} */
+
 .container-fluid {
   display: grid;
   grid-template-columns: repeat(6, autofill);
@@ -136,6 +141,22 @@
 }
 
 .buttonDiv {
+  justify-content: center;
+  align-items: center;
+  /*position: relative;*/
+  font-size: 1.6em;
+  border: 0.7em #f5c809 double;
+  background-color: #f5c809;
+  font-family: "Montserrat", sans-serif;
+  transition: 0.5s;
+  height: 100%;
+  width: 100%;
+  display: table;
+  z-index: 2;
+  box-shadow: 3px 4px #ca6946;
+}
+
+.buttonDivMobile {
   justify-content: center;
   align-items: center;
   /*position: relative;*/
@@ -184,4 +205,16 @@
   display: table-cell;
   vertical-align: middle;
   width: 100%;
+}
+
+.smallerButtonText {
+  display: table-cell;
+  font-size: 19px; /* Adjust this value to your preference */
+  width: 100%;
+}
+
+.centeredButtons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }

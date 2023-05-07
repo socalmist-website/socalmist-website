@@ -167,8 +167,8 @@ class Banner extends Component {
             <Col xs={3} className="centerAlignIcons"></Col>
             <Col xs={7} className="centerAlignIcons">
               <a className="buttonLink" href="/about">
-                <div className="buttonDiv">
-                  <span className="buttonText">
+                <div className="buttonDivMobile">
+                  <span className="buttonText smallerButtonText">
                     <b>About MIST</b>
                   </span>
                 </div>
@@ -182,9 +182,29 @@ class Banner extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <div className="buttonDiv">
-                  <span className="buttonText">
+                <div className="buttonDivMobile">
+                  <span className="buttonText smallerButtonText">
                     <b>Mailing List</b>
+                  </span>
+                </div>
+              </a>
+            </Col>
+            <Col xs={3} className="centerAlignIcons"></Col>
+            <Col xs={7} className="centerAlignIcons">
+              <a className="buttonLink" href="/theme">
+                <div className="buttonDivMobile">
+                  <span className="buttonText smallerButtonText">
+                    <b>Theme</b>
+                  </span>
+                </div>
+              </a>
+            </Col>
+            <Col xs={3} className="centerAlignIcons"></Col>
+            <Col xs={7} className="centerAlignIcons">
+              <a className="buttonLink" href="/donate">
+                <div className="buttonDivMobile">
+                  <span className="buttonText smallerButtonText">
+                    <b>Donate</b>
                   </span>
                 </div>
               </a>
@@ -195,6 +215,7 @@ class Banner extends Component {
       mainTitle = (
         <div className="bannerInfoHolder">
           <h1 className="bannerTextSmall">SoCal MIST</h1>
+          <h1 className="bannerTextSmaller">May 20th - 21st</h1>
         </div>
       );
     }
