@@ -176,15 +176,16 @@ class Banner extends Component {
             </Col>
             <Col xs={3} className="centerAlignIcons"></Col>
             <Col xs={7} className="centerAlignIcons">
-              <a
+              {/* <a
                 className="buttonLink"
                 href="https://docs.google.com/forms/d/1M7iyi4tL9WI4nfo7mC4ZKYmKxrDsjpGnwyglmcKxf3I/edit?fbclid=IwAR1UCVIzu67NRl3q1DWIgLXCM3lEnK1K8f2y30mxPHydgW1lq3bXUkdPwNc"
                 target="_blank"
                 rel="noopener noreferrer"
-              >
+              > */}
+              <a className="buttonLink" href="/winners">
                 <div className="buttonDivMobile">
                   <span className="buttonText smallerButtonText">
-                    <b>Mailing List</b>
+                    <b>Winners</b>
                   </span>
                 </div>
               </a>

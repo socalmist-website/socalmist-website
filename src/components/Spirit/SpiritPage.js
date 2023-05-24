@@ -6,6 +6,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import "./SpiritPage.css";
 
 class SpiritPage extends React.Component {
+
   render() {
 
     // const colStyle =
@@ -17,7 +18,8 @@ class SpiritPage extends React.Component {
       <div>
         <Header />
         <PageTitle pageTitle="Spirit" />
-        {/* <PageSubTitle pageSubTitle="How many points do you have!?" /> */}
+        <PageSubTitle pageSubTitle="" />
+        <p></p>
         <Container>
           {/* <Row className="justify-content-sm-center" >
             <Col sm="7">
@@ -38,7 +40,7 @@ class SpiritPage extends React.Component {
             </Col>
           </Row> */}
           <Row className="justify-content-sm-center">
-            <Col className="sponsorFormHolder d-flex justify-content-center">
+            <Col className="sponsorFormHolder d-flex justify-content-center" style={{ paddingLeft: "2em", paddingRight: "2em" }}>
               <iframe
                 title="sponsorForm"
                 style={{
@@ -64,22 +66,7 @@ class SpiritPage extends React.Component {
                 src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSFMIF1DPYYqKaMWUrxzcDiy-wocdC8rDRvLmSnujpcsTTaPm-h0k4AtHFCj3G6jtprQmiBQLze1tde/pubchart?oid=6343663&amp;format=interactive%22%3E"
               >
               </iframe> */}
-            </Col>
-          </Row>
 
-          <Row className="justify-content-sm-center">
-            <Col
-              sm="7"
-              style={{
-                "text-align": "center",
-                "font-weight": "bold",
-                "margin-bottom": "2em",
-              }}
-            >
-              {/* <p>
-                For more questions about volunteering, please contact us at
-                socal@getmistified.com.
-              </p> */}
             </Col>
           </Row>
         </Container>
