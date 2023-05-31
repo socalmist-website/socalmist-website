@@ -11,10 +11,10 @@ class MISTree extends React.Component {
       <Container fluid={true}>
         <Row className="justify-content-sm-center buttonRow">
           <Col lg={3} style={{ "text-align": "center" }}>
-            <a className="buttonLink" href="https://bit.ly/22-23bullyingsurvey">
+            <a className="buttonLink" href="https://socalmist.com/winners">
               <div className="buttonDivTree">
                 <span className="buttonText">
-                  <b>CAIR LA Survey</b>
+                  <b>Winners</b>
                 </span>
               </div>
             </a>
@@ -22,10 +22,21 @@ class MISTree extends React.Component {
         </Row>
         <Row className="justify-content-sm-center buttonRow">
           <Col lg={3} style={{ "text-align": "center" }}>
-            <a className="buttonLink" href="https://my.getmistified.com/">
+            <a className="buttonLink" href="https://docs.google.com/forms/d/e/1FAIpQLSf4AYcyvG624mBBzLY6a6iMZzBComdx6bq6J6EdHHsRTwPKag/viewform">
               <div className="buttonDivTree">
                 <span className="buttonText">
-                  <b>Register for SoCal MIST</b>
+                  <b>MIST Feedback Form</b>
+                </span>
+              </div>
+            </a>
+          </Col>
+        </Row>
+        <Row className="justify-content-sm-center buttonRow">
+          <Col lg={3} style={{ "text-align": "center" }}>
+            <a className="buttonLink" href="https://www.youtube.com/watch?v=Xl8IvNkes0Q">
+              <div className="buttonDivTree">
+                <span className="buttonText">
+                  <b>2023 Highlight Video</b>
                 </span>
               </div>
             </a>
@@ -51,10 +62,10 @@ class MISTree extends React.Component {
             </a>
           </Col> */}
           <Col lg={3} className="centerAlign">
-            <a className="buttonLink" href="https://tinyurl.com/socalmistjudges2023">
+            <a className="buttonLink" href="https://photos.app.goo.gl/CwDGLHrmpHzfD6LCA">
               <div className="buttonDivTree">
                 <span className="buttonText">
-                  <b>Judge Application</b>
+                  <b>2023 Photos</b>
                 </span>
               </div>
             </a>
@@ -62,10 +73,10 @@ class MISTree extends React.Component {
         </Row>
         <Row className="justify-content-sm-center buttonRow">
           <Col lg={3} className="centerAlign">
-            <a className="buttonLink" href="https://tinyurl.com/MISTVolunteerApplication">
+            <a className="buttonLink" href="https://my.getmistified.com/">
               <div className="buttonDivTree">
-                <span className="buttonText">
-                  <b>Volunteer Application</b>
+                <span className="buttonTextTree">
+                  <b>Register For Nationals</b>
                 </span>
               </div>
             </a>
