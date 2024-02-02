@@ -2,10 +2,12 @@ import React from "react";
 import { Header } from "../Header/Navbar";
 import { PageTitle } from "../Header/PageTitle";
 import { Container, Row, Col, Image } from "react-bootstrap";
+import "./ThemePage.css";
 
 class ThemePage extends React.Component {
   render() {
-    const image = require("../../public/mist-theme.png");
+    const image =
+      "https://images.squarespace-cdn.com/content/v1/5610f7bce4b033aa91249ccd/5522734f-664f-4ecd-a224-fd5e50e27d90/MIST+THEME+2024+%28Website%29.png?format=1500w";
     return (
       <div>
         <Header />
@@ -13,7 +15,7 @@ class ThemePage extends React.Component {
         <Container id="ambassadorsContainer">
           <Row className="justify-content-sm-center">
             <Col sm={11} style={{ "text-align": "center" }}>
-              <Image width="100%" src={image} />
+              <Image className="theme-image" width="100%" src={image} />
             </Col>
           </Row>
           <Row className="justify-content-sm-center">
@@ -21,67 +23,94 @@ class ThemePage extends React.Component {
               sm={10}
               style={{ "text-align": "center", "margin-top": "1.2em" }}
             >
-              <h5>
-              The Weight of Power: Ruling the Self to Serve Others
-              </h5>
+              <h3 className="theme-title">
+                The Treasure of Fellowship: From Fragrance to Fortress
+              </h3>
             </Col>
           </Row>
           <Row className="justify-content-sm-center">
-            <Col sm={8} style={{ "margin-top": "1em" }}>
+            <Col sm={8} style={{ "margin-top": "1em" }} className="theme-description">
               <p>
-              You hold tremendous power, even if you may not be aware of it. 
-              You have the power to perceive your environment and to act upon 
-              it by making decisions that can generate many outcomes. At this moment, 
-              your sphere of influence may be limited to yourself, but as you grow, 
-              so too will your influence and your responsibilities. Prophet Muhammad,
-              peace and blessings be upon him, encouraged us to channel the power
-              we hold, for <i>“each and every one of you is like a shepherd, and 
-              each and every one of you has a flock to take care of, and each and
-              every single one of you will be held responsible” </i>
-              (<a href = "https://sunnah.com/adab:212">Bukhari</a>).
+                A fundamental shift in society has occurred in recent years,
+                emphasizing individualism and cold digital interactions.
+                However, as humans are social creatures, it is crucial to
+                recognize the significance of authentic connections among
+                ourselves. Creating connections and building fellowship and
+                companionship hold a significant place in the teachings of
+                Islam. It is not merely a casual social relationship but a
+                profound and spiritually uplifting bond based on compassion and
+                virtue. In Islam, friendship is viewed as a divine gift that can
+                guide individuals on their journey toward spiritual growth and
+                righteousness.
               </p>
-
               <p>
-                Being thrust into a position to lead, by choice or by fate, 
-                is a heavy responsibility to bear as you become accountable 
-                to those around you. In such a position, you must be critically 
-                aware of yourself and your intentions. If not, your service can 
-                quickly become self-serving, rather than serving others. Would 
-                you allow yourself to become like the Pharaoh, who proclaimed 
-                to his people, <i>“I am your Lord Most High,” </i> 
-                (<a href = "https://quran.com/79/24">Quran 79:24</a>) and 
-                subjugated them? Or do you take lessons from Prophet Muhammad, 
-                peace and blessings be upon him, whose wife Aisha, may God be 
-                pleased with her, described him as someone who would constantly 
-                be <i>“serving his family” </i> 
-                <a href = "https://sunnah.com/bukhari:6039">(Bukhari)</a> while he was home? 
-                As such, Prophet Muhammad, peace and blessings be upon him, exemplified 
-                his teaching that <i>“the leader of a people is their servant,” </i> 
-                (<a href = "https://sunnah.com/shahwaliullah40:34">Bayhaqi</a>) placing service before self-interest and starting with 
-                himself and his loved ones.
+                We are reminded to choose our companions wisely as the
+                connections we make impact our character and conduct, as the
+                Prophet, peace and blessings be upon him, said, "The quality of
+                good company and that of bad company is that of the owner of
+                musk and of the iron smith, and the owner of musk would either
+                offer you free of charge or you would buy it from him or you
+                would smell its pleasant odor, and so far as the iron smith is
+                concerned, he would either burn your clothes or you shall have
+                to smell its repugnant smell"{" "}
+                <a className="a-theme" href="https://sunnah.com/muslim:2628">
+                  (Muslim)
+                </a>
+                . We need to reflect deeply on our own actions as well to see if
+                we uphold the values we wish to see in others, to treat people
+                with respect and kindness, whether they share the same faith or
+                not. If not, we may become isolated and lonely. This is a
+                condition that affects far too many people and has been deemed a
+                public health priority by the U.S. Surgeon General,{" "}
+                <a
+                  className="a-theme"
+                  href="https://www.forbes.com/sites/bryanrobinson/2023/05/06/us-surgeon-general-cites-loneliness-as-serious-mental-health-hazard-in-new-report/?sh=295fca6d1adc"
+                >
+                  Vivek Murthy
+                </a>
+                .
               </p>
-
               <p>
-                Both Pharaoh and Prophet Muhammad, peace and blessings be upon 
-                him, made conscious decisions to lead their people towards arduous 
-                goals. If you were allowed to be in a similar position, how would 
-                you act? To <i>"be the change you wish to see in the world"</i> starts 
-                with you, navigating your doubts, desires, and dreams, and enriching 
-                the lives of yourself and others in your home and in your community.
+                A genuine bond is built when one is sincere in their intentions,
+                loyal in their actions, advises one another through compassion,
+                and is trustworthy in their words. As Muslims, we are encouraged
+                to hone these attributes out of love, as the Prophet, peace and
+                blessings be upon him, narrated that "None of you truly believes
+                until you love for your brother what you love for yourself"{" "}
+                <a className="a-theme" href="https://sunnah.com/ibnmajah:66">
+                  (Ibn Majah)
+                </a>
+                . This love is a powerful force that inspires people to do the
+                most amazing acts of kindness and empathy for each other, no
+                matter how large or small these acts may be. This love further
+                strengthens our bonds to one another, as the Prophet, peace and
+                blessings be upon him, related to his companions, "The believers
+                in their mutual kindness, compassion and sympathy are just like
+                one body. When one of the limbs suffers, the whole body responds
+                to it with wakefulness and fever"{" "}
+                <a
+                  className="a-theme"
+                  href="https://sunnah.com/riyadussalihin:224"
+                >
+                  (Muslim)
+                </a>
+                . By embodying these values in our relationships, we can then
+                truly support and assist those closest to us.
               </p>
-
               <p>
-                <i>Whom do you serve and why? How will you check yourself and your 
-                intentions? Where do you draw the line? Are you willing to sacrifice 
-                your desires, and if so, for what? How do you manage the stress 
-                of responsbility? What will be the legacy you leave behind?</i>
+                How do you cultivate and maintain your ties with others? How do
+                you define friendship? In moments of competing interests, how do
+                you provide counsel to those closest to you? How do you help
+                them? How do you know that those around you bring a positive
+                impact to you? Do you bring a positive influence to those close
+                to you? Do you love for your brother or sister what you love for
+                yourself?
               </p>
-
               <p>
                 We encourage you to creatively explore these concepts and more
-                in online and in-person Regional and National competitions and
-                workshops during MIST 2023. Remember that unique projects
-                displaying creativity and insight will be judged most favorably.
+                in Regional and National competitions and workshops during MIST
+                2024. Remember that unique projects displaying creativity and
+                insight will be judged most favorably.
               </p>
             </Col>
           </Row>
