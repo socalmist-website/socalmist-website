@@ -17,11 +17,13 @@
 .nav-link {
   color: white;
   border: 1px solid black;
+  transition: ease-in-out 0.2s, color .4s ease;
+  
 }
 
 .nav-link:hover {
-  color: white;
-  border: 1px solid white;
+  color: #f5c807;
+  transform: scale(1.1);
 }
 
 .dropdown .dropdown-menu {
@@ -31,11 +33,15 @@
 .dropdown .dropdown-menu .dropdown-item {
   color: white;
   border: 1px solid black;
+  transition: ease-in-out 0.2s, color .4s ease;
+  border: none;
 }
 
 .dropdown .dropdown-menu .dropdown-item:hover {
-  background-color: black;
-  border: 1px solid white;
+  background-color: transparent;
+  border: none;
+  color: #f5c807;
+  transform: scale(1.03);
 }
 
 .dropdown .dropdown-menu .dropdown-toggle {

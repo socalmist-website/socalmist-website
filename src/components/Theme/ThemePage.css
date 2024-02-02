@@ -1,0 +1,26 @@
+.theme-image {
+    margin-top: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.2);
+}
+
+.theme-title {
+    margin-top: 1rem;
+}
+
+.a-theme {
+    color: #E09927;
+}
+
+.a-theme:hover {
+    color: #CA6946;
+    text-decoration: none;
+}
+
+.theme-description {
+    background-color: #EEE;
+    padding: 1rem 3rem 1rem 3rem;
+    border-radius: 1rem;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 5rem;
+}

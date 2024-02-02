@@ -6,8 +6,7 @@ import "./RulebookPage.css";
 
 class RulebookPage extends React.Component {
   render() {
-    // const img = require("../../public/rulebook-banner.png");
-    const pdf = require("./RulebookSupplement.pdf");
+    const pdf = require("../../public/RulebookSupplement.pdf");
 
     return (
       <div>
@@ -24,14 +23,6 @@ class RulebookPage extends React.Component {
               Rulebook
             </Button>
           </Row> */}
-
-          <Row className="justify-content-sm-center">
-            <Col sm={8} style={{ "text-align": "center", "margin-top": "1.2em" }}>
-              <h5>
-                <a href = "https://drive.google.com/file/d/14TIfkqrSV49NyhszDXLVjTjejhzuHRdY/view?usp=sharing">Click Here to Download!</a>
-              </h5>
-            </Col>
-          </Row>
 
           <Row
             style={{ "margin-top": "3em", "margin-bottom": "3em" }}
