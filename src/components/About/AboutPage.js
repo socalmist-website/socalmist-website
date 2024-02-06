@@ -6,11 +6,10 @@ import { Container, Row, Col, Image } from "react-bootstrap";
 
 class AboutPage extends React.Component {
   render() {
-    // const impact_image = require("../../public/impact-image.jpg");
-    // const community_image = require("../../public/community-image.jpg");
-    // const events_image = require("../../public/events-image.jpg");
-    // const join_image = require("../../public/join-image.jpg");
-    // const faqs_image = require("../../public/faqs-image.jpg");
+    const impact_image = require("../../public/impact-image.JPG");
+    const community_image = require("../../public/community-image.JPG");
+    const events_image = require("../../public/event-image.jpg");
+    const join_image = require("../../public/join-us-image.JPG");
     return (
       <div>
         <Header />
@@ -57,8 +56,9 @@ class AboutPage extends React.Component {
             <Col sm={5}>
               <Image
                 fluid={true}
-                src={"path-to-your-image-1"}
+                src={impact_image}
                 alt="Our Impact Image"
+                className="about-image"
               />
             </Col>
           </Row>
@@ -67,8 +67,9 @@ class AboutPage extends React.Component {
             <Col sm={5}>
               <Image
                 fluid={true}
-                src={"path-to-your-image-2"}
+                src={community_image}
                 alt="Our Community Image"
+                className="about-image"
               />
             </Col>
             <Col sm={1} className="about-empty-gap">
@@ -111,8 +112,9 @@ class AboutPage extends React.Component {
             <Col sm={5}>
               <Image
                 fluid={true}
-                src={"path-to-your-image-3"}
+                src={events_image}
                 alt="Our Events Image"
+                className="about-image"
               />
             </Col>
           </Row>
@@ -121,8 +123,9 @@ class AboutPage extends React.Component {
             <Col sm={5}>
               <Image
                 fluid={true}
-                src={"path-to-your-image-4"}
+                src={join_image}
                 alt="Join Us Image"
+                className="about-image"
               />
             </Col>
             <Col sm={1} className="about-empty-gap">
@@ -141,33 +144,6 @@ class AboutPage extends React.Component {
                 and your drive—let's make the next chapter of MIST history
                 together!
               </p>
-            </Col>
-          </Row>
-
-          <Row className="section">
-            <Col sm={5} className="about-rounded-box">
-              <h3>FAQs</h3>
-              <p>
-                Navigating the excitement of SoCal MIST is straightforward with
-                our comprehensive FAQ section. Here, you'll find clarity on
-                everything from how to register, what to expect at events, and
-                how to prepare for competitions. We understand you may have
-                questions, and we're here to provide answers. This resource is
-                constantly updated to ensure you have the latest information at
-                your fingertips, allowing you to focus on what truly
-                matters—preparing for an enriching and enjoyable MIST
-                experience.
-              </p>
-            </Col>
-            <Col sm={1} className="about-empty-gap">
-              {/* This column is intentionally left empty to create space */}
-            </Col>
-            <Col sm={5}>
-              <Image
-                fluid={true}
-                src={"path-to-your-image-5"}
-                alt="FAQs Image"
-              />
             </Col>
           </Row>
         </Container>
