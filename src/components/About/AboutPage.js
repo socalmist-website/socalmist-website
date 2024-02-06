@@ -6,11 +6,10 @@ import { Container, Row, Col, Image } from "react-bootstrap";
 
 class AboutPage extends React.Component {
   render() {
-    // const impact_image = require("../../public/impact-image.jpg");
-    // const community_image = require("../../public/community-image.jpg");
-    // const events_image = require("../../public/events-image.jpg");
-    // const join_image = require("../../public/join-image.jpg");
-    // const faqs_image = require("../../public/faqs-image.jpg");
+    const impact_image = require("../../public/impact-image.JPG");
+    const community_image = require("../../public/community-image.JPG");
+    const events_image = require("../../public/event-image.jpg");
+    const join_image = require("../../public/join-us-image.JPG");
     return (
       <div>
         <Header />
@@ -57,8 +56,9 @@ class AboutPage extends React.Component {
             <Col sm={5}>
               <Image
                 fluid={true}
-                src={"path-to-your-image-1"}
+                src={impact_image}
                 alt="Our Impact Image"
+                className="about-image"
               />
             </Col>
           </Row>
@@ -67,8 +67,9 @@ class AboutPage extends React.Component {
             <Col sm={5}>
               <Image
                 fluid={true}
-                src={"path-to-your-image-2"}
+                src={community_image}
                 alt="Our Community Image"
+                className="about-image"
               />
             </Col>
             <Col sm={1} className="about-empty-gap">
@@ -111,8 +112,9 @@ class AboutPage extends React.Component {
             <Col sm={5}>
               <Image
                 fluid={true}
-                src={"path-to-your-image-3"}
+                src={events_image}
                 alt="Our Events Image"
+                className="about-image"
               />
             </Col>
           </Row>
@@ -121,8 +123,9 @@ class AboutPage extends React.Component {
             <Col sm={5}>
               <Image
                 fluid={true}
-                src={"path-to-your-image-4"}
+                src={join_image}
                 alt="Join Us Image"
+                className="about-image"
               />
             </Col>
             <Col sm={1} className="about-empty-gap">

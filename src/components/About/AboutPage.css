@@ -22,3 +22,11 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* This adds a subtle shadow */
   margin-bottom: 30px; /* Adds space between the sections */
 }
+
+.about-image {
+  /* width: 122%; */
+  /* height: 100%; */
+  /* overflow: hidden; */
+  /* position: relative; */
+  padding-top: 0.8rem;
+}
