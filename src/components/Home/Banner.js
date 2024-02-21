@@ -3,6 +3,7 @@ import "./Banner.css";
 import { SocialIcon } from "react-social-icons";
 import { Container, Row, Col } from "react-bootstrap";
 import windowSize from "react-window-size";
+import { Link } from "react-router-dom";
 
 class Banner extends Component {
   componentDidMount() {
@@ -14,66 +15,49 @@ class Banner extends Component {
   }
 
   render() {
-    // const appstoreImage = require("../../public/appstore.png");
-    // const playstoreImage = require("../../public/playstore.png");
     let buttons = (
       <Container fluid={true}>
         <Row className="justify-content-sm-center buttonRow">
           <Col lg={3} style={{ "text-align": "center" }}>
-            <a className="buttonLink" href="/about">
+            <Link className="buttonLink" to="/about">
               <div className="buttonDiv">
                 <span className="buttonText">
                   <b>About MIST</b>
                 </span>
               </div>
-            </a>
+            </Link>
           </Col>
           <Col lg={3} style={{ "text-align": "center" }}>
-            <a className="buttonLink" href="/winners">
+            <Link
+              className="buttonLink"
+              to="https://docs.google.com/forms/d/e/1FAIpQLScoQbcFM2NCUyLS6Gn9t0N88i64ar7cTCey7UMf-TihdZd-dA/viewform"
+            >
               <div className="buttonDiv">
                 <span className="buttonText">
-                  <b>Winners</b>
+                  <b>Competitor Spotlight</b>
                 </span>
               </div>
-            </a>
+            </Link>
           </Col>
         </Row>
         <Row className="justify-content-sm-center buttonRow">
-          {/* <Col lg={3} className="centerAlign">
-            <a className="buttonLink" href="/winners">
-              <div className="buttonDiv">
-                <span className="buttonText">
-                  <b>2021 Winners</b>
-                </span>
-              </div>
-            </a>
-          </Col> */}
-          {/* <Col lg={3} className="centerAlign">
-            <a className="buttonLink" href="/schedule">
-              <div className="buttonDiv">
-                <span className="buttonText">
-                  <b>Program</b>
-                </span>
-              </div>
-            </a>
-          </Col> */}
           <Col lg={3} className="centerAlign">
-            <a className="buttonLink" href="/theme">
+            <Link className="buttonLink" to="/theme">
               <div className="buttonDiv">
                 <span className="buttonText">
                   <b>Theme</b>
                 </span>
               </div>
-            </a>
+            </Link>
           </Col>
           <Col lg={3} className="centerAlign">
-            <a className="buttonLink" href="/donate">
+            <Link className="buttonLink" to="/donate">
               <div className="buttonDiv">
                 <span className="buttonText">
                   <b>Donate</b>
                 </span>
               </div>
-            </a>
+            </Link>
           </Col>
         </Row>
       </Container>
@@ -94,37 +78,15 @@ class Banner extends Component {
             />
           </Col>
           <Col sm={4} style={{ "text-align": "center" }}></Col>
-          {/* <Col sm={4} className="rightIconBlock">
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://apps.apple.com/us/app/get-mistified/id1341732029"
-            >
-              <img
-                className="appImage"
-                alt="Apple App Store"
-                src={appstoreImage}
-              />
-            </a>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://play.google.com/store/apps/details?id=com.squarespace.getmistified"
-            >
-              <img
-                className="appImage"
-                alt="Google Play Store"
-                src={playstoreImage}
-              />
-            </a>
-          </Col> */}
         </Row>
       </Container>
     );
     let mainTitle = (
       <div className="bannerInfoHolder">
-        <h1 className="bannerText">SoCal MIST 2024</h1>
-        <h2 className="bannerTextSmaller">COMING SOON!</h2>
+        <div className="bannerContainer">
+          <h1 className="bannerText">SoCal MIST 2024</h1>
+          <h2 className="bannerTextSmaller">May 18 & 19th</h2>
+        </div>
       </div>
     );
 
@@ -142,22 +104,6 @@ class Banner extends Component {
                 url="https://www.instagram.com/socalmist/"
               />
             </Col>
-            {/* <Col xs={12} className="centerAlignIcons">
-              <a href="https://apps.apple.com/us/app/get-mistified/id1341732029">
-                <img
-                  className="appImage"
-                  alt="Apple App Store"
-                  src={appstoreImage}
-                />
-              </a>
-              <a href="https://play.google.com/store/apps/details?id=com.squarespace.getmistified">
-                <img
-                  className="appImage"
-                  alt="Google Play Store"
-                  src={playstoreImage}
-                />
-              </a>
-            </Col> */}
           </Row>
         </Container>
       );
@@ -166,57 +112,56 @@ class Banner extends Component {
           <Row>
             <Col xs={3} className="centerAlignIcons"></Col>
             <Col xs={7} className="centerAlignIcons">
-              <a className="buttonLink" href="/about">
+              <Link className="buttonLink" to="/about">
                 <div className="buttonDivMobile">
                   <span className="buttonText smallerButtonText">
                     <b>About MIST</b>
                   </span>
                 </div>
-              </a>
+              </Link>
             </Col>
             <Col xs={3} className="centerAlignIcons"></Col>
             <Col xs={7} className="centerAlignIcons">
-              {/* <a
+              <Link
                 className="buttonLink"
-                href="https://docs.google.com/forms/d/1M7iyi4tL9WI4nfo7mC4ZKYmKxrDsjpGnwyglmcKxf3I/edit?fbclid=IwAR1UCVIzu67NRl3q1DWIgLXCM3lEnK1K8f2y30mxPHydgW1lq3bXUkdPwNc"
-                target="_blank"
-                rel="noopener noreferrer"
-              > */}
-              <a className="buttonLink" href="/winners">
+                to="https://docs.google.com/forms/d/e/1FAIpQLScoQbcFM2NCUyLS6Gn9t0N88i64ar7cTCey7UMf-TihdZd-dA/viewform"
+              >
                 <div className="buttonDivMobile">
                   <span className="buttonText smallerButtonText">
-                    <b>Winners</b>
+                    <b>Competitor Spotlight</b>
                   </span>
                 </div>
-              </a>
+              </Link>
             </Col>
             <Col xs={3} className="centerAlignIcons"></Col>
             <Col xs={7} className="centerAlignIcons">
-              <a className="buttonLink" href="/theme">
+              <Link className="buttonLink" to="/theme">
                 <div className="buttonDivMobile">
                   <span className="buttonText smallerButtonText">
                     <b>Theme</b>
                   </span>
                 </div>
-              </a>
+              </Link>
             </Col>
             <Col xs={3} className="centerAlignIcons"></Col>
             <Col xs={7} className="centerAlignIcons">
-              <a className="buttonLink" href="/donate">
+              <Link className="buttonLink" to="/donate">
                 <div className="buttonDivMobile">
                   <span className="buttonText smallerButtonText">
                     <b>Donate</b>
                   </span>
                 </div>
-              </a>
+              </Link>
             </Col>
           </Row>
         </Container>
       );
       mainTitle = (
         <div className="bannerInfoHolder">
-          <h1 className="bannerTextSmall">SoCal MIST</h1>
-          <h1 className="bannerTextSmaller">May 20th - 21st</h1>
+          <div className="bannerContainer">
+            <h1 className="bannerTextSmall">SoCal MIST</h1>
+            <h1 className="bannerTextSmaller">May 20th - 21st</h1>
+          </div>
         </div>
       );
     }
@@ -225,7 +170,7 @@ class Banner extends Component {
       <div id="backgroundPicture">
         {mainTitle}
         {buttons}
-        {icons}
+        {/* {icons} */}
       </div>
     );
   }

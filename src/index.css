@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.mist-link {
+  color: #f5c809;
+  font-weight: bold;
+}
+
+.mist-link:hover {
+  color: #ca6946;
+  transition: .75s;
+  text-decoration: none;
+}
+
+.mist-link-w-background {
+  color: #000000;
+  font-weight: bold;
+}
+
+.mist-link-w-background:hover {
+  color: #ca6946;
+  transition: .75s;
+  text-decoration: none;
+}
