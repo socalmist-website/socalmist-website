@@ -11,7 +11,7 @@ class AboutPage extends React.Component {
     const events_image = require("../../public/event-image.jpg");
     const join_image = require("../../public/join-us-image.JPG");
     return (
-      <div>
+      <div className="about-page">
         <Header />
         <PageTitle pageTitle="About MIST" />
         <Container>
@@ -50,7 +50,7 @@ class AboutPage extends React.Component {
                 lasting impact of our collective efforts.
               </p>
             </Col>
-            <Col sm={1} className="about-empty-gap">
+            <Col sm={1}>
               {/* This column is intentionally left empty to create space */}
             </Col>
             <Col sm={5}>

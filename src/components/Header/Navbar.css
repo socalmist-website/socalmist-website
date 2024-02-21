@@ -14,11 +14,32 @@
   background-color: #d9c216;
 }
 
-.nav-link {
+.nav-link{
   color: white;
   border: 1px solid black;
   transition: ease-in-out 0.2s, color .4s ease;
-  
+}
+
+.instalogo{
+  color: white;
+  border: 1px solid black;
+  transition: ease-in-out 0.2s, color .4s ease;
+}
+
+.instalogo:hover {
+  color: #f5c807;
+  transform: scale(1.2);
+}
+
+.tiktoklogo{
+  color: white;
+  border: 1px solid black;
+  transition: ease-in-out 0.2s, color .4s ease;
+}
+
+.tiktoklogo:hover {
+  color: #f5c807;
+  transform: scale(1.2);
 }
 
 .nav-link:hover {

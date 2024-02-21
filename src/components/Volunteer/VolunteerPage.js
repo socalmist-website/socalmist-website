@@ -8,35 +8,16 @@ import "./VolunteerPage.css";
 class VolunteerPage extends React.Component {
   render() {
     return (
-      <div>
+      <div className="volunteer-page">
         <Header />
         <PageTitle pageTitle="Volunteer" />
-        <PageSubTitle pageSubTitle="Interested in volunteering at MIST?" />
-        <Container>
-          {/* <Row className="justify-content-sm-center" >
-            <Col sm="7">
-              <p>SoCal MIST is committed to recruiting motivated volunteers who are dedicated to making MIST a successful event!</p>
-            </Col>
-          </Row>
-          <Row className="justify-content-sm-center" >
-            <Col sm="7">
-              <h5>Qualifications</h5>
-              <ul>
-                <li>
-                  <p>18 years or older</p>
-                </li>
-                <li>
-                  <p>Demonstrate a high level of motivation, maturity, and leadership</p>
-                </li>
-              </ul>
-            </Col>
-          </Row> */}
+        <Container className="volunteer-container">
           <Row className="justify-content-sm-center">
             <Col className="sponsorFormHolder">
               <iframe
                 title="sponsorForm"
                 style={{ width: "100%" }}
-                src="https://tinyurl.com/MISTVolunteerApplication"
+                src="https://forms.gle/riYKq6Txj7jZnDtW8"
                 width="640"
                 height="2930"
                 frameborder="0"

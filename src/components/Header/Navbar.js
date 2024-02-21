@@ -1,5 +1,6 @@
 import React from "react";
 import { Navbar, Nav, NavDropdown, NavItem } from "react-bootstrap";
+import { Link } from 'react-router-dom';
 import "./Navbar.css";
 
 class Header extends React.Component {
@@ -36,17 +37,18 @@ class Header extends React.Component {
 
   render() {
     const image = require("../../public/socal-mist-logo.png");
+    const insta = require("../../public/instagram-logo.png");
+    const tiktok = require("../../public/tiktok-logo.png");
 
     return (
       <Navbar className={this.state.navbarClass} sticky="top" expand="lg">
-        <Navbar.Brand href="/">
+        <Navbar.Brand as={Link} to="/">
           <img src={image} height="50px" alt="logo"></img>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav.Link href="/">Home</Nav.Link>
           <NavDropdown title="About">
-            <NavDropdown.Item href="/about">About MIST</NavDropdown.Item>
+            <NavDropdown.Item as={Link} to="/about">About MIST</NavDropdown.Item>
             {/* <NavDropdown.Item href="/board">Meet the Board</NavDropdown.Item> */}
           </NavDropdown>
           <NavDropdown title="Registration">
@@ -64,145 +66,41 @@ class Header extends React.Component {
             >
               How To Register
             </NavDropdown.Item>
-            {/* <NavDropdown.Item href="/board">Meet the Board</NavDropdown.Item> */}
           </NavDropdown>
-          {/* <Nav.Link
-            href="https://my.getmistified.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Register
-          </Nav.Link> */}
           <NavDropdown title="Competitions">
             <NavDropdown.Item
-              href="https://www.getmistified.com/news/2023/12/21/2023-competitions-rulebook-x4e72"
-              target="_blank"
-              rel="noopener noreferrer"
+              as={Link}
+              to="/rulebook"
             >
               Rulebook
             </NavDropdown.Item>
-            <NavDropdown.Item href="/rulebookSupplement">
-              Rulebook Supplement
-            </NavDropdown.Item>
-            {/* <NavItem>
-              <NavDropdown title="Knowledge & Qur'an" drop="right">
-                <NavDropdown.Item href="/competition?competitionName=knowledgeTests">
-                  Knowledge Tests
-                </NavDropdown.Item>
-                <NavDropdown.Item href="/competition?competitionName=quranMemorization">
-                  Qur'an Memorization
-                </NavDropdown.Item>
-              </NavDropdown>
-            </NavItem>
-            <NavItem>
-              <NavDropdown title="Arts" drop="right">
-                <NavDropdown.Item href="/competition?competitionName=2dArt">
-                  2D Arts
-                </NavDropdown.Item>
-                <NavDropdown.Item href="/competition?competitionName=3dArt">
-                  3D Arts
-                </NavDropdown.Item>
-                <NavDropdown.Item href="/competition?competitionName=fashionDesign">
-                  Fashion Design
-                </NavDropdown.Item>
-                <NavDropdown.Item href="/competition?competitionName=graphicDesign">
-                  Graphic Design
-                </NavDropdown.Item>
-                <NavDropdown.Item href="/competition?competitionName=photography">
-                  Photography
-                </NavDropdown.Item>
-              </NavDropdown>
-            </NavItem>
-            <NavItem>
-              <NavDropdown title="Writing & Oratory" drop="right">
-                <NavDropdown.Item href="/competition?competitionName=extemporaneousEssay">
-                  Extemporaneous Essay
-                </NavDropdown.Item>
-                <NavDropdown.Item href="/competition?competitionName=extemporaneousSpeaking">
-                  Extemporaneous Speaking
-                </NavDropdown.Item>
-                <NavDropdown.Item href="/competition?competitionName=originalOratory">
-                  Original Oratory
-                </NavDropdown.Item>
-                <NavDropdown.Item href="/competition?competitionName=poetry">
-                  Poetry
-                </NavDropdown.Item>
-                <NavDropdown.Item href="/competition?competitionName=preparedEssay">
-                  Prepared Essay
-                </NavDropdown.Item>
-                <NavDropdown.Item href="/competition?competitionName=shortFiction">
-                  Short Fiction
-                </NavDropdown.Item>
-                <NavDropdown.Item href="/competition?competitionName=spokenWord">
-                  Spoken Word
-                </NavDropdown.Item>
-              </NavDropdown>
-            </NavItem>
-            <NavItem>
-              <NavDropdown title="Brackets" drop="right">
-                <NavDropdown.Item href="/competition?competitionName=debate">
-                  Debate
-                </NavDropdown.Item>
-                <NavDropdown.Item href="/competition?competitionName=mathOlympics">
-                  Math Olympics
-                </NavDropdown.Item>
-                <NavDropdown.Item href="/competition?competitionName=mistQuizBowl">
-                  MIST Quiz Bowl
-                </NavDropdown.Item>
-                <NavDropdown.Item href="/competition?competitionName=improv">
-                  Improv
-                </NavDropdown.Item>
-              </NavDropdown>
-            </NavItem>
-            <NavItem>
-              <NavDropdown title="Group Projects" drop="right">
-                <NavDropdown.Item href="/competition?competitionName=businessVenture">
-                  Business Venture
-                </NavDropdown.Item>
-                <NavDropdown.Item href="/competition?competitionName=humanitarianService">
-                  Humanitarian Service
-                </NavDropdown.Item>
-                <NavDropdown.Item href="/competition?competitionName=nasheed">
-                  Nasheed/Rap
-                </NavDropdown.Item>
-                <NavDropdown.Item href="/competition?competitionName=scienceFair">
-                  Science Fair
-                </NavDropdown.Item>
-                <NavDropdown.Item href="/competition?competitionName=shortFilm">
-                  Short Film
-                </NavDropdown.Item>
-                <NavDropdown.Item href="/competition?competitionName=socialMedia">
-                  Social Media
-                </NavDropdown.Item>
-              </NavDropdown>
-            </NavItem>
-            <NavItem>
-              <NavDropdown title="Sports" drop="right">
-                <NavDropdown.Item href="/competition?competitionName=basketball">
-                  Basketball
-                </NavDropdown.Item>
-              </NavDropdown>
-            </NavItem> */}
+
           </NavDropdown>
           <NavDropdown title="Program">
-            <NavDropdown.Item href="/theme">Theme</NavDropdown.Item>
-            <NavDropdown.Item href="/spirit">Spirit</NavDropdown.Item>
+            <NavDropdown.Item as={Link} to="/theme">Theme</NavDropdown.Item>
+            <NavDropdown.Item as={Link} to="/spirit">Spirit</NavDropdown.Item>
             {/* <NavDropdown.Item href="/schedule">Schedule</NavDropdown.Item> */}
             {/* <NavDropdown.Item href="/MISTree">MISTree</NavDropdown.Item> */}
           </NavDropdown>
           <NavDropdown title="Get Involved">
-            <NavDropdown.Item href="/judge">Judge</NavDropdown.Item>
-            <NavDropdown.Item href="/volunteer">Volunteer</NavDropdown.Item>
+            <NavDropdown.Item as={Link} to="/judge">Judge</NavDropdown.Item>
+            <NavDropdown.Item as={Link} to="/volunteer">Volunteer</NavDropdown.Item>
             {/* <NavDropdown.Item href="/boardApplication">
               Join the Team
             </NavDropdown.Item> */}
           </NavDropdown>
-          <Nav.Link href="/contact">Contact</Nav.Link>
+          <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
           <NavDropdown title="Sponsor/Donate">
-            <NavDropdown.Item href="/sponsor">Sponsor MIST</NavDropdown.Item>
-            <NavDropdown.Item href="/donate">Donate</NavDropdown.Item>
+            <NavDropdown.Item as={Link} to="/sponsor">Sponsor MIST</NavDropdown.Item>
+            <NavDropdown.Item as={Link} to="/donate">Donate</NavDropdown.Item>
           </NavDropdown>
         </Navbar.Collapse>
+        <Navbar.Brand href="https://www.instagram.com/socalmist/">
+          <img src={insta} height="30px" alt="instagram" className="instalogo"></img>
+        </Navbar.Brand>
+        <Navbar.Brand href="https://www.tiktok.com/@socal.mist">
+          <img src={tiktok} height="30px" alt="tiktok" className="tiktoklogo"></img>
+        </Navbar.Brand>
       </Navbar>
     );
   }

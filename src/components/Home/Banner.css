@@ -4,8 +4,8 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 
 #backgroundPicture {
-  background: url("../../public/background.jpg") no-repeat center center fixed;
-  height: 650px;
+  background: url("../../public/background2024.jpg") no-repeat center center fixed;
+  height: 95vh;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -13,8 +13,9 @@
 }
 
 .bannerInfoHolder {
-  padding-top: 2em;
+  padding-top: 1.5em;
   padding-bottom: 1em;
+  margin-bottom: 17.5rem;
   text-align: center;
 }
 
@@ -24,14 +25,23 @@
 }
 
 .bannerText {
-  color: white;
+  color: #f5c809;
   font-size: 6.5em;
   font-family: "Bebas Neue", cursive;
   margin-bottom: 0em;
 }
 
+.bannerContainer {
+  display: inline-block;
+  position: relative;
+  padding: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.15); 
+  backdrop-filter: blur(0.75px);
+  border-radius: 4rem;
+}
+
 .bannerTextSmaller {
-  color: white;
+  color: #111;
   font-size: 3em;
   font-family: "Bebas Neue", cursive;
 }
@@ -51,7 +61,7 @@
 }
 
 .bannerTextSmall {
-  color: white;
+  color: #f5c809;
   font-size: 5em;
   font-family: "Bebas Neue", cursive;
 }

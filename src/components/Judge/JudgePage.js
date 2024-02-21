@@ -8,7 +8,7 @@ import "./JudgePage.css";
 class JudgePage extends React.Component {
   render() {
     return (
-      <div>
+      <div className="judge-page">
         <Header />
         <PageTitle pageTitle="Judge" />
         {/* <PageSubTitle pageSubTitle="Judge applications are not currently open, please check back in the winter for more information!" /> */}
@@ -44,7 +44,7 @@ class JudgePage extends React.Component {
               <iframe
                 title="judge"
                 style={{ width: "65%" }}
-                src="https://tinyurl.com/socalmistjudges2023"
+                src="https://forms.gle/n95ZiHtwcDP6RAjG6"
                 height="2993"
                 frameborder="0"
                 marginheight="0"

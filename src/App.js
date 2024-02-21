@@ -41,7 +41,7 @@ const App = () => (
     <Route path="/sponsor" component={SponsorPage} />
     <Route path="/donate" component={DonatePage} />
     {/* <Route path="/earlySubmissions" component={EarlySubmissionsPage} /> */}
-    <Route path="/rulebookSupplement" component={RulebookPage} />
+    <Route path="/rulebook" component={RulebookPage} />
     {/* <Route path="/8th-grade" component={EighthGradeApp} /> */}
     {/* <Route path="/financial-aid" component={ FinancialAidPage } />
     <Route path="/status" component={ StatusPage } /> */}

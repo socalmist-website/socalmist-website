@@ -27,3 +27,86 @@
   background-color: #ca6946;
   box-shadow: 3px 5px #f5c809;
 }
+
+.rulebook-rounded-box {
+  display: flex;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.rulebook-description-box {
+  background-color: #333;
+}
+
+.rulebook-title-box {
+  background-color: #333;
+  color: #f5c809;
+  flex-direction: column;
+
+}
+
+.box-centered {
+  justify-content: center;
+  align-items: center;
+}
+
+.mist-bowl-list {
+  padding-top: 0.5rem;
+}
+
+.mist-bowl-header {
+  font-size: 5rem;
+  justify-items: center;
+
+}
+
+.rulebook-page {
+  background-color: #fef5d1;
+  padding-bottom: 20rem;
+}
+
+.knowledge-test-bullet {
+  color: #f5c809;
+  font-weight: 500;
+}
+
+.debate-topics-bullet {
+  color: #f5c809;
+  font-weight: 500;
+}
+
+.rules-button {
+  margin-top: 2em;
+  font-size: 1.4em;
+  padding-left: 0.8em;
+  padding-right: 0.8em;
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+  border:.7em #f5c809 double;
+  background-color:#f5c809;
+  box-shadow: 3px 4px #ca6946;
+  border-radius: 0em;
+  font-family: 'Montserrat', sans-serif;
+  color: #000;
+  font-weight: bold
+}
+
+.rules-button:hover {
+  color: white;
+  transition:.5s;
+  border-color: #ca6946;
+  background-color: #ca6946;
+  box-shadow: 3px 5px #f5c809;
+}
+
+.rules-button-container {
+  display: flex;
+  padding-left: 25.25rem;
+  margin-top: 2em;
+}
+
+.rulebook-link:hover {
+  text-decoration: none;
+}
