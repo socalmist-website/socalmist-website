@@ -216,13 +216,13 @@ class RulebookPage extends React.Component {
               </h3>
             </Col>
           </Row>
-          <Row className="rules-button-container">
+          {/* <Row className="rules-button-container">
             <a className="rulebook-link" href="https://www.getmistified.com/news/2023/12/21/2023-competitions-rulebook-x4e72">
               <button className="rulebook-rounded-box rulebook-title-box rules-button">
                 MIST Rulebook
               </button>
             </a>
-          </Row>
+          </Row> */}
         </Container>
       </div>
     );

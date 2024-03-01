@@ -3,12 +3,12 @@ import { Header } from "../Header/Navbar";
 import { PageTitle } from "../Header/PageTitle";
 import { Row, Col } from "react-bootstrap";
 
-class ContactPage extends React.Component {
+class CompetitionsPage extends React.Component {
   render() {
     return (
       <div>
         <Header />
-        <PageTitle pageTitle="Contact" />
+        <PageTitle pageTitle="Competitions" />
         <Row className="justify-content-sm-center">
           <Col
             sm="7"
@@ -18,10 +18,7 @@ class ContactPage extends React.Component {
               "margin-top": "2em",
             }}
           >
-            <h5>
-              For any general questions you have about SoCal MIST, please
-              contact us at: socal@getmistified.com
-            </h5>
+
           </Col>
         </Row>
       </div>
@@ -29,4 +26,4 @@ class ContactPage extends React.Component {
   }
 }
 
-export { ContactPage };
+export { CompetitionsPage };
