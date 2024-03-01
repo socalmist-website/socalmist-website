@@ -85,7 +85,7 @@ class Banner extends Component {
       <div className="bannerInfoHolder">
         <div className="bannerContainer">
           <h1 className="bannerText">SoCal MIST 2024</h1>
-          <h2 className="bannerTextSmaller">May 18 & 19th</h2>
+          <h2 className="bannerTextSmaller">May 18 & 19th @ Cal State Fullerton</h2>
         </div>
       </div>
     );

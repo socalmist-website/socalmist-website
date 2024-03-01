@@ -46,7 +46,15 @@ class Header extends React.Component {
           <img src={image} height="50px" alt="logo"></img>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
+
         <Navbar.Collapse id="basic-navbar-nav">
+          <NavDropdown title="SoCal MIST 2024">
+            <NavDropdown.Item as={Link} to="/registration">Registration</NavDropdown.Item>
+            <NavDropdown.Item as={Link} to="/theme">Theme</NavDropdown.Item>
+            <NavDropdown.Item as={Link} to="/rulebook">Rulebook</NavDropdown.Item>
+            <NavDropdown.Item as={Link} to="/competitions">Competitions</NavDropdown.Item>
+            <NavDropdown.Item as={Link} to="/programs">Programs</NavDropdown.Item>
+          </NavDropdown>
           <NavDropdown title="About">
             <NavDropdown.Item as={Link} to="/about">About MIST</NavDropdown.Item>
             {/* <NavDropdown.Item href="/board">Meet the Board</NavDropdown.Item> */}
@@ -67,17 +75,7 @@ class Header extends React.Component {
               How To Register
             </NavDropdown.Item>
           </NavDropdown>
-          <NavDropdown title="Competitions">
-            <NavDropdown.Item
-              as={Link}
-              to="/rulebook"
-            >
-              Rulebook
-            </NavDropdown.Item>
-
-          </NavDropdown>
           <NavDropdown title="Program">
-            <NavDropdown.Item as={Link} to="/theme">Theme</NavDropdown.Item>
             <NavDropdown.Item as={Link} to="/spirit">Spirit</NavDropdown.Item>
             {/* <NavDropdown.Item href="/schedule">Schedule</NavDropdown.Item> */}
             {/* <NavDropdown.Item href="/MISTree">MISTree</NavDropdown.Item> */}
