@@ -1,45 +1,66 @@
-.aboutpagebanner {
-  background-color: #fffb05f3;
-  text-align: center;
-  padding-top: 7em;
-  padding-bottom: 7em;
+.about-page {
+  background-color: #ffffff; /* Adjust to your preferred background color */
+  color: #333;
+  padding-bottom: 4rem;
+}
+
+.mission-statement {
+  font-size: 1.1rem;
+  margin-bottom: 0rem;
 }
 
 .section {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
-.aboutMission {
-  text-align: center;
-  font-weight: bold;
-}
-
-.about-rounded-box {
-  border-radius: 15px; /* Adjust this value to control the roundness */
-  background-color: #333; /* Choose a background color that fits your design */
-  padding: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* This adds a subtle shadow */
-  margin-bottom: 30px; /* Adds space between the sections */
-  color: #f5c809;
-}
-
-.about-rounded-box p {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-  font-weight: 410;
-}
-
-.about-rounded-box h3 {
-  padding-left: 1.1rem;
-  font-weight: 650;
+/* Add this new class for the image wrapper */
+.img-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* This will ensure the image does not break the border-radius */
+  margin-bottom: 2rem; /* Adjust as needed */
 }
 
 .about-image {
-  padding-top: 1rem;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 100%; /* Set height to 100% of the parent */
+  object-fit: cover; /* This will cover the area without distorting the aspect ratio */
 }
 
-.about-page {
-  background-color: #fef5d1;
-  padding-bottom: 10rem;
+/* Adjust the .about-card class if necessary */
+.about-card {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: space-between; /* This will push the contents to fill the space */
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  background-color: #f5f5f5;
+  padding: 20px;
+  border: none;
+  margin-bottom: 2rem; /* Adjust as needed */
+}
+
+/* Ensure that the cards can grow to fit content */
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Responsive media query adjustments */
+@media (max-width: 991px) {
+  .section {
+    flex-direction: column-reverse;
+  }
+  .about-image, .about-card {
+    margin-bottom: 2rem;
+  }
+  .img-wrapper {
+    height: auto; /* Adjust height on smaller screens */
+  }
 }

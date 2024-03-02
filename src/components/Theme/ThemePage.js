@@ -6,8 +6,7 @@ import "./ThemePage.css";
 
 class ThemePage extends React.Component {
   render() {
-    const image =
-      "https://images.squarespace-cdn.com/content/v1/5610f7bce4b033aa91249ccd/5522734f-664f-4ecd-a224-fd5e50e27d90/MIST+THEME+2024+%28Website%29.png?format=1500w";
+    const image = require("../../public/mist-theme-2024.png");
     return (
       <div>
         <Header />

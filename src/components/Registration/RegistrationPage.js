@@ -39,14 +39,7 @@ class RegistrationPage extends React.Component {
                       </tr>
                     </thead>
                     <tbody>
-                      <tr>
-                        <td>Flash Sale</td>
-                        <td>
-                          {/* Competitor price will be added here later */}
-                        </td>
-                        <td>{/* Guest price will be added here later */}</td>
-                      </tr>
-                      <tr>
+                      <tr id="current-reg-phase">
                         <td>Early Registration</td>
                         <td>$35</td>
                         <td>$35</td>

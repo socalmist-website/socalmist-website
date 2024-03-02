@@ -12,13 +12,12 @@ class RulebookPage extends React.Component {
         <Header />
         <PageTitle pageTitle="SoCal MIST Competition Materials" />
         <Container>
-          {/* Ensure the Row acts as a flex container with equal height children */}
-          <Row className="section d-flex align-items-stretch">
-            <Col sm={6} className="mb-4 d-flex">
-              <Card className="text-center custom-card w-100" style={{minHeight: 375}}>
+          <Row className="section">
+            <Col sm={6} className="mb-4">
+              <Card className="text-center custom-card">
                 <Card.Body>
                   <Card.Title>MIST Bowl</Card.Title>
-                  <div className="mist-bowl-content card-content">
+                  <div className="mist-bowl-content">
                     <p>
                       <a
                         className="mist-link"
@@ -71,13 +70,13 @@ class RulebookPage extends React.Component {
                 </Card.Body>
               </Card>
             </Col>
-            <Col sm={6} className="mb-4 d-flex">
-              <Card className="custom-card w-100" style={{minHeight: 375}}>
+            <Col sm={6} className="mb-4">
+              <Card className="custom-card">
                 <Card.Body>
                   <Card.Title className="text-center">
                     Knowledge Test
                   </Card.Title>
-                  <div className="knowledge-test-content card-content">
+                  <div className="knowledge-test-content">
                     <p>
                       Book 1: The Question of Palestine by Edward Said (first
                       150 pages)
@@ -97,12 +96,12 @@ class RulebookPage extends React.Component {
             </Col>
           </Row>
 
-          <Row className="section d-flex align-items-stretch">
-            <Col sm={6} className="mb-4 d-flex">
-              <Card className="custom-card w-100" style={{minHeight: 375}}>
+          <Row className="section">
+            <Col sm={6} className="mb-4">
+              <Card className="custom-card">
                 <Card.Body>
                   <Card.Title className="text-center">Debate Topics</Card.Title>
-                  <div className="debate-content card-content">
+                  <div className="debate-content">
                     <p>
                       It is more effective to be engaged in local politics than
                       federal politics.
@@ -126,12 +125,12 @@ class RulebookPage extends React.Component {
                 </Card.Body>
               </Card>
             </Col>
-            <Col sm={6} className="mb-4 d-flex">
-              <Card className="text-center custom-card w-100" style={{minHeight: 375}}>
+            <Col sm={6} className="mb-4">
+              <Card className="text-center custom-card">
                 <Card.Body>
                   <Card.Title>Improv</Card.Title>
-                  <div className="improv-content card-content">
-                    <p style={{fontSize: 40, padding: 95}}>
+                  <div className="improv-content">
+                    <p>
                       <a
                         className="mist-link"
                         href="https://tinyurl.com/mistimprov2024"
@@ -144,8 +143,9 @@ class RulebookPage extends React.Component {
               </Card>
             </Col>
           </Row>
+
           <Row className="section justify-content-center">
-            <Col sm={6} className="mb-4 text-center">
+            <Col sm={6} className="mb-4">
               <Button
                 variant="none"
                 size="lg"
@@ -153,7 +153,7 @@ class RulebookPage extends React.Component {
                 target="_blank"
                 className="buttonDiv"
               >
-                <b>Official MIST 2024 Rulebook</b>
+                <b>Register Now!</b>
               </Button>
             </Col>
           </Row>
