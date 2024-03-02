@@ -1,7 +1,7 @@
 import React from "react";
 import { HomePage } from "./components/Home/HomePage";
 import { ContactPage } from "./components/Contact/ContactPage";
-import { AboutPage } from "./components/About/AboutPage";
+// import { AboutPage } from "./components/About/AboutPage";
 import { SchedulePage } from "./components/Schedule/SchedulePage";
 import { ThemePage } from "./components/Theme/ThemePage";
 import { SpiritPage } from "./components/Spirit/SpiritPage";
@@ -16,6 +16,7 @@ import { CompetitionsPage } from "./components/Competitions/CompetitionsPage";
 import { Route, Switch, Redirect } from "react-router-dom";
 import { RegistrationPage } from "./components/Registration/RegistrationPage";
 import { ProgramsPage } from "./components/Programs/ProgramsPage";
+import AboutPage from "./components/About/AboutPage";
 
 
 const App = () => (

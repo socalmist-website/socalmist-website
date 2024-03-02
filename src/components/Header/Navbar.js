@@ -59,22 +59,6 @@ class Header extends React.Component {
             <NavDropdown.Item as={Link} to="/about">About MIST</NavDropdown.Item>
             {/* <NavDropdown.Item href="/board">Meet the Board</NavDropdown.Item> */}
           </NavDropdown>
-          <NavDropdown title="Registration">
-            <NavDropdown.Item
-              href="https://my.getmistified.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Register
-            </NavDropdown.Item>
-            <NavDropdown.Item
-              href="https://www.youtube.com/watch?v=DvZVUkiqECI"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              How To Register
-            </NavDropdown.Item>
-          </NavDropdown>
           <NavDropdown title="Program">
             <NavDropdown.Item as={Link} to="/spirit">Spirit</NavDropdown.Item>
             {/* <NavDropdown.Item href="/schedule">Schedule</NavDropdown.Item> */}
