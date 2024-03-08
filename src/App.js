@@ -1,7 +1,6 @@
 import React from "react";
 import { HomePage } from "./components/Home/HomePage";
 import { ContactPage } from "./components/Contact/ContactPage";
-// import { AboutPage } from "./components/About/AboutPage";
 import { SchedulePage } from "./components/Schedule/SchedulePage";
 import { ThemePage } from "./components/Theme/ThemePage";
 import { SpiritPage } from "./components/Spirit/SpiritPage";
@@ -16,6 +15,7 @@ import { CompetitionsPage } from "./components/Competitions/CompetitionsPage";
 import { Route, Switch, Redirect } from "react-router-dom";
 import { RegistrationPage } from "./components/Registration/RegistrationPage";
 import { ProgramsPage } from "./components/Programs/ProgramsPage";
+import { BoardPage } from "./components/Board/BoardPage";
 import AboutPage from "./components/About/AboutPage";
 
 
@@ -52,6 +52,7 @@ const App = () => (
     <Route path="/MISTree" component={MISTree} />
     <Route path="/schedule" component={SchedulePage} />
     <Route path="/winners" component={WinnersPage} />
+    <Route path="/board" component={BoardPage} />
     
     
     {/* 404 Page Redirects to Home */}

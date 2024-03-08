@@ -1,9 +1,9 @@
 import React from "react";
 import { Header } from "../Header/Navbar";
 import { PageTitle } from "../Header/PageTitle";
-import "./AboutPage.css";
 import { Container, Row, Col, Image, Card } from "react-bootstrap";
 import windowSize from "react-window-size";
+import "./AboutPage.css";
 
 class AboutPage extends React.Component {
   render() {
