@@ -193,7 +193,7 @@ class AboutPage extends React.Component {
             </Col>
           </Row>
           <Row className="justify-content-center section">
-            <Col lg={5} className="mb-4 text-center">
+            <Col lg={5} className="mb-4 text-center img-wrapper">
               <Image
                 src={community_image}
                 alt="Our Community"
@@ -240,7 +240,7 @@ class AboutPage extends React.Component {
                 </Card.Body>
               </Card>
             </Col>
-            <Col lg={5} className="mb-4 text-center">
+            <Col lg={5} className="mb-4 text-center img-wrapper">
               <Image
                 src={events_image}
                 alt="Our Impact"
@@ -249,7 +249,7 @@ class AboutPage extends React.Component {
             </Col>
           </Row>
           <Row className="justify-content-center section">
-            <Col lg={5} className="mb-4 text-center">
+            <Col lg={5} className="mb-4 text-center img-wrapper">
               <Image
                 src={join_image}
                 alt="Our Community"

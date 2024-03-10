@@ -3,7 +3,6 @@ import { Header } from "../Header/Navbar";
 import Banner from "./Banner";
 import Numbers from "./Numbers";
 import YoutubeHolder from "./YoutubeHolder";
-// import HomePageSecondSection from "./HomePageSecondSection";
 import "./HomePage.css";
 
 class HomePage extends React.Component {
@@ -12,7 +11,6 @@ class HomePage extends React.Component {
       <div className="pageBody">
         <Header />
         <Banner />
-        {/* <HomePageSecondSection /> */}
         <Numbers />
         <YoutubeHolder />
       </div>
