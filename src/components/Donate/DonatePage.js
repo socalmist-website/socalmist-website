@@ -1,7 +1,7 @@
 import React from 'react';
+import { Button, Col, Container, Image, Row } from 'react-bootstrap';
 import { Header } from '../Header/Navbar';
 import { PageTitle } from '../Header/PageTitle';
-import {Container, Row, Col, Image, Button} from 'react-bootstrap';
 import './DonatePage.css';
 
 class DonatePage extends React.Component {

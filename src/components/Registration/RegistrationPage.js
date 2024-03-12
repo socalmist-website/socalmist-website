@@ -1,8 +1,7 @@
 import React from "react";
+import { Button, Card, Col, Row, Table } from "react-bootstrap";
 import { Header } from "../Header/Navbar";
 import { PageTitle } from "../Header/PageTitle";
-import { Row, Col, Card, Button } from "react-bootstrap";
-import { Table } from "react-bootstrap";
 import "./RegistrationPage.css";
 
 class RegistrationPage extends React.Component {

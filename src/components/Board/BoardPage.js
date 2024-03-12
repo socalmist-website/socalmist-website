@@ -1,7 +1,7 @@
 import React from "react";
+import { Card, Col, Container, Image, Row } from "react-bootstrap";
 import { Header } from "../Header/Navbar";
 import { PageTitle } from "../Header/PageTitle";
-import { Container, Row, Col, Card, Image } from "react-bootstrap";
 import "./BoardPage.css";
 
 class BoardPage extends React.Component {

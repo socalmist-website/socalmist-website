@@ -1,9 +1,9 @@
 import React from "react";
+import { Button, Card, Col, Container, Row } from "react-bootstrap";
+import "../../index.css";
 import { Header } from "../Header/Navbar";
 import { PageTitle } from "../Header/PageTitle";
-import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import "./RulebookPage.css";
-import "../../index.css";
 
 class RulebookPage extends React.Component {
   render() {

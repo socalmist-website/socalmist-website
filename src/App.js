@@ -1,23 +1,22 @@
 import React from "react";
-import { HomePage } from "./components/Home/HomePage";
-import { ContactPage } from "./components/Contact/ContactPage";
-import { SchedulePage } from "./components/Schedule/SchedulePage";
-import { ThemePage } from "./components/Theme/ThemePage";
-import { SpiritPage } from "./components/Spirit/SpiritPage";
-import { MISTree } from "./components/MISTree/MISTree";
-import { SponsorPage } from "./components/Sponsor/SponsorPage";
-import { DonatePage } from "./components/Donate/DonatePage";
-import { WinnersPage } from "./components/Winners/WinnersPage";
-import { JudgePage } from "./components/Judge/JudgePage";
-import { VolunteerPage } from "./components/Volunteer/VolunteerPage";
-import { RulebookPage } from "./components/Rulebook/RulebookPage";
-import { CompetitionsPage } from "./components/Competitions/CompetitionsPage";
-import { Route, Switch, Redirect } from "react-router-dom";
-import { RegistrationPage } from "./components/Registration/RegistrationPage";
-import { ProgramsPage } from "./components/Programs/ProgramsPage";
-import { BoardPage } from "./components/Board/BoardPage";
+import { Redirect, Route, Switch } from "react-router-dom";
 import AboutPage from "./components/About/AboutPage";
-
+import { BoardPage } from "./components/Board/BoardPage";
+import { CompetitionsPage } from "./components/Competitions/CompetitionsPage";
+import { ContactPage } from "./components/Contact/ContactPage";
+import { DonatePage } from "./components/Donate/DonatePage";
+import { HomePage } from "./components/Home/HomePage";
+import { JudgePage } from "./components/Judge/JudgePage";
+import { MISTree } from "./components/MISTree/MISTree";
+import { ProgramsPage } from "./components/Programs/ProgramsPage";
+import { RegistrationPage } from "./components/Registration/RegistrationPage";
+import { RulebookPage } from "./components/Rulebook/RulebookPage";
+import { SchedulePage } from "./components/Schedule/SchedulePage";
+import { SpiritPage } from "./components/Spirit/SpiritPage";
+import { SponsorPage } from "./components/Sponsor/SponsorPage";
+import { ThemePage } from "./components/Theme/ThemePage";
+import { VolunteerPage } from "./components/Volunteer/VolunteerPage";
+import { WinnersPage } from "./components/Winners/WinnersPage";
 
 const App = () => (
   <Switch>
@@ -32,7 +31,7 @@ const App = () => (
 
     {/* About */}
     <Route path="/about" component={AboutPage} />
-    
+
     {/* Program */}
     <Route path="/spirit" component={SpiritPage} />
 
@@ -46,15 +45,13 @@ const App = () => (
     {/* Sponsor/Donate */}
     <Route path="/sponsor" component={SponsorPage} />
     <Route path="/donate" component={DonatePage} />
-  
 
     {/* Other */}
     <Route path="/MISTree" component={MISTree} />
     <Route path="/schedule" component={SchedulePage} />
     <Route path="/winners" component={WinnersPage} />
     <Route path="/board" component={BoardPage} />
-    
-    
+
     {/* 404 Page Redirects to Home */}
     <Redirect to="/" />
   </Switch>

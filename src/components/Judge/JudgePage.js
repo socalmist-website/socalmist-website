@@ -1,8 +1,8 @@
 import React from "react";
+import { Col, Container, Row } from "react-bootstrap";
 import { Header } from "../Header/Navbar";
-import { PageTitle } from "../Header/PageTitle";
 import { PageSubTitle } from "../Header/PageSubTitle";
-import { Container, Row, Col } from "react-bootstrap";
+import { PageTitle } from "../Header/PageTitle";
 import "./JudgePage.css";
 
 class JudgePage extends React.Component {

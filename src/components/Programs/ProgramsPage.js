@@ -1,7 +1,7 @@
 import React from "react";
+import { Col, Row } from "react-bootstrap";
 import { Header } from "../Header/Navbar";
 import { PageTitle } from "../Header/PageTitle";
-import { Row, Col } from "react-bootstrap";
 
 class ProgramsPage extends React.Component {
   render() {

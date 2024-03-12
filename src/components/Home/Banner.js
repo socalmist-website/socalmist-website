@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import "./Banner.css";
-import { Container, Row, Col } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import "./Banner.css";
 
 class Banner extends Component {
   render() {

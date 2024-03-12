@@ -1,7 +1,7 @@
 import React from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
 import { Header } from '../Header/Navbar';
 import { PageTitle } from '../Header/PageTitle';
-import {Container, Row, Col} from 'react-bootstrap';
 
 class FinancialAidPage extends React.Component {
 
