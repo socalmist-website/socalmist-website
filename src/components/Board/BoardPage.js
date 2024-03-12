@@ -6,7 +6,7 @@ import "./BoardPage.css";
 
 class BoardPage extends React.Component {
   render() {
-    const MeeralAbutaha = require("../../public/BoardImages/MeeralAbutaha.jpeg");
+    const MeraalAbutaha = require("../../public/BoardImages/MeraalAbutaha.jpeg");
     const RabaaKhan = require("../../public/BoardImages/RabaaKhan.jpg");
     const AyahHalabi = require("../../public/BoardImages/AyahHalabi.jpeg");
     const YousefKhan = require("../../public/BoardImages/YousefKhan.jpg");
@@ -16,7 +16,6 @@ class BoardPage extends React.Component {
     const YazanMoubayed = require("../../public/BoardImages/YazanMoubayed.JPG");
     const BoushraElHabbal = require("../../public/BoardImages/BoushraElHabbal.jpg");
     const AlinaRazi = require("../../public/BoardImages/AlinaRazi.jpeg");
-    const RokshanaBushra = require("../../public/BoardImages/RokshanaBushra.jpg");
     const LeenAlmahdi = require("../../public/BoardImages/LeenAlmahdi.JPG");
     const NoorBashir = require("../../public/BoardImages/NoorBashir.jpg");
     const SaaraHashim = require("../../public/BoardImages/SaaraHashim.jpeg");
@@ -33,9 +32,9 @@ class BoardPage extends React.Component {
     const teamMembers = {
       Admin: [
         {
-          name: "Meeraal Abutaha",
+          name: "Meraal Abutaha",
           position: "Regional Director",
-          imgSrc: MeeralAbutaha,
+          imgSrc: MeraalAbutaha,
         },
       ],
       Marketing: [
@@ -79,13 +78,8 @@ class BoardPage extends React.Component {
       ],
       Program: [
         {
-          name: "Rokshana Bushra",
-          position: "Chair",
-          imgSrc: RokshanaBushra,
-        },
-        {
           name: "Leen Almahdi",
-          position: "Spirits & Ceremonies Coordinator",
+          position: "Chair",
           imgSrc: LeenAlmahdi,
         },
         {

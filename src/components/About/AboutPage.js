@@ -90,7 +90,7 @@ class AboutPage extends React.Component {
               <Col sm={12} className="mb-4">
                 <Card className="about-card">
                   <Card.Body>
-                    <Card.Title>Our Impact</Card.Title>
+                    <Card.Title>Our Events</Card.Title>
                     <Card.Text>
                       Each year, SoCal MIST orchestrates a symphony of events
                       that resonate with the rhythm of creativity and the
@@ -119,7 +119,7 @@ class AboutPage extends React.Component {
               <Col sm={12} className="mb-4">
                 <Card className="about-card">
                   <Card.Body>
-                    <Card.Title>Our Community</Card.Title>
+                    <Card.Title>Join Us</Card.Title>
                     <Card.Text>
                       Are you ready to embark on an unforgettable journey of
                       self-discovery and community engagement? SoCal MIST
@@ -224,7 +224,7 @@ class AboutPage extends React.Component {
             <Col lg={5} className="mb-4">
               <Card className="about-card" style={{height: '100%'}}>
                 <Card.Body>
-                  <Card.Title>Our Impact</Card.Title>
+                  <Card.Title>Our Events</Card.Title>
                   <Card.Text>
                     Each year, SoCal MIST orchestrates a symphony of events that
                     resonate with the rhythm of creativity and the harmony of
@@ -259,7 +259,7 @@ class AboutPage extends React.Component {
             <Col lg={5} className="mb-4">
               <Card className="about-card" style={{height: '100%'}}>
                 <Card.Body>
-                  <Card.Title>Our Community</Card.Title>
+                  <Card.Title>Join Us</Card.Title>
                   <Card.Text>
                     Are you ready to embark on an unforgettable journey of
                     self-discovery and community engagement? SoCal MIST welcomes
