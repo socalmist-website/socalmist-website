@@ -142,14 +142,23 @@ class BoardPage extends React.Component {
       // Other committees
     };
 
-    const getColumnSize = (members) => {
-      switch (members.length) {
-        case 1:
-          return 12; // Full width for one member
-        case 2:
-          return 6; // Half width for two members
-        default:
-          return 4; // One third for three or more members
+    const getColumnSize = (members, memberIndex) => {
+      const totalMembers = members.length;
+      if (totalMembers === 1) {
+        return 12; // Full width for one member
+      } else if (totalMembers === 2) {
+        return 6; // Half width for two members
+      } else if (totalMembers > 2 && totalMembers % 3 === 1) {
+        // For more than 2 members and if there's a straggler (1 mod 3),
+        // make the first one full width, others as per normal logic
+        if (memberIndex === 0) {
+          // Check if it's the first member (usually the chair)
+          return 12; // Full width for the first member
+        } else {
+          return 4; // One third for the rest
+        }
+      } else {
+        return 4; // One third for three or more members without stragglers
       }
     };
 
@@ -165,7 +174,7 @@ class BoardPage extends React.Component {
               </h2>
               <Row>
                 {members.map((member, idx) => (
-                  <Col md={getColumnSize(members)} key={idx} className="mb-4">
+                  <Col md={getColumnSize(members, idx)} key={idx} className="mb-4">
                     <Card className="text-center team-member-card">
                       <Card.Body>
                         <Image
