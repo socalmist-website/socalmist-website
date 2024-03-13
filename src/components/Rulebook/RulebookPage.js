@@ -1,6 +1,5 @@
 import React from "react";
 import { Button, Card, Col, Container, Row } from "react-bootstrap";
-import "../../index.css";
 import { Header } from "../Header/Navbar";
 import { PageTitle } from "../Header/PageTitle";
 import "./RulebookPage.css";
@@ -12,16 +11,15 @@ class RulebookPage extends React.Component {
         <Header />
         <PageTitle pageTitle="SoCal MIST Competition Materials" />
         <Container>
-          {/* Ensure the Row acts as a flex container with equal height children */}
           <Row className="section d-flex align-items-stretch">
             <Col sm={6} className="mb-4 d-flex">
-              <Card className="text-center custom-card w-100" style={{minHeight: 375}}>
-                <Card.Body>
-                  <Card.Title>MIST Bowl</Card.Title>
-                  <div className="mist-bowl-content card-content">
+              <Card className="rule-card w-100" style={{ minHeight: 375 }}>
+                <Card.Body className="rule-card-body">
+                  <Card.Title className="text-center">MIST Bowl</Card.Title>
+                  <div className="mistbowl-card-content">
                     <p>
                       <a
-                        className="mist-link"
+                        className="rule-link"
                         href="https://tinyurl.com/mistbowl2024t1"
                       >
                         Topic 1: Tracing Palestine
@@ -29,7 +27,7 @@ class RulebookPage extends React.Component {
                     </p>
                     <p>
                       <a
-                        className="mist-link"
+                        className="rule-link"
                         href="https://tinyurl.com/mistbowl2024t2"
                       >
                         Topic 2: Racial Disparities and Injustice
@@ -37,7 +35,7 @@ class RulebookPage extends React.Component {
                     </p>
                     <p>
                       <a
-                        className="mist-link"
+                        className="rule-link"
                         href="https://tinyurl.com/mistbowl2024t3"
                       >
                         Topic 3: The Firsts | The Forerunners
@@ -45,7 +43,7 @@ class RulebookPage extends React.Component {
                     </p>
                     <p>
                       <a
-                        className="mist-link"
+                        className="rule-link"
                         href="https://tinyurl.com/mistbowl2024t4"
                       >
                         Topic 4: Muslim Youth in Western Tides
@@ -53,7 +51,7 @@ class RulebookPage extends React.Component {
                     </p>
                     <p>
                       <a
-                        className="mist-link"
+                        className="rule-link"
                         href="https://tinyurl.com/mistbowl2024t5"
                       >
                         Topic 5: The Steady Rise of Islamophobia
@@ -61,7 +59,7 @@ class RulebookPage extends React.Component {
                     </p>
                     <p>
                       <a
-                        className="mist-link"
+                        className="rule-link"
                         href="https://tinyurl.com/mistbowl2024t6"
                       >
                         Topic 6: Current Events
@@ -72,12 +70,12 @@ class RulebookPage extends React.Component {
               </Card>
             </Col>
             <Col sm={6} className="mb-4 d-flex">
-              <Card className="custom-card w-100" style={{minHeight: 375}}>
-                <Card.Body>
+              <Card className="rule-card w-100" style={{ minHeight: 375 }}>
+                <Card.Body className="rule-card-body">
                   <Card.Title className="text-center">
                     Knowledge Test
                   </Card.Title>
-                  <div className="knowledge-test-content card-content">
+                  <div className="knowledge-test-content">
                     <p>
                       Book 1: The Question of Palestine by Edward Said (first
                       150 pages)
@@ -99,10 +97,10 @@ class RulebookPage extends React.Component {
 
           <Row className="section d-flex align-items-stretch">
             <Col sm={6} className="mb-4 d-flex">
-              <Card className="custom-card w-100" style={{minHeight: 375}}>
-                <Card.Body>
+              <Card className="rule-card w-100" style={{ minHeight: 375 }}>
+                <Card.Body className="rule-card-body">
                   <Card.Title className="text-center">Debate Topics</Card.Title>
-                  <div className="debate-content card-content">
+                  <div className="debate-content">
                     <p>
                       It is more effective to be engaged in local politics than
                       federal politics.
@@ -127,36 +125,33 @@ class RulebookPage extends React.Component {
               </Card>
             </Col>
             <Col sm={6} className="mb-4 d-flex">
-              <Card className="text-center custom-card w-100" style={{minHeight: 375}}>
-                <Card.Body>
-                  <Card.Title>Improv</Card.Title>
-                  <div className="improv-content card-content">
-                    <p style={{fontSize: 40, padding: 95}}>
-                      <a
-                        className="mist-link"
-                        href="https://tinyurl.com/mistimprov2024"
-                      >
-                        Improv Rules
-                      </a>
-                    </p>
-                  </div>
-                </Card.Body>
-              </Card>
-            </Col>
-          </Row>
-          <Row className="section justify-content-center">
-            <Col sm={6} className="mb-4 text-center">
-              <Button
-                variant="none"
-                size="lg"
-                href="https://www.getmistified.com/news/2023/12/21/2023-competitions-rulebook-x4e72"
-                target="_blank"
-                className="buttonDiv"
+              <a
+                className="w-100 rule-card-improv-rules-link"
+                href="https://docs.google.com/document/d/12HE0wsdmwpD0kb3IVnfI_50qZCiM7Q1s9uAzXLgEHsg/edit#heading=h.71lqsqhvebe7"
               >
-                <b>Official MIST 2024 Rulebook</b>
-              </Button>
+                <Card
+                  className="rule-card rule-card-improv-rules"
+                  style={{ minHeight: 450 }}
+                >
+                  <Card.Body className="rule-card-body">
+                    <div className="improv-content">
+                      <p className="text-center" id="rule-improv-rules">
+                        Improv Rules
+                      </p>
+                    </div>
+                  </Card.Body>
+                </Card>
+              </a>
             </Col>
           </Row>
+        </Container>
+        <Container>
+          <a
+            href="https://www.getmistified.com/news/2023/12/21/2023-competitions-rulebook-x4e72"
+            className="rule-buttonDiv"
+          >
+              <h5>Official MIST 2024 Rulebook</h5>
+          </a>
         </Container>
       </div>
     );

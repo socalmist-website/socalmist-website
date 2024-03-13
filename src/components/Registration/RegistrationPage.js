@@ -77,15 +77,12 @@ class RegistrationPage extends React.Component {
               ></iframe>
             </div>
             <div className="text-center my-4">
-              <Button
-                variant="none"
-                size="lg"
+              <a
                 href="https://my.getmistified.com/"
-                target="_blank"
                 className="reg-buttonDiv"
               >
-                <b>Register Now!</b>
-              </Button>
+                <h4>Register Now!</h4>
+              </a>
             </div>
           </Col>
         </Row>

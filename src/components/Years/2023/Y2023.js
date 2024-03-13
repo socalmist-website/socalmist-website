@@ -37,7 +37,7 @@ class Y2023 extends React.Component {
           <Container className="y-content-container">
             <Col md={6} lg={8}>
               {/* Left side content here */}
-              <div className="card mb-4 y-lefthand">
+              <div className="card mb-4 y-lefthand" style={{minHeight: 474}}>
                 <div className="y-card-body">
                   <h5 className="y-card-title">Theme</h5>
                   <p className="y-card-text">
@@ -48,7 +48,14 @@ class Y2023 extends React.Component {
                   <h5 className="y-card-title">Date</h5>
                   <p className="y-card-text">May 20-21</p>
                   <h5 className="y-card-title">Previous Board Members</h5>
-                  <p className="y-card-text">Coming Soon!</p>
+                  <p className="y-card-text">
+                    Yusuf Ezzeldine, Aimen Imtiaz, Alaa Salim, Araam Abutaha,
+                    Dua Shoaib, Hafsa Farooqui, Imaad Rana, Janan AlKhaja, Kian
+                    Nourollahi, Lujain Almahdi, Meraal Abutaha, Mohammad Israr,
+                    Mouaz Kanawati, Rabaa Khan, Rabia Ahmed, Rokshana Bushra,
+                    Sawsan Dibseh, Shereen Nourollahi, Sal Latif, Summer Kurdi, Yazan
+                    Moubayed, Zayyan Ul Hassan
+                  </p>
                 </div>
               </div>
             </Col>
