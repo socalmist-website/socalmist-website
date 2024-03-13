@@ -12,7 +12,7 @@ class RegistrationPage extends React.Component {
         <PageTitle pageTitle="Registration" />
         <Row className="justify-content-sm-center">
           <Col sm={8} md={6} lg={4} className="my-4">
-            <Card className="custom-card">
+            <Card className="reg-card">
               <Card.Body>
                 <Card.Title>How Registration Works</Card.Title>
                 <Card.Text>
@@ -25,7 +25,7 @@ class RegistrationPage extends React.Component {
                 </Card.Text>
               </Card.Body>
             </Card>
-            <Card className="custom-card mt-3">
+            <Card className="reg-card mt-3">
               <Card.Body>
                 <Card.Title>Pricing</Card.Title>
                 <Card.Text>

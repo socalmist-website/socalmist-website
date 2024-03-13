@@ -12,7 +12,6 @@ import { ProgramsPage } from "./components/Programs/ProgramsPage";
 import { RegistrationPage } from "./components/Registration/RegistrationPage";
 import { RulebookPage } from "./components/Rulebook/RulebookPage";
 import { SchedulePage } from "./components/Schedule/SchedulePage";
-import { SpiritPage } from "./components/Spirit/SpiritPage";
 import { SponsorPage } from "./components/Sponsor/SponsorPage";
 import { ThemePage } from "./components/Theme/ThemePage";
 import { VolunteerPage } from "./components/Volunteer/VolunteerPage";
@@ -23,6 +22,10 @@ const App = () => (
   <Switch>
     <Route exact path="/" component={HomePage} />
 
+    {/* About */}
+    <Route path="/about" component={AboutPage} />
+    <Route path="/board" component={BoardPage} />
+
     {/* SoCal MIST 2024 */}
     <Route path="/registration" component={RegistrationPage} />
     <Route path="/theme" component={ThemePage} />
@@ -30,30 +33,21 @@ const App = () => (
     <Route path="/competitions" component={CompetitionsPage} />
     <Route path="/programs" component={ProgramsPage} />
 
-    {/* About */}
-    <Route path="/about" component={AboutPage} />
-
-    {/* Program */}
-    <Route path="/spirit" component={SpiritPage} />
-
     {/* Get Involved */}
     <Route path="/judge" component={JudgePage} />
     <Route path="/volunteer" component={VolunteerPage} />
 
-    {/* Contact */}
-    <Route path="/contact" component={ContactPage} />
+    {/* Years */}
+    <Route path="/years/2023" component={Y2023} />
 
     {/* Sponsor/Donate */}
     <Route path="/sponsor" component={SponsorPage} />
     <Route path="/donate" component={DonatePage} />
 
     {/* Other */}
-    <Route path="/MISTree" component={MISTree} />
     <Route path="/schedule" component={SchedulePage} />
     <Route path="/winners" component={WinnersPage} />
-    <Route path="/board" component={BoardPage} />
-
-    <Route path="/years/2023" component={Y2023} />
+    
 
     {/* 404 Page Redirects to Home */}
     <Redirect to="/" />

@@ -1,5 +1,6 @@
-.custom-card {
+.reg-card {
     margin: auto;
+    margin-bottom: 2em;
     max-width: 500px;
     border-radius: 10px; /* Rounded borders */
     border: none; /* No border color */
