@@ -23,7 +23,7 @@
     margin: auto; /* Center the iframe */
   }
   
-  .buttonDiv {
+  .reg-buttonDiv {
     justify-content: center;
     align-items: center;
     /*position: relative;*/
@@ -42,7 +42,7 @@
     box-shadow: 3px 4px #ca6946;
   }
 
-  .buttonDiv:hover {
+  .reg-buttonDiv:hover {
     transition: 0.5s;
     background-color: #ca6946 !important;
     box-shadow: 3px 5px #f5c809 !important;

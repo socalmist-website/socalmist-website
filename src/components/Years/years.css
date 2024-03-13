@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300|Open+Sans|Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+.y-cardLink {
+  text-decoration: none;
+  color: inherit;
+}
+
+.y-cardLink:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.y-card {
+  transition: transform 0.5s, box-shadow 0.5s, background-color 0.4s ease-in-out;
+  background-color: #ffffff; /* Default white background */
+}
+
+.y-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15);
+  background-color: #f5c809; /* Yellow background on hover */
+}
+
+.y-card-body {
+  padding: 1.25rem;
+}
+
+.y-card-title {
+  margin-bottom: 0.75rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.y-card-text {
+  font-family: 'Lato', sans-serif;
+}
+
+.y-card-container {
+  margin-top: 2rem;
+}
+
+@media (max-width: 767px) {
+  .row-cols-md-2 {
+  flex-direction: column;
+  }
+}
+

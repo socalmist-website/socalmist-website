@@ -17,6 +17,7 @@ import { SponsorPage } from "./components/Sponsor/SponsorPage";
 import { ThemePage } from "./components/Theme/ThemePage";
 import { VolunteerPage } from "./components/Volunteer/VolunteerPage";
 import { WinnersPage } from "./components/Winners/WinnersPage";
+import { Y2023 } from "./components/Years/2023/Y2023";
 
 const App = () => (
   <Switch>
@@ -51,6 +52,8 @@ const App = () => (
     <Route path="/schedule" component={SchedulePage} />
     <Route path="/winners" component={WinnersPage} />
     <Route path="/board" component={BoardPage} />
+
+    <Route path="/years/2023" component={Y2023} />
 
     {/* 404 Page Redirects to Home */}
     <Redirect to="/" />

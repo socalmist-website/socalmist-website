@@ -82,7 +82,7 @@ class RegistrationPage extends React.Component {
                 size="lg"
                 href="https://my.getmistified.com/"
                 target="_blank"
-                className="buttonDiv"
+                className="reg-buttonDiv"
               >
                 <b>Register Now!</b>
               </Button>

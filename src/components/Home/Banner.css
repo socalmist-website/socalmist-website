@@ -8,7 +8,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  min-height: 100vh; /* Ensure that the background covers the full viewport height */
+  min-height: 95svh; /* Ensure that the background covers the full viewport height */
   display: flex;
   flex-direction: column;
   justify-content: space-between; /* Distribute space between and around content items */
@@ -69,40 +69,47 @@
 
 .buttonDiv {
   background-color: #f5c809;
-  border: 0.2em solid #f5c809;
-  padding: 0.5rem 1rem;
+  padding: 1.5rem;
   text-align: center;
-  transition: background-color 0.5s, color 0.5s;
+  font-weight: bold;
+  transition: background-color 0.5s, color 0.5s, transform 0.5s; /* Smooth transition for background color, text color, and size */
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 0.5rem; /* Rounded corners for buttons */
+  min-height: 7.5rem; /* Ensure that buttons have a minimum height */
 }
 
 .buttonLink {
   display: block;
   color: black; /* Text color */
-  text-decoration: none; /* No underline */
+  text-decoration: none !important; /* No underline */
   width: 100%; /* Full width links */
 }
 
 .buttonLink:hover .buttonDiv, .buttonLink:focus .buttonDiv {
   background-color: #ca6946;
   color: white;
+  text-decoration: none !important;
+}
+
+.buttonDiv:hover {
+  cursor: pointer;
+  transform: scale(1.05); /* Slightly increase size on hover */
 }
 
 .buttonText {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.2em; /* Larger text for better readability */
+  font-size: 1.5em; /* Larger text for better readability */
 }
 
 @media (max-width: 768px) {
   .bannerText {
-    font-size: 3em; /* Smaller text for smaller devices */
+    font-size: 3.5em; /* Smaller text for smaller devices */
   }
 
   .bannerTextSmaller {
-    font-size: 1.5em;
+    font-size: 2em;
   }
 
   .buttonDiv {
@@ -110,6 +117,6 @@
   }
 
   .buttonText {
-    font-size: 1em; /* Adjust font size for smaller screens */
+    font-size: 1.5em; /* Adjust font size for smaller screens */
   }
 }
