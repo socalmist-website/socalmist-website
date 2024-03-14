@@ -174,7 +174,11 @@ class BoardPage extends React.Component {
               </h2>
               <Row>
                 {members.map((member, idx) => (
-                  <Col md={getColumnSize(members, idx)} key={idx} className="mb-4">
+                  <Col
+                    md={getColumnSize(members, idx)}
+                    key={idx}
+                    className="mb-4"
+                  >
                     <Card className="text-center team-member-card">
                       <Card.Body>
                         <Image
