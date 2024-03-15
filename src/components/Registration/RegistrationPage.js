@@ -11,7 +11,7 @@ class RegistrationPage extends React.Component {
         <Header />
         <PageTitle pageTitle="Registration" />
         <Row className="justify-content-sm-center">
-          <Col sm={8} md={6} lg={4} className="my-4">
+          <Col sm={8} md={7} lg={5} className="my-4">
             <Card className="reg-card">
               <Card.Body>
                 <Card.Title>How Registration Works</Card.Title>
@@ -33,6 +33,7 @@ class RegistrationPage extends React.Component {
                     <thead>
                       <tr>
                         <th>Registration Period</th>
+                        <th>Ends</th>
                         <th>Competitor Price</th>
                         <th>Guest Price</th>
                       </tr>
@@ -40,11 +41,13 @@ class RegistrationPage extends React.Component {
                     <tbody>
                       <tr id="current-reg-phase">
                         <td>Early Registration</td>
+                        <td>March 15th</td>
                         <td>$35</td>
                         <td>$35</td>
                       </tr>
                       <tr>
                         <td>Regular Registration</td>
+                        <td></td>
                         <td>
                           {/* Competitor price will be added here later */}
                         </td>
@@ -52,6 +55,7 @@ class RegistrationPage extends React.Component {
                       </tr>
                       <tr>
                         <td>Late Registration</td>
+                        <td></td>
                         <td>
                           {/* Competitor price will be added here later */}
                         </td>

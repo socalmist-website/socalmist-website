@@ -1,0 +1,54 @@
+.competitions-page {
+    padding-bottom: 4rem;
+}
+
+.competition-group-title {
+    text-align: center;
+    margin-top: 2.5rem;
+    margin-bottom: 3.5rem;
+}
+
+.competition-card {
+    padding: 1rem;
+    margin: auto;
+    box-shadow: 0 0px 15px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    height: 100%;
+}
+
+.competition-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+    display: block;
+    border-radius: 50%;
+}
+
+.competition-row {
+    display: flex;
+    flex-wrap: wrap;
+    /* This allows for wrapping items to the next line */
+}
+
+/* Set each column to display as flex and flex-direction to column */
+.competition-col {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Make the card body flex and allow it to expand to fill the space */
+.competition-card .card-body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+    /* This allows the card body to expand */
+}
+
+.competition-card .card-text {
+    flex-grow: 1;
+}
