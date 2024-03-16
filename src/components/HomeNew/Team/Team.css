@@ -1,0 +1,79 @@
+.home-team-container {
+    width: 100%;
+}
+
+.home-team-row {
+    margin-right: 0 !important;
+}
+
+.home-team-image-col {
+    padding: 0 !important;
+}
+
+.home-team-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+  }
+
+.home-team-text-section {
+    background-color: #FFD700;
+    /* Adjust the color to match the yellow in your design */
+    text-align: center;
+    padding: 10rem 2rem;
+}
+
+.home-team-text-section h2 {
+    font-size: 8rem;
+    margin-bottom: 2rem;
+    color: #333;
+    /* Adjust color as necessary */
+}
+
+.home-team-text-section p {
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    color: #333;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    /* Adjust color as necessary */
+}
+
+
+.home-team-button {
+    bottom: 100px;
+    left: 50%;
+    /* Ensures horizontal centering */
+    padding: 1.5rem 3rem;
+    font-size: 2rem;
+    color: #000;
+    background-color: #ca6946;
+    border: none;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 4rem;
+    transition: all 0.4s;
+}
+
+.home-team-button:hover {
+    background-color: #a6532a;
+    color: #f5c809;
+    transform: scale(1.05);
+
+}
+
+@media (max-width: 768px) {
+    .home-team-text-section h2 {
+        font-size: 6rem;
+    }
+
+    .home-team-text-section p {
+        font-size: 1.5rem;
+        width: 80%;
+    }
+}

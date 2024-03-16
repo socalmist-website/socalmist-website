@@ -1,0 +1,52 @@
+.home-banner {
+    position: relative;
+    width: 100%;
+    height: 95vh;
+    /* Full height */
+    background-size: cover;
+    background-position: center;
+}
+
+.fade-to-black {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 50%;
+    /* Adjust the height to control the fade effect */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
+}
+
+.home-banner-logo {
+    position: absolute;
+    top: 50px;
+    /* Adjust as per your requirement */
+    left: 50%;
+    /* Center the logo */
+    transform: translateX(-50%);
+    width: 500px;
+    /* Adjust as per your requirement */
+}
+
+.home-spotlight-button {
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    /* Ensures horizontal centering */
+    padding: 1.5rem 3rem;
+    font-size: 2rem;
+    color: #ca6946;
+    background-color: #f5c809;
+    border: none;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 4rem;
+    transition: all 0.4s;
+}
+
+.home-spotlight-button:hover {
+    background-color: #ca6946;
+    color: #f5c809;
+    transform: translate(-50%, 0) scale(1.05);
+
+}

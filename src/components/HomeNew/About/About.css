@@ -1,0 +1,97 @@
+.home-about-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 4rem;
+    color: #ffffff;
+}
+
+.home-about-image-col {
+    padding: 20px;
+    /* This adds space between the columns */
+    display: flex;
+    /* Use flexbox to align the images */
+    align-items: center;
+    /* This will vertically align the images in the middle */
+}
+
+.home-about-image {
+    width: 100%;
+    /* This ensures the image takes up all the column width */
+    height: 100%;
+    /* The height should be set to 100% of the parent */
+    object-fit: cover;
+    /* Cover will ensure the aspect ratio is maintained */
+    border-radius: 1rem;
+}
+
+/* Equal height images */
+.home-about-image-col img {
+    height: 100%;
+}
+
+/* Adjust the button and text as needed */
+.home-about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home-about-text h2 {
+    font-size: 6.5rem;
+    align-self: left;
+    /* Increase the font size for the header */
+    font-weight: bold;
+    /* Make the header font bolder */
+    color: #ffffff;
+    /* Adjust the color if needed */
+    margin-bottom: 2.5rem;
+    line-height: 1.2;
+    /* Adjust the line height for better readability */
+}
+
+.home-about-text p {
+    font-size: 1.5rem;
+    /* Increase the font size for the paragraph text */
+    color: #d9d9d9;
+    /* Lighter color for the paragraph text, adjust as needed */
+    margin-bottom: 4rem;
+    line-height: 1.5;
+    /* Adjust the line height for better readability */
+}
+
+.home-about-button {
+    bottom: 100px;
+    width: 80%;
+    margin-left: 10%;
+    padding: 1.5rem 3rem;
+    font-size: 2rem;
+    color: #fff;
+    background-color: #41a7d0;
+    border: none;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 4rem;
+    transition: all 0.4s;
+}
+
+.home-about-button:hover {
+    background-color: #2e7da6;
+    transform: scale(1.05);
+
+}
+
+/* Add responsive considerations */
+@media (max-width: 768px) {
+    .home-about-image-col {
+        padding: 15px;
+    }
+
+    .home-about-text h2 {
+        align-self: center;
+        font-size: 5.5rem;
+        margin-top: 2rem;
+    }
+}

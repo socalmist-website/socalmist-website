@@ -6,6 +6,7 @@ import { CompetitionsPage } from "./components/Competitions/CompetitionsPage";
 import { ContactPage } from "./components/Contact/ContactPage";
 import { DonatePage } from "./components/Donate/DonatePage";
 import { HomePage } from "./components/Home/HomePage";
+import { HomeNew } from "./components/HomeNew/HomeNew";
 import { JudgePage } from "./components/Judge/JudgePage";
 import { MISTree } from "./components/MISTree/MISTree";
 import { ProgramsPage } from "./components/Programs/ProgramsPage";
@@ -21,6 +22,7 @@ import { Y2023 } from "./components/Years/2023/Y2023";
 const App = () => (
   <Switch>
     <Route exact path="/" component={HomePage} />
+    <Route path="/hometest" component={HomeNew} />
 
     {/* About */}
     <Route path="/about" component={AboutPage} />
@@ -47,7 +49,6 @@ const App = () => (
     {/* Other */}
     <Route path="/schedule" component={SchedulePage} />
     <Route path="/winners" component={WinnersPage} />
-    
 
     {/* 404 Page Redirects to Home */}
     <Redirect to="/" />
