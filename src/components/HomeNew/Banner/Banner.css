@@ -18,12 +18,12 @@
 
 .home-banner-logo {
     position: absolute;
-    top: 50px;
+    top: 30px;
     /* Adjust as per your requirement */
     left: 50%;
     /* Center the logo */
     transform: translateX(-50%);
-    width: 500px;
+    width: 380px;
     /* Adjust as per your requirement */
 }
 

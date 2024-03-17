@@ -1,6 +1,7 @@
 import React from 'react';
 import './Theme.css';
 import themeImage from '../../../public/HomeNew/MISTTheme.png'; // Update the path as necessary
+import { Link } from 'react-router-dom';
 
 class Theme extends React.Component {
   render() {
@@ -8,8 +9,12 @@ class Theme extends React.Component {
       <div className="home-theme-container">
         <img src={themeImage} alt="MIST Theme 2024" className="home-theme-image"/>
         <div className="home-theme-buttons">
-          <button className="home-theme-button">Theme</button>
-          <button className="home-theme-button">Rulebook</button>
+          <Link to="/theme">
+            <button className="home-theme-button">Theme</button>
+          </Link>
+          <Link to="/rulebook">
+            <button className="home-theme-button">Rulebook</button>
+          </Link>
         </div>
       </div>
     );

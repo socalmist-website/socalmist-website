@@ -39,19 +39,17 @@ class RegistrationPage extends React.Component {
                       </tr>
                     </thead>
                     <tbody>
-                      <tr id="current-reg-phase">
+                      <tr>
                         <td>Early Registration</td>
                         <td>March 15th</td>
                         <td>$35</td>
                         <td>$35</td>
                       </tr>
-                      <tr>
-                        <td>Regular Registration</td>
-                        <td></td>
-                        <td>
-                          {/* Competitor price will be added here later */}
-                        </td>
-                        <td>{/* Guest price will be added here later */}</td>
+                      <tr id="current-reg-phase">
+                        <td>General Registration</td>
+                        <td>April 6th</td>
+                        <td>$50</td>
+                        <td>$40</td>
                       </tr>
                       <tr>
                         <td>Late Registration</td>
@@ -81,10 +79,7 @@ class RegistrationPage extends React.Component {
               ></iframe>
             </div>
             <div className="text-center my-4">
-              <a
-                href="https://my.getmistified.com/"
-                className="reg-buttonDiv"
-              >
+              <a href="https://my.getmistified.com/" className="reg-buttonDiv">
                 <h4>Register Now!</h4>
               </a>
             </div>
