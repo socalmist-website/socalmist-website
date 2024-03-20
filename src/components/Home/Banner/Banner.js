@@ -1,7 +1,7 @@
 import React from "react";
 import "./Banner.css";
-import bgImage from "../../../public/HomeNew/MISTGroupPhoto.jpg";
-import logoImage from "../../../public/HomeNew/MISTLogo.png";
+import bgImage from "../../../public/Home/MISTGroupPhoto.jpg";
+import logoImage from "../../../public/Home/MISTLogo.png";
 
 class Banner extends React.Component {
   render() {

@@ -1,0 +1,19 @@
+.home-irt-container {
+    width: 100%;
+}
+
+.home-irt-row {
+    margin-right: 0 !important;
+}
+
+.home-irt-image-col {
+    padding: 0 !important;
+}
+
+.home-irt-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}

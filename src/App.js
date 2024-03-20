@@ -3,12 +3,9 @@ import { Redirect, Route, Switch } from "react-router-dom";
 import AboutPage from "./components/About/AboutPage";
 import { BoardPage } from "./components/Board/BoardPage";
 import { CompetitionsPage } from "./components/Competitions/CompetitionsPage";
-import { ContactPage } from "./components/Contact/ContactPage";
 import { DonatePage } from "./components/Donate/DonatePage";
-import { HomePage } from "./components/Home/HomePage";
-import { HomeNew } from "./components/HomeNew/HomeNew";
+import { Home } from "./components/Home/Home";
 import { JudgePage } from "./components/Judge/JudgePage";
-import { MISTree } from "./components/MISTree/MISTree";
 import { ProgramsPage } from "./components/Programs/ProgramsPage";
 import { RegistrationPage } from "./components/Registration/RegistrationPage";
 import { RulebookPage } from "./components/Rulebook/RulebookPage";
@@ -23,11 +20,10 @@ import ScrollToTop from "./Library/ScrollToTop";
 const App = () => (
   <ScrollToTop>
     <Switch>
-      <Route exact path="/" component={HomeNew} />
-      <Route path="/homeold" component={HomePage} />
+      <Route exact path="/" component={Home} />
 
       {/* About */}
-      <Route path="/about" component={AboutPage} />
+    q  <Route path="/about" component={AboutPage} />
       <Route path="/board" component={BoardPage} />
 
       {/* SoCal MIST 2024 */}

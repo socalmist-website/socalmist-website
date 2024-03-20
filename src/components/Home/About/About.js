@@ -1,8 +1,8 @@
 import React from "react";
 import "./About.css";
-import backgroundImg from "../../../public/HomeNew/AboutBG.png";
-import audienceImg from "../../../public/HomeNew/Applause.jpeg";
-import trophiesImg from "../../../public/HomeNew/Trophies.jpeg";
+import backgroundImg from "../../../public/Home/AboutBG.png";
+import audienceImg from "../../../public/Home/Applause.jpeg";
+import trophiesImg from "../../../public/Home/Trophies.jpeg";
 import { Link } from "react-router-dom";
 
 

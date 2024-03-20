@@ -1,6 +1,6 @@
 import React from 'react';
 import './Theme.css';
-import themeImage from '../../../public/HomeNew/MISTTheme.png'; // Update the path as necessary
+import themeImage from '../../../public/Home/MISTTheme.png'; // Update the path as necessary
 import { Link } from 'react-router-dom';
 
 class Theme extends React.Component {

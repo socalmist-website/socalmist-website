@@ -23,7 +23,7 @@
     left: 50%;
     /* Center the logo */
     transform: translateX(-50%);
-    width: 380px;
+    width: 40vh;
     /* Adjust as per your requirement */
 }
 

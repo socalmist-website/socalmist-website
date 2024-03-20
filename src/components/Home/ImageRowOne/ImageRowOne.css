@@ -1,0 +1,19 @@
+.home-iro-container {
+    width: 100%;
+}
+
+.home-iro-row {
+    margin-right: 0 !important;
+}
+
+.home-iro-image-col {
+    padding: 0 !important;
+}
+
+.home-iro-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
