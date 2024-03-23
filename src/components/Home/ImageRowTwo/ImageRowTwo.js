@@ -7,9 +7,9 @@ import team6 from "../../../public/Home/team-6.jpg"; // Update the path as neces
 class ImageRowTwo extends React.Component {
   render() {
     return (
-      <div className="home-iro-container">
-        <div className="row home-iro-row">
-          <div className="col home-iro-image-col">
+      <div className="home-irt-container">
+        <div className="row home-irt-row">
+          <div className="col home-irt-image-col">
             <img src={team4} alt="Team 4" className="home-irt-image" />
           </div>
           <div className="col home-team-image-col">

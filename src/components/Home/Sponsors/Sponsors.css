@@ -65,4 +65,18 @@
     flex-basis: 100%; /* Override flex-basis for stacking on small screens */
     padding: 0 4rem; /* Center logos on small screens */
   }
+
+  .home-sponsors-title {
+    font-size: 5rem; /* Adjust font size as desired */
+  }
+
+  .home-sponsors-button {
+    padding: 1.5vh 2vw; /* Adjust button padding on small screens */
+    font-size: 1.5rem; /* Adjust font size on small screens */
+    width: 80%; /* Full width buttons on small screens */
+  }
+
+  .home-sponsors-buttons {
+    flex-direction: column; /* Stack buttons on small screens */
+  }
 }

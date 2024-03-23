@@ -12,11 +12,10 @@
 
 .home-theme-buttons {
     position: absolute;
-    bottom: 15%;
-    /* Adjust as needed */
-    left: 50%;
-    transform: translateX(-50%);
+    bottom: 12%;
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .home-theme-button {
@@ -39,4 +38,15 @@
     transform: scale(1.05);
     color: #f5c809;
     /* Darken button color on hover */
+}
+
+@media (max-width: 768px) {
+    .home-theme-buttons {
+        bottom: 7.5%;
+    }
+
+    .home-theme-image {
+        min-height: 60vh;
+        object-fit: cover;
+    }
 }

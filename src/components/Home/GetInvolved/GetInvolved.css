@@ -13,10 +13,9 @@
 .home-gi-buttons {
     position: absolute;
     bottom: 15%;
-    /* Adjust as needed */
-    left: 50%;
-    transform: translateX(-50%);
+    display: flex;
     width: 100%;
+    justify-content: center;
 }
 
 .home-gi-button {
@@ -45,6 +44,30 @@
     top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 8rem; /* Adjust font size as desired */
+    font-size: 6rem; /* Adjust font size as desired */
     color: #1f4c89; /* Adjust color as necessary */
+}
+
+@media (max-width: 768px) {
+
+    .home-gi-image {
+        min-height: 65vh;
+        object-fit: cover;
+    }
+
+    .home-gi-buttons {
+        bottom: 10%;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .home-gi-button {
+        padding: 1.5vh 2vw;
+        width: 80%;
+    }
+
+    .home-gi-header {
+        top: 30%;
+    }
+
 }

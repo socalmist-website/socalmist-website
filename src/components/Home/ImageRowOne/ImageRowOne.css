@@ -17,3 +17,10 @@
     display: block;
     object-fit: cover;
 }
+
+@media (max-width: 768px) {
+    .home-iro-row {
+        display: flex;
+        flex-direction: column;
+    }
+}

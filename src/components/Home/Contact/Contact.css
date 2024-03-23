@@ -56,6 +56,10 @@
 @media (max-width: 768px) {
     .home-contact-col {
         margin-bottom: 1rem;
-        /* Add space between buttons on smaller screens */
+    }
+
+    .home-contact-button {
+        max-width: 20vw;
+        max-height: 20vw;
     }
 }
