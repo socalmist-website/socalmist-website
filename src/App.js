@@ -15,6 +15,7 @@ import { ThemePage } from "./components/Theme/ThemePage";
 import { VolunteerPage } from "./components/Volunteer/VolunteerPage";
 import { WinnersPage } from "./components/Winners/WinnersPage";
 import { Y2023 } from "./components/Years/2023/Y2023";
+import { TournamentInfo } from "./components/TournamentInfo/TournamentInfo";
 import ScrollToTop from "./Library/ScrollToTop";
 
 const App = () => (
@@ -27,6 +28,7 @@ const App = () => (
       <Route path="/board" component={BoardPage} />
 
       {/* SoCal MIST 2024 */}
+      <Route path="/tournamentinfo" component={TournamentInfo} />
       <Route path="/registration" component={RegistrationPage} />
       <Route path="/theme" component={ThemePage} />
       <Route path="/rulebook" component={RulebookPage} />

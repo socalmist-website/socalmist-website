@@ -25,9 +25,14 @@ class Header extends React.Component {
             <NavDropdown.Item as={Link} to="/about">
               About MIST
             </NavDropdown.Item>
-            <NavDropdown.Item as={Link} to="/board">Meet the Board</NavDropdown.Item>
+            <NavDropdown.Item as={Link} to="/board">
+              Meet the Board
+            </NavDropdown.Item>
           </NavDropdown>
           <NavDropdown title="SoCal MIST 2024">
+            <NavDropdown.Item as={Link} to="/tournamentinfo">
+              Tournament Info
+            </NavDropdown.Item>
             <NavDropdown.Item as={Link} to="/registration">
               Registration
             </NavDropdown.Item>

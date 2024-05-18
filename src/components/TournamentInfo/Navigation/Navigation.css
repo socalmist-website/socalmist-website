@@ -1,0 +1,47 @@
+/* Navigation.css */
+.ti-nav-container {
+  background-color: #fff3e6; /* Light orange background */
+  padding: 2rem;
+  border-radius: 10px; /* Rounded borders */
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); /* Drop shadow */
+}
+
+.ti-nav-title {
+  font-size: 2.5rem;
+  color: #333; /* Adjust the color to match your design */
+  text-align: left;
+}
+
+.ti-nav-text {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.ti-nav-text strong {
+  color: #d9534f; /* Highlighted text color */
+}
+
+.ti-nav-location, .ti-nav-room-number {
+  color: #666;
+}
+
+.ti-nav-image, .ti-nav-example-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  .ti-nav-title {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .ti-nav-text {
+    text-align: center;
+    font-size: 1rem;
+  }
+  .ti-nav-image, .ti-nav-example-image {
+    margin-top: 2rem;
+  }
+}
