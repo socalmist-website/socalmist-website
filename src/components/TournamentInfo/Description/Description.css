@@ -2,14 +2,17 @@
 .ti-desc-container {
   border: 1px solid #ddd;
   padding: 20px;
-  border-radius: 10px; /* Rounded borders */
-  background-color: #f5f5f5; /* Light grey background */
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); /* Drop shadow */
-  max-width: 100%; /* Full width */
+  border-radius: 10px;
+  /* Rounded borders */
+  background-color: #f5f5f5;
+  /* Light grey background */
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  /* Drop shadow */
 }
 
 .ti-desc-row {
-  align-items: center; /* Vertically center the content */
+  align-items: center;
+  /* Vertically center the content */
 }
 
 .ti-desc-image {
@@ -19,13 +22,16 @@
 }
 
 .ti-desc-info-text {
-  text-align: center; /* Center the text */
+  text-align: center;
+  /* Center the text */
 }
 
 .ti-desc-info-header {
   font-size: 2rem;
-  color: #0056b3; /* Adjust the color to match your design */
-  margin-bottom: 20px; /* Add some spacing below the header */
+  color: #0056b3;
+  /* Adjust the color to match your design */
+  margin-bottom: 20px;
+  /* Add some spacing below the header */
 }
 
 .ti-desc-button-group {
@@ -55,7 +61,11 @@
   color: white;
   text-decoration: none !important;
   cursor: pointer;
-  transform: scale(1.05);
+  transform: scale(1.1);
+}
+
+.ti-desc-app-link:hover {
+  text-decoration: none;
 }
 
 @media (max-width: 768px) {
@@ -67,4 +77,9 @@
     min-width: 100px;
     padding: 0.5rem 1rem;
   }
+
+  .ti-desc-image {
+    margin-bottom: 2rem;
+  }
+
 }

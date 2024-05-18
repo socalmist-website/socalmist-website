@@ -18,6 +18,7 @@
   flex-wrap: wrap;
   gap: 1rem; /* Adds space between logos */
   margin-bottom: 2rem; /* Space above the buttons */
+  align-items: center;
 }
 
 .home-sponsors-logo {

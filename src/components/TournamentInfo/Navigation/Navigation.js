@@ -18,7 +18,7 @@ class Navigation extends React.Component {
           <Col md={6}>
             <div className="ti-nav-text">
               <p><strong>Example:</strong></p>
-              <p>SGMH - <strong>1</strong>225</p>
+              <p>SGMH - 1225</p>
               <p>Mihaylo Hall <span className="ti-nav-location">Floor</span> <span className="ti-nav-room-number">Classroom number</span></p>
               <img 
                 src={exampleImage} 

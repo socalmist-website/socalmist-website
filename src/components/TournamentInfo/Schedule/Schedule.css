@@ -62,7 +62,7 @@
       margin-bottom: 1rem;
     }
     .ti-schedule-card {
-      height: auto; /* Auto height for responsive design */
+      height: 400px;
     }
   }
   

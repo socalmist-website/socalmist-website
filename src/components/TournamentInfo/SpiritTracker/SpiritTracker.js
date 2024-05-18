@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import './SpiritTracker.css'; // Create and import a CSS file for custom styles
+import "./SpiritTracker.css"; // Create and import a CSS file for custom styles
 
 class SpiritTracker extends React.Component {
   render() {
@@ -13,13 +13,14 @@ class SpiritTracker extends React.Component {
         </Row>
         <Row className="align-items-center">
           <Col className="text-center">
-            <iframe 
-              src="https://docs.google.com/spreadsheets/d/1LKkNTjrlhuyaeQCLUtg51AX5-54B7b4cUkICo4NSRNk/edit#gid=1330700691/pubhtml?widget=true&headers=false" 
-              width="100%" 
-              height="600" 
-              frameBorder="0"
+            <iframe
               title="Spirit Points Tracker"
               className="ti-spirit-iframe"
+              width="705"
+              height="389"
+              seamless
+              scrolling="no"
+              src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSFMIF1DPYYqKaMWUrxzcDiy-wocdC8rDRvLmSnujpcsTTaPm-h0k4AtHFCj3G6jtprQmiBQLze1tde/pubchart?oid=6343663&amp;format=interactive"
             ></iframe>
           </Col>
         </Row>

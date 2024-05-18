@@ -2,6 +2,7 @@ import React from "react";
 import "./Banner.css";
 import bgImage from "../../../public/Home/MISTGroupPhoto.jpg";
 import logoImage from "../../../public/Home/MISTLogo.png";
+import { Link } from "react-router-dom";
 
 class Banner extends React.Component {
   render() {
@@ -12,11 +13,11 @@ class Banner extends React.Component {
       >
         <div className="fade-to-black"></div>
         <img src={logoImage} alt="MIST Logo" className="home-banner-logo" />
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLScoQbcFM2NCUyLS6Gn9t0N88i64ar7cTCey7UMf-TihdZd-dA/viewform">
+        <Link to="/tournamentinfo">
           <button className="home-spotlight-button">
-            Competitor Spotlight
+            Tournament Info
           </button>
-        </a>
+        </Link>
       </div>
     );
   }

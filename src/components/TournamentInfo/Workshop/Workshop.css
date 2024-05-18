@@ -1,48 +1,47 @@
 /* Workshop.css */
 .ti-workshop-container {
-    background-color: #fff3e6;
-    padding: 2rem;
-    border-radius: 10px;
-  }
-  
+  background-color: #fff3e6;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.ti-workshop-title {
+  font-size: 2.5rem;
+  color: #b35900;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.ti-workshop-item {
+  margin-bottom: 2rem;
+}
+
+.ti-workshop-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.ti-workshop-item h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-top: 1rem;
+}
+
+.ti-workshop-item p {
+  font-size: 1rem;
+  color: #666;
+}
+
+@media (max-width: 768px) {
   .ti-workshop-title {
-    font-size: 2.5rem;
-    color: #b35900;
-    text-align: left;
-    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 2rem;
   }
-  
-  .ti-workshop-item {
-    margin-bottom: 2rem;
-  }
-  
-  .ti-workshop-image {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
-  
   .ti-workshop-item h3 {
-    font-size: 1.5rem;
-    color: #333;
-    margin-top: 1rem;
+    font-size: 1.2rem;
   }
-  
   .ti-workshop-item p {
-    font-size: 1rem;
-    color: #666;
+    font-size: 0.9rem;
   }
-  
-  @media (max-width: 768px) {
-    .ti-workshop-title {
-      text-align: center;
-      font-size: 2rem;
-    }
-    .ti-workshop-item h3 {
-      font-size: 1.2rem;
-    }
-    .ti-workshop-item p {
-      font-size: 0.9rem;
-    }
-  }
-  
+}

@@ -1,31 +1,35 @@
 /* SpiritTracker.css */
 .ti-spirit-container {
-    background-color: #f8f1ca; /* Light yellow background */
-    padding: 2rem;
-    border-radius: 10px; /* Rounded borders */
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); /* Drop shadow */
-  }
-  
+  background-color: #f8f1ca; /* Light yellow background */
+  padding: 2rem;
+  border-radius: 10px; /* Rounded borders */
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); /* Drop shadow */
+}
+
+.ti-spirit-title {
+  font-size: 2.5rem;
+  color: #f5a623; /* Adjust the color to match your design */
+  text-align: left;
+}
+
+.ti-spirit-iframe {
+  border: none; /* Remove default iframe border */
+  margin-top: 2rem; /* Add some margin on top */
+  border-radius: 10px; /* Rounded borders for iframe */
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); /* Drop shadow for iframe */
+}
+
+/* Media query for devices with max-width of 768px */
+@media (max-width: 768px) {
   .ti-spirit-title {
-    font-size: 2.5rem;
-    color: #f5a623; /* Adjust the color to match your design */
-    text-align: left;
+    text-align: center;
+    font-size: 2rem;
   }
-  
+
   .ti-spirit-iframe {
-    border: none; /* Remove default iframe border */
-    margin-top: 2rem; /* Add some margin on top */
-    border-radius: 10px; /* Rounded borders for iframe */
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); /* Drop shadow for iframe */
+    width: 100%; /* Full width on smaller screens */
+    height: 400px; /* Adjust height as needed */
   }
-  
-  @media (max-width: 768px) {
-    .ti-spirit-title {
-      text-align: center;
-      font-size: 2rem;
-    }
-    .ti-spirit-iframe {
-      margin-top: 2rem;
-    }
-  }
-  
+}
+
+/* Media query for devices with max-width of 480px */
