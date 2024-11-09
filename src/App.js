@@ -2,6 +2,7 @@ import React from "react";
 import { Redirect, Route, Switch } from "react-router-dom";
 import AboutPage from "./components/About/AboutPage";
 import { BoardPage } from "./components/Board/BoardPage";
+import { BoardApplicationPage } from "./components/BoardApplication/BoardApplicationPage";
 import { CompetitionsPage } from "./components/Competitions/CompetitionsPage";
 import { DonatePage } from "./components/Donate/DonatePage";
 import { Home } from "./components/Home/Home";
@@ -12,11 +13,12 @@ import { RulebookPage } from "./components/Rulebook/RulebookPage";
 import { SchedulePage } from "./components/Schedule/SchedulePage";
 import { SponsorPage } from "./components/Sponsor/SponsorPage";
 import { ThemePage } from "./components/Theme/ThemePage";
+import { TournamentInfo } from "./components/TournamentInfo/TournamentInfo";
 import { VolunteerPage } from "./components/Volunteer/VolunteerPage";
 import { WinnersPage } from "./components/Winners/WinnersPage";
 import { Y2023 } from "./components/Years/2023/Y2023";
-import { TournamentInfo } from "./components/TournamentInfo/TournamentInfo";
 import ScrollToTop from "./Library/ScrollToTop";
+import { Y2024 } from "./components/Years/2024/Y2024";
 
 const App = () => (
   <ScrollToTop>
@@ -28,7 +30,7 @@ const App = () => (
       <Route path="/board" component={BoardPage} />
 
       {/* SoCal MIST 2024 */}
-      <Route path="/tournamentinfo" component={TournamentInfo} />
+      {/* <Route path="/tournamentinfo" component={TournamentInfo} /> */}
       <Route path="/registration" component={RegistrationPage} />
       <Route path="/theme" component={ThemePage} />
       <Route path="/rulebook" component={RulebookPage} />
@@ -38,9 +40,11 @@ const App = () => (
       {/* Get Involved */}
       <Route path="/judge" component={JudgePage} />
       <Route path="/volunteer" component={VolunteerPage} />
+      <Route path="/eboardapplication" component={BoardApplicationPage} />
 
       {/* Years */}
       <Route path="/years/2023" component={Y2023} />
+      <Route path="/years/2024" component={Y2024} />
 
       {/* Sponsor/Donate */}
       <Route path="/sponsor" component={SponsorPage} />

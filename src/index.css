@@ -33,3 +33,23 @@ code {
   transition: .75s;
   text-decoration: none;
 }
+
+.mist-button {
+  padding: 1.5rem 3rem;
+  font-size: 2rem;
+  color: #ca6946;
+  background-color: #f5c809;
+  border: none;
+  cursor: pointer;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-radius: 4rem;
+  transition: all 0.4s;
+}
+
+.mist-button:hover {
+  background-color: #ca6946;
+  color: #f5c809;
+  transform: scale(1.05);
+  text-decoration: none;
+
+}

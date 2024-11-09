@@ -29,10 +29,10 @@ class Header extends React.Component {
               Meet the Board
             </NavDropdown.Item>
           </NavDropdown>
-          <NavDropdown title="SoCal MIST 2024">
-            <NavDropdown.Item as={Link} to="/tournamentinfo">
+          <NavDropdown title="SoCal MIST 2025">
+            {/* <NavDropdown.Item as={Link} to="/tournamentinfo">
               Tournament Info
-            </NavDropdown.Item>
+            </NavDropdown.Item> */}
             <NavDropdown.Item as={Link} to="/registration">
               Registration
             </NavDropdown.Item>
@@ -56,10 +56,16 @@ class Header extends React.Component {
             <NavDropdown.Item as={Link} to="/volunteer">
               Volunteer
             </NavDropdown.Item>
+            <NavDropdown.Item as={Link} to="/eboardapplication">
+              E-Board Application
+            </NavDropdown.Item>
           </NavDropdown>
           <NavDropdown title="Past Years">
             <NavDropdown.Item as={Link} to="/years/2023">
               2023
+            </NavDropdown.Item>
+            <NavDropdown.Item as={Link} to="/years/2024">
+              2024
             </NavDropdown.Item>
           </NavDropdown>
           <NavDropdown title="Donate">
