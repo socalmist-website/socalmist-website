@@ -44,7 +44,7 @@ class JudgePage extends React.Component {
               <iframe
                 title="judge"
                 style={{ width: "65%" }}
-                src="https://forms.gle/n95ZiHtwcDP6RAjG6"
+                src="https://docs.google.com/forms/d/e/1FAIpQLSeFViyJVrqOvshsy6kog3CEzkfsnYdbHsqYNhMMoCJkUvMhUA/viewform"
                 height="2993"
                 frameborder="0"
                 marginheight="0"
